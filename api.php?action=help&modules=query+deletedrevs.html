@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJaAhvKGg9qBB9yM32s2wAAAAA","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+deletedrevs">list=deletedrevs (dr)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>deletedrevs</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-deprecated">This module is deprecated.</span></li><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>List deleted revisions.
+</p><p>Operates in three modes:
+</p>
+<ol><li> List deleted revisions for the given titles, sorted by timestamp.</li>
+<li> List deleted contributions for the given user, sorted by timestamp (no titles specified).</li>
+<li> List all deleted revisions in the given namespace, sorted by title and timestamp (no titles specified, druser not set).</li></ol><p>Certain parameters only apply to some modes and are ignored in others.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Deletedrevs">https://www.mediawiki.org/wiki/API:Deletedrevs</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>drstart</dt><dd class="description"><p>The timestamp to start enumerating from.
+</p></dd><dd class="info">Modes: 1, 2</dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>drend</dt><dd class="description"><p>The timestamp to stop enumerating at.
+</p></dd><dd class="info">Modes: 1, 2</dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>drdir</dt><dd class="description"><p>In which direction to enumerate:
+</p>
+<dl><dt>newer</dt>
+<dd>List oldest first. Note: drstart has to be before drend.</dd>
+<dt>older</dt>
+<dd>List newest first (default). Note: drstart has to be later than drend.</dd></dl></dd><dd class="info">Modes: 1, 3</dd><dd class="info">One of the following values: newer, older</dd><dd class="info">Default: older</dd><dt>drfrom</dt><dd class="description"><p>Start listing at this title.
+</p></dd><dd class="info">Mode: 3</dd><dt>drto</dt><dd class="description"><p>Stop listing at this title.
+</p></dd><dd class="info">Mode: 3</dd><dt>drprefix</dt><dd class="description"><p>Search for all page titles that begin with this value.
+</p></dd><dd class="info">Mode: 3</dd><dt>drunique</dt><dd class="description"><p>List only one revision for each page.
+</p></dd><dd class="info">Mode: 3</dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>drnamespace</dt><dd class="description"><p>Only list pages in this namespace.
+</p></dd><dd class="info">Mode: 3</dd><dd class="info">One of the following values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 102, 103, 104, 105, 108, 109</dd><dd class="info">Default: 0</dd><dt>drtag</dt><dd class="description"><p>Only list revisions tagged with this tag.
+</p></dd><dt>druser</dt><dd class="description"><p>Only list revisions by this user.
+</p></dd><dd class="info">Type: user name</dd><dt>drexcludeuser</dt><dd class="description"><p>Don't list revisions by this user.
+</p></dd><dd class="info">Type: user name</dd><dt>drprop</dt><dd class="description"><p>Which properties to get:
+</p>
+<dl><dt>revid</dt>
+<dd>Adds the revision ID of the deleted revision.</dd>
+<dt>parentid</dt>
+<dd>Adds the revision ID of the previous revision to the page.</dd>
+<dt>user</dt>
+<dd>Adds the user who made the revision.</dd>
+<dt>userid</dt>
+<dd>Adds the ID of the user who made the revision.</dd>
+<dt>comment</dt>
+<dd>Adds the comment of the revision.</dd>
+<dt>parsedcomment</dt>
+<dd>Adds the parsed comment of the revision.</dd>
+<dt>minor</dt>
+<dd>Tags if the revision is minor.</dd>
+<dt>len</dt>
+<dd>Adds the length (bytes) of the revision.</dd>
+<dt>sha1</dt>
+<dd>Adds the SHA-1 (base 16) of the revision.</dd>
+<dt>content</dt>
+<dd>Adds the content of the revision.</dd>
+<dt>token</dt>
+<dd><span class="apihelp-deprecated">Deprecated.</span> Gives the edit token.</dd>
+<dt>tags</dt>
+<dd>Tags for the revision.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): revid, parentid, user, userid, comment, parsedcomment, minor, len, sha1, content, token, tags</dd><dd class="info">Default: user|comment</dd><dt>drlimit</dt><dd class="description"><p>The maximum amount of revisions to list.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 10</dd><dt>drcontinue</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>List the last deleted revisions of the pages <kbd>Main Page</kbd> and <kbd>Talk:Main Page</kbd>, with content (mode 1).</dt><dd><a href="./api.php%3Faction=query&amp;list=deletedrevs&amp;titles=Main&#32;Page|Talk:Main&#32;Page&amp;drprop=user|comment|content.html">api.php?action=query&amp;list=deletedrevs&amp;titles=Main%20Page|Talk:Main%20Page&amp;drprop=user|comment|content</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=deletedrevs&amp;titles=Main%20Page%7CTalk:Main%20Page&amp;drprop=user%7Ccomment%7Ccontent"><small>[open in sandbox]</small></a></dd><dt>List the last 50 deleted contributions by <kbd>Bob</kbd> (mode 2).</dt><dd><a href="api.php%3Faction=query&amp;list=deletedrevs&amp;druser=Bob&amp;drlimit=50.html">api.php?action=query&amp;list=deletedrevs&amp;druser=Bob&amp;drlimit=50</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=deletedrevs&amp;druser=Bob&amp;drlimit=50"><small>[open in sandbox]</small></a></dd><dt>List the first 50 deleted revisions in the main namespace (mode 3).</dt><dd><a href="api.php%3Faction=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50.html">api.php?action=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50"><small>[open in sandbox]</small></a></dd><dt>List the first 50 deleted pages in the Talk namespace (mode 3).</dt><dd><a href="api.php%3Faction=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50&amp;drnamespace=1&amp;drunique=.html">api.php?action=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50&amp;drnamespace=1&amp;drunique=</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=deletedrevs&amp;drdir=newer&amp;drlimit=50&amp;drnamespace=1&amp;drunique="><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":432});});</script>		</body></html>

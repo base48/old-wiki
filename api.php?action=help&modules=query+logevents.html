@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJaA1qCoJAB@JkWwb@2SgAAAAQ","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+logevents">list=logevents (le)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>logevents</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Get events from logs.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Logevents">https://www.mediawiki.org/wiki/API:Logevents</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>leprop</dt><dd class="description"><p>Which properties to get:
+</p><dl><dt>ids</dt>
+<dd>Adds the ID of the log event.</dd>
+<dt>title</dt>
+<dd>Adds the title of the page for the log event.</dd>
+<dt>type</dt>
+<dd>Adds the type of log event.</dd>
+<dt>user</dt>
+<dd>Adds the user responsible for the log event.</dd>
+<dt>userid</dt>
+<dd>Adds the user ID who was responsible for the log event.</dd>
+<dt>timestamp</dt>
+<dd>Adds the timestamp for the log event.</dd>
+<dt>comment</dt>
+<dd>Adds the comment of the log event.</dd>
+<dt>parsedcomment</dt>
+<dd>Adds the parsed comment of the log event.</dd>
+<dt>details</dt>
+<dd>Lists additional details about the log event.</dd>
+<dt>tags</dt>
+<dd>Lists tags for the log event.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): ids, title, type, user, userid, timestamp, comment, parsedcomment, details, tags</dd><dd class="info">Default: ids|title|type|user|timestamp|comment|details</dd><dt>letype</dt><dd class="description"><p>Filter log entries to only this type.
+</p></dd><dd class="info">One of the following values: Can be empty, or block, protect, rights, delete, upload, move, import, patrol, merge, suppress, tag, managetags, contentmodel, newusers</dd><dt>leaction</dt><dd class="description"><p>Filter log actions to only this action. Overrides <var>letype</var>. In the list of possible values, values with the asterisk wildcard such as <kbd>action/*</kbd> can have different strings after the slash (/).
+</p></dd><dd class="info">One of the following values: block/block, block/reblock, block/unblock, contentmodel/change, contentmodel/new, delete/delete, delete/event, delete/restore, delete/revision, import/interwiki, import/upload, managetags/activate, managetags/create, managetags/deactivate, managetags/delete, merge/merge, move/move, move/move_redir, patrol/patrol, patrol/autopatrol, protect/modify, protect/move_prot, protect/protect, protect/unprotect, rights/autopromote, rights/rights, suppress/block, suppress/delete, suppress/event, suppress/reblock, suppress/revision, tag/update, upload/overwrite, upload/revert, upload/upload, newusers/newusers, newusers/create, newusers/create2, newusers/byemail, newusers/autocreate</dd><dt>lestart</dt><dd class="description"><p>The timestamp to start enumerating from.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>leend</dt><dd class="description"><p>The timestamp to end enumerating.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>ledir</dt><dd class="description"><p>In which direction to enumerate:
+</p>
+<dl><dt>newer</dt>
+<dd>List oldest first. Note: lestart has to be before leend.</dd>
+<dt>older</dt>
+<dd>List newest first (default). Note: lestart has to be later than leend.</dd></dl></dd><dd class="info">One of the following values: newer, older</dd><dd class="info">Default: older</dd><dt>leuser</dt><dd class="description"><p>Filter entries to those made by the given user.
+</p></dd><dd class="info">Type: user name</dd><dt>letitle</dt><dd class="description"><p>Filter entries to those related to a page.
+</p></dd><dt>lenamespace</dt><dd class="description"><p>Filter entries to those in the given namespace.
+</p></dd><dd class="info">One of the following values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 102, 103, 104, 105, 108, 109</dd><dt>leprefix</dt><dd class="description"><p>Disabled due to <a href="http://www.mediawiki.org/wiki/Manual:%24wgMiserMode" class="extiw" title="mw:Manual:$wgMiserMode">miser mode</a>.
+</p></dd><dt>letag</dt><dd class="description"><p>Only list event entries tagged with this tag.
+</p></dd><dt>lelimit</dt><dd class="description"><p>How many total event entries to return.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 10</dd><dt>lecontinue</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Example:</div><dl><dt>List recent log events.</dt><dd><a href="api.php%3Faction=query&amp;list=logevents.html">api.php?action=query&amp;list=logevents</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=logevents"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":420});});</script>		</body></html>

@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Regular_base48_session">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:34:11+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events"/>
+		<rdfs:label>Regular base48 session</rdfs:label>
+		<swivt:page rdf:resource="Regular_base48_session"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_query rdf:resource="&wiki;Regular_base48_session-23_QUERYfff08652150f586b86215c99e9678083"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-08T19:11:35Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456301.2997106</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-01T20:26:44Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458697.3518981</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_6339505534e75f3f8c4156ff7b6ab904"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4a583c28d81ce1cf2e6138bd4872eaae"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_b7e8c7ef63a6b96e5c0218630cb9f4fe"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ebf23a904997db245e32bf0aff317777"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_fea011d60f15a49415be61418300e596"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_d53d5f4ac1dbc195e52f7a38064eb85c"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_d8e919d54328dfdfbde419dc2b921c3d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_859b00b0287cbb7f79708dc366ecbe62"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_77369611a34e53c7937750ca45abb41a"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_95cf6f896ab0c4d0ee37945c510f6348"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_0b5f2c7d2c2b20b5e2150c6f27c231a9"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_3528b0dd556075929d7b09e24d6164d4"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4e23b4495c2fc70f21991fc7e5bf2f81"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a5404c8a6bc195b214d97ddd456a0c52"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_2ae55f0d7448c78fd0b77f1d14d3b53a"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_b639350237825f17127243dc3784be65"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4480094b4effd81e792267571be9dc7b"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a9e0914b5867f11002359dcf310fbc06"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_c8b91cac45d1feb6ec64d46a553aae1c"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_d50cd25f175bc98ce0a8e695fc434f93"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_326ce32022a37ff76686abb6319349a9"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_0de54d5b367529cd29af57e942d87839"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4a5c9612974965ca128ad4afb9593b20"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f4ee7d387a668a1ca7033216ec77b386"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a00610534968488a28445394aa27e668"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_1bdfa6256405d51a98b1140402c2d4a8"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f66dd786ada11f197d15794b472030f5"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_d747eb7816d24cbb8696e6b3a4a5dbc4"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_187c2cabd4bfade6a5e5f162eb7639e2"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_2f55ec2d08166645a72df2512f7b5e9d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4e47bd3e370a5e9af93a8825f97d9b64"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_5789e427955e2a412be979d587ccf76f"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_8b1d0826bb456fc8c970d9bbe1923275"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_7396625f467c293d78bc357dd022ec6d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ad9a04280531b5d26d6133fb92276e59"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4b2e7b3fe3c75d4107ec213526276e67"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f9dd680f18ba5eeaac3e603cea2fd395"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_52410274d2bafcaeaf9bb00e9563d339"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_bea074e6802a130a6b1311d7dde75f33"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_bb632085bdfa30eab89d9025d0e9e1cc"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ea934193dc9f7090c529490bc1eb3d12"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_fd6d515e755ec5f750c7f5260b6c6641"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ccfcad8945c55507b31bf04f8918ea83"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_c2988a73eb31f968df5719c978567491"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_c136279c57a271ba3fb201391f5ea5da"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_62297699062c94334c4555f6499ffcaf"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_8efdd61df7310de0e8a9437f258c476a"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_5a80ac431312520fbc0dea00d1848dcf"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_3c193e9ebf8c1a6bdcbc434e52c6b49f"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_203daea7c8c4594ef23236d2bb321acf"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_7982603c8b0fdbe00f7c42ad4962f211"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_1fbbb611dad9f454ce08eaa3dc38a96a"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a25ac3d81345005f65ee24e041e06a82"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_5074368c284fe146456d853c88ceb0fd"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f0ac3ccddb86e724a09486aeb2f44dbc"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_96cdde309d6e2a37422af4eb58c2eeb9"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_bba554afb417265923d5a38ead6436db"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f0788b743749f471c6ee0c1f2f3cd083"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_36f2f96b40c7b6ab2eb5821beab12f24"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_1d69c25758156967e5ae575edc2628d4"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_9b89b54e22e6721ef22d649c08561f30"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_26e4b04ab26b8292c9c7cd74342ffbc1"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_80ad63370fb5e7de112081f6bf7ae231"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_0a630b4ab38effe8344824c5ce6c56e2"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ce14f855c66a07fe1dbc1cb9d9e672a7"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_997e44172caecca47ffa14a3d1f909f3"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_7e485ea9feebd72f93cd8dc985fd67f3"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_965576f36055374b4ff710cf590dc932"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_110ef23bc09375d2d7451a06c5188b68"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_cc2a86d448d3ef00ca68a1aabfa9735d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_31d6b37da2e08057941abc19b65d70c4"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4ec5d2646099043f8c5718c6c5bad151"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f02fca6eb487df6c48739443278758d6"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_58db172440ccbed62aeed15e2e92e65a"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_e2fde8adcc4756306ce0571a4772693e"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_1f2c15c27570e62aeeeb2d645105d29e"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a88adfb086b781a1060af88d1c51fe8f"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f4bef85616a8e2862663f1b2a95723e5"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_067a130918e8a2bc45d461c2980fdf54"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f83e0ca4cdc9a0ac3c84e57eda3a67be"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_69baf69a60a607b0c7173ad1c0ee313e"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_437e1f4d06e94b31f7d7f9ad6b71fdb6"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_037f4182a058f8baa2666a77e72e3b41"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_51310240e00a3fa29512a3df044f47cf"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_e865638c3dd416d22fb74832d9f8e444"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_cc5920b3a4898de6270074e99daa44ae"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_ee695e5b128120feff414560f4c8c10d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f6ae87458f79ff164ff2237986754569"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_196466eaec8f33420e50363791c2088d"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_607e0c9123e4cd15ded8ef06a03aaa47"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_00abe41df8d49fbfc4d7de8f5614a529"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_79b4962f8250956be4ef160f8a060de0"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_600bdb33c2d54e9e2a1a661d21350a29"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_087c432740cf1761ccc976bedf80d318"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_f23fb68cdb768040934842963b3d4dbb"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_a8417d06c99cd264736e06eb2271355c"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4feb1048b9c2328d980848490a1c23c2"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_783eb28e5a0f4c648997ae6b133f3f90"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_232ce0ee20d330917b43298da787e5c8"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_4b99200e352b425156d6692a10380947"/>
+		<property:Has_subobject rdf:resource="&wiki;Regular_base48_session-23_444a214c9db121ad5f4ebf0f8b24d5a7"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_QUERYfff08652150f586b86215c99e9678083">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">icalendar</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Event page::Regular base48 session]] [[Start date::\342\211\2451 August 2019]] [[Start date::\342\211\2441 February 2020]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_6339505534e75f3f8c4156ff7b6ab904">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-02T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459033.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4a583c28d81ce1cf2e6138bd4872eaae">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-09T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459040.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_b7e8c7ef63a6b96e5c0218630cb9f4fe">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-16T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459047.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ebf23a904997db245e32bf0aff317777">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-23T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459054.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_fea011d60f15a49415be61418300e596">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-30T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459061.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d53d5f4ac1dbc195e52f7a38064eb85c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459068.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d8e919d54328dfdfbde419dc2b921c3d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-13T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459075.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_859b00b0287cbb7f79708dc366ecbe62">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-20T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459082.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_77369611a34e53c7937750ca45abb41a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-27T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459089.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_95cf6f896ab0c4d0ee37945c510f6348">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-03T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459096.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0b5f2c7d2c2b20b5e2150c6f27c231a9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-31T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459215.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_3528b0dd556075929d7b09e24d6164d4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-07T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459222.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4e23b4495c2fc70f21991fc7e5bf2f81">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-14T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459229.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a5404c8a6bc195b214d97ddd456a0c52">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-21T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459236.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_2ae55f0d7448c78fd0b77f1d14d3b53a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-28T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459243.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_b639350237825f17127243dc3784be65">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-04T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459250.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4480094b4effd81e792267571be9dc7b">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459257.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a9e0914b5867f11002359dcf310fbc06">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-18T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459264.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c8b91cac45d1feb6ec64d46a553aae1c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-25T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459271.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d50cd25f175bc98ce0a8e695fc434f93">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-04T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459278.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_326ce32022a37ff76686abb6319349a9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-11T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459285.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0de54d5b367529cd29af57e942d87839">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-18T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459292.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4a5c9612974965ca128ad4afb9593b20">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-25T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459299.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f4ee7d387a668a1ca7033216ec77b386">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-01T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459306.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a00610534968488a28445394aa27e668">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-08T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459313.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1bdfa6256405d51a98b1140402c2d4a8">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-15T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459320.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f66dd786ada11f197d15794b472030f5">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-22T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459327.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d747eb7816d24cbb8696e6b3a4a5dbc4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-29T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459334.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_187c2cabd4bfade6a5e5f162eb7639e2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-25T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458690.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_2f55ec2d08166645a72df2512f7b5e9d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-01T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458697.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4e47bd3e370a5e9af93a8825f97d9b64">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-08T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458704.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5789e427955e2a412be979d587ccf76f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-15T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458711.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_8b1d0826bb456fc8c970d9bbe1923275">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-22T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458718.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7396625f467c293d78bc357dd022ec6d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458725.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ad9a04280531b5d26d6133fb92276e59">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458865.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4b2e7b3fe3c75d4107ec213526276e67">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458872.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f9dd680f18ba5eeaac3e603cea2fd395">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458879.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_52410274d2bafcaeaf9bb00e9563d339">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459103.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bea074e6802a130a6b1311d7dde75f33">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-17T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459110.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bb632085bdfa30eab89d9025d0e9e1cc">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-24T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459117.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ea934193dc9f7090c529490bc1eb3d12">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-01T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459124.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_fd6d515e755ec5f750c7f5260b6c6641">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-08T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459131.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ccfcad8945c55507b31bf04f8918ea83">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-15T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459138.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c2988a73eb31f968df5719c978567491">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-22T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459145.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c136279c57a271ba3fb201391f5ea5da">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-29T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459152.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_62297699062c94334c4555f6499ffcaf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-05T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459159.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_8efdd61df7310de0e8a9437f258c476a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-12T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459166.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5a80ac431312520fbc0dea00d1848dcf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459173.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_3c193e9ebf8c1a6bdcbc434e52c6b49f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-26T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459180.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_203daea7c8c4594ef23236d2bb321acf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-03T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459187.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7982603c8b0fdbe00f7c42ad4962f211">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-10T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459194.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1fbbb611dad9f454ce08eaa3dc38a96a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459201.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a25ac3d81345005f65ee24e041e06a82">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-24T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459208.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5074368c284fe146456d853c88ceb0fd">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-05T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458732.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f0ac3ccddb86e724a09486aeb2f44dbc">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-12T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458739.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_96cdde309d6e2a37422af4eb58c2eeb9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458746.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bba554afb417265923d5a38ead6436db">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-26T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458753.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f0788b743749f471c6ee0c1f2f3cd083">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-03T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458760.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_36f2f96b40c7b6ab2eb5821beab12f24">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-10T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458767.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1d69c25758156967e5ae575edc2628d4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-17T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458774.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_9b89b54e22e6721ef22d649c08561f30">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-24T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458781.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_26e4b04ab26b8292c9c7cd74342ffbc1">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-31T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458788.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_80ad63370fb5e7de112081f6bf7ae231">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-07T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458795.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0a630b4ab38effe8344824c5ce6c56e2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-14T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458802.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ce14f855c66a07fe1dbc1cb9d9e672a7">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-21T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458809.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_997e44172caecca47ffa14a3d1f909f3">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-28T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458816.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7e485ea9feebd72f93cd8dc985fd67f3">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-05T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458823.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_965576f36055374b4ff710cf590dc932">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-12T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458830.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_110ef23bc09375d2d7451a06c5188b68">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-19T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458837.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_cc2a86d448d3ef00ca68a1aabfa9735d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-26T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458844.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_31d6b37da2e08057941abc19b65d70c4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-02T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458851.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4ec5d2646099043f8c5718c6c5bad151">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-09T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458858.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f02fca6eb487df6c48739443278758d6">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-06T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458886.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_58db172440ccbed62aeed15e2e92e65a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-13T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458893.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_e2fde8adcc4756306ce0571a4772693e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-20T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458900.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1f2c15c27570e62aeeeb2d645105d29e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-27T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458907.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a88adfb086b781a1060af88d1c51fe8f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-05T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458914.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f4bef85616a8e2862663f1b2a95723e5">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-12T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458921.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_067a130918e8a2bc45d461c2980fdf54">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-19T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458928.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f83e0ca4cdc9a0ac3c84e57eda3a67be">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-26T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458935.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_69baf69a60a607b0c7173ad1c0ee313e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-02T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458942.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_437e1f4d06e94b31f7d7f9ad6b71fdb6">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458949.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_037f4182a058f8baa2666a77e72e3b41">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-16T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458956.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_51310240e00a3fa29512a3df044f47cf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-23T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458963.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_e865638c3dd416d22fb74832d9f8e444">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-30T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458970.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_cc5920b3a4898de6270074e99daa44ae">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-07T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458977.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ee695e5b128120feff414560f4c8c10d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-14T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458984.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f6ae87458f79ff164ff2237986754569">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-21T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458991.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_196466eaec8f33420e50363791c2088d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-28T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458998.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_607e0c9123e4cd15ded8ef06a03aaa47">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-04T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459005.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_00abe41df8d49fbfc4d7de8f5614a529">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-11T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459012.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_79b4962f8250956be4ef160f8a060de0">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-18T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459019.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_600bdb33c2d54e9e2a1a661d21350a29">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-25T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459026.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_087c432740cf1761ccc976bedf80d318">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-06T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459341.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f23fb68cdb768040934842963b3d4dbb">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-13T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459348.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a8417d06c99cd264736e06eb2271355c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-20T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459355.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4feb1048b9c2328d980848490a1c23c2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-27T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459362.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_783eb28e5a0f4c648997ae6b133f3f90">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459369.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_232ce0ee20d330917b43298da787e5c8">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459376.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4b99200e352b425156d6692a10380947">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-17T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459383.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_444a214c9db121ad5f4ebf0f8b24d5a7">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-24T19:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2459390.2916667</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5074368c284fe146456d853c88ceb0fd">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_95cf6f896ab0c4d0ee37945c510f6348">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_783eb28e5a0f4c648997ae6b133f3f90">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4a5c9612974965ca128ad4afb9593b20">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_087c432740cf1761ccc976bedf80d318">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4480094b4effd81e792267571be9dc7b">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_b7e8c7ef63a6b96e5c0218630cb9f4fe">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_36f2f96b40c7b6ab2eb5821beab12f24">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_437e1f4d06e94b31f7d7f9ad6b71fdb6">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7396625f467c293d78bc357dd022ec6d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1bdfa6256405d51a98b1140402c2d4a8">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_52410274d2bafcaeaf9bb00e9563d339">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_26e4b04ab26b8292c9c7cd74342ffbc1">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0a630b4ab38effe8344824c5ce6c56e2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_110ef23bc09375d2d7451a06c5188b68">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f02fca6eb487df6c48739443278758d6">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4a583c28d81ce1cf2e6138bd4872eaae">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_e2fde8adcc4756306ce0571a4772693e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_3528b0dd556075929d7b09e24d6164d4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c8b91cac45d1feb6ec64d46a553aae1c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d50cd25f175bc98ce0a8e695fc434f93">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_2f55ec2d08166645a72df2512f7b5e9d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_51310240e00a3fa29512a3df044f47cf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f23fb68cdb768040934842963b3d4dbb">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_203daea7c8c4594ef23236d2bb321acf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_58db172440ccbed62aeed15e2e92e65a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a5404c8a6bc195b214d97ddd456a0c52">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f9dd680f18ba5eeaac3e603cea2fd395">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_8efdd61df7310de0e8a9437f258c476a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_31d6b37da2e08057941abc19b65d70c4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1fbbb611dad9f454ce08eaa3dc38a96a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f0ac3ccddb86e724a09486aeb2f44dbc">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_6339505534e75f3f8c4156ff7b6ab904">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_187c2cabd4bfade6a5e5f162eb7639e2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bba554afb417265923d5a38ead6436db">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ce14f855c66a07fe1dbc1cb9d9e672a7">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ebf23a904997db245e32bf0aff317777">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_62297699062c94334c4555f6499ffcaf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_997e44172caecca47ffa14a3d1f909f3">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4b99200e352b425156d6692a10380947">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4feb1048b9c2328d980848490a1c23c2">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f83e0ca4cdc9a0ac3c84e57eda3a67be">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f0788b743749f471c6ee0c1f2f3cd083">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_037f4182a058f8baa2666a77e72e3b41">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c2988a73eb31f968df5719c978567491">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_444a214c9db121ad5f4ebf0f8b24d5a7">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1d69c25758156967e5ae575edc2628d4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_232ce0ee20d330917b43298da787e5c8">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5a80ac431312520fbc0dea00d1848dcf">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a9e0914b5867f11002359dcf310fbc06">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a25ac3d81345005f65ee24e041e06a82">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_fd6d515e755ec5f750c7f5260b6c6641">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_cc5920b3a4898de6270074e99daa44ae">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_5789e427955e2a412be979d587ccf76f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_79b4962f8250956be4ef160f8a060de0">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d53d5f4ac1dbc195e52f7a38064eb85c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f66dd786ada11f197d15794b472030f5">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_77369611a34e53c7937750ca45abb41a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ad9a04280531b5d26d6133fb92276e59">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bb632085bdfa30eab89d9025d0e9e1cc">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4b2e7b3fe3c75d4107ec213526276e67">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_9b89b54e22e6721ef22d649c08561f30">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_196466eaec8f33420e50363791c2088d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0b5f2c7d2c2b20b5e2150c6f27c231a9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_69baf69a60a607b0c7173ad1c0ee313e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_00abe41df8d49fbfc4d7de8f5614a529">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f4ee7d387a668a1ca7033216ec77b386">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_e865638c3dd416d22fb74832d9f8e444">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_859b00b0287cbb7f79708dc366ecbe62">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_607e0c9123e4cd15ded8ef06a03aaa47">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_8b1d0826bb456fc8c970d9bbe1923275">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_cc2a86d448d3ef00ca68a1aabfa9735d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7982603c8b0fdbe00f7c42ad4962f211">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a8417d06c99cd264736e06eb2271355c">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_3c193e9ebf8c1a6bdcbc434e52c6b49f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4ec5d2646099043f8c5718c6c5bad151">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_326ce32022a37ff76686abb6319349a9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_7e485ea9feebd72f93cd8dc985fd67f3">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_600bdb33c2d54e9e2a1a661d21350a29">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_96cdde309d6e2a37422af4eb58c2eeb9">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ee695e5b128120feff414560f4c8c10d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d8e919d54328dfdfbde419dc2b921c3d">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a00610534968488a28445394aa27e668">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4e47bd3e370a5e9af93a8825f97d9b64">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_fea011d60f15a49415be61418300e596">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_bea074e6802a130a6b1311d7dde75f33">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_a88adfb086b781a1060af88d1c51fe8f">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_1f2c15c27570e62aeeeb2d645105d29e">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f6ae87458f79ff164ff2237986754569">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_0de54d5b367529cd29af57e942d87839">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_c136279c57a271ba3fb201391f5ea5da">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_4e23b4495c2fc70f21991fc7e5bf2f81">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ea934193dc9f7090c529490bc1eb3d12">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_ccfcad8945c55507b31bf04f8918ea83">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_80ad63370fb5e7de112081f6bf7ae231">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_067a130918e8a2bc45d461c2980fdf54">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_965576f36055374b4ff710cf590dc932">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_d747eb7816d24cbb8696e6b3a4a5dbc4">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_f4bef85616a8e2862663f1b2a95723e5">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_b639350237825f17127243dc3784be65">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session-23_2ae55f0d7448c78fd0b77f1d14d3b53a">
+		<swivt:masterPage rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Regular_base48_session"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AEvent_page">
+		<rdfs:label>Event page</rdfs:label>
+		<swivt:page rdf:resource="Property:Event_page"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Event_page"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event page</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_subobject" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AIs_recurring" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date-23aux" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

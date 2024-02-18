@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Sun-ReadableDisplays">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:31:40+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Sun-2DReadableDisplays">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AStale_projects"/>
+		<rdfs:label>Sun-ReadableDisplays</rdfs:label>
+		<swivt:page rdf:resource="Sun-ReadableDisplays"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Sun-ReadableDisplays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Contributors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">martian742</property:Contributors>
+		<property:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-01Z</property:Created>
+		<property:Created-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456048.5</property:Created-23aux>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Make our mobile computers more usable in sunlight.</property:Description>
+		<property:Image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P5023808.JPG</property:Image>
+		<property:Project_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun-ReadableDisplays</property:Project_name>
+		<property:Stale rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Stale>
+		<property:Status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idea</property:Status>
+		<property:Tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hw</property:Tags>
+		<property:Has_query rdf:resource="&wiki;Sun-2DReadableDisplays-23_QUERY8167febaa2f79d69809b103618ac8d64"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-01T21:54:36Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456049.4129167</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-12T18:57:20Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456336.2898148</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun-ReadableDisplays</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Sun-2DReadableDisplays-23_QUERY8167febaa2f79d69809b103618ac8d64">
+		<swivt:masterPage rdf:resource="&wiki;Sun-2DReadableDisplays"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Sun-ReadableDisplays]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun-ReadableDisplays</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AStale_projects" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AContributors" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated-23aux" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ADescription" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AImage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AProject_name" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStale" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStatus" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ATags" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

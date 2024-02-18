@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/TAZ">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T01:30:52+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/TAZ">
+		<rdfs:label>TAZ</rdfs:label>
+		<swivt:page rdf:resource="TAZ"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/TAZ"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-18T19:58:12Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457222.3320833</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-24T20:02:46Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457778.3352546</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAZ</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/3D_printing">
+		<rdfs:label>3D printing</rdfs:label>
+		<swivt:page rdf:resource="3D_printing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/3D_printing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Taz rdf:resource="&wiki;TAZ"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D printing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ATaz">
+		<rdfs:label>Taz</rdfs:label>
+		<swivt:page rdf:resource="Property:Taz"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Taz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taz</swivt:wikiPageSortKey>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

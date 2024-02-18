@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJb6sZoJhUUJMBTDSYf3gAAAAU","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="../extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="../load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="../api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="../index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="phpfm">format=phpfm</h2><div class="apihelp-linktrail">(<a href="main.html" class="apihelp-linktrail">main</a> | <b>phpfm</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Output data in serialized PHP format (pretty-print in HTML).
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Data_formats">https://www.mediawiki.org/wiki/API:Data_formats</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>wrappedhtml</dt><dd class="description"><p>Return the pretty-printed HTML and associated ResourceLoader modules as a JSON object.
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>formatversion</dt><dd class="description"><p>Output formatting:
+</p>
+<dl><dt>1</dt>
+<dd>Backwards-compatible format (XML-style booleans, <samp>*</samp> keys for content nodes, etc.).</dd>
+<dt>2</dt>
+<dd>Experimental modern format. Details may change!</dd>
+<dt>latest</dt>
+<dd>Use the latest format (currently <kbd>2</kbd>), may change without warning.</dd></dl></dd><dd class="info">One of the following values: 1, 2, latest</dd><dd class="info">Default: 1</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Example:</div><dl><dt>Return the query result in the PHP format.</dt><dd><a href="../api.php%3Faction=query&amp;meta=siteinfo&amp;siprop=namespaces&amp;format=phpfm.html">api.php?action=query&amp;meta=siteinfo&amp;siprop=namespaces&amp;format=phpfm</a> <a href="../Special:ApiSandbox.html#action=query&amp;meta=siteinfo&amp;siprop=namespaces&amp;format=phpfm"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="../Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="../extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":415});});</script>		</body></html>

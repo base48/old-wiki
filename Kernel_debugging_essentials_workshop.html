@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>Kernel debugging essentials workshop - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Kernel_debugging_essentials_workshop","wgTitle":"Kernel debugging essentials workshop","wgCurRevisionId":2810,"wgRevisionId":2810,"wgArticleId":480,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Events"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Kernel_debugging_essentials_workshop","wgRelevantArticleId":480,"wgRequestId":"YsIxhTAaoCf-BTbZeUAs8gAAAA0","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.smw.style","mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="Kernel debugging essentials workshop" href="./index.php%3Ftitle=Special:ExportRDF%252FKernel_debugging_essentials_workshop&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Kernel_debugging_essentials_workshop rootpage-Kernel_debugging_essentials_workshop skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Kernel debugging essentials workshop</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From base48</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#mw-head">navigation</a>, 					<a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">   <div style="display: block; float: right; margin-left: 10px; margin-bottom: 10px; margin-top: 10px; width: 300px;" class="catlinks">
+  <div style="margin-top: 0.3em; margin-bottom: 0.3em; width: 290px; font-weight: bolder; font-size: 1.4em; text-align: center; color: #333;">Kernel debugging essentials workshop</div>
+  <div style="width: 290px; text-align: center; margin: 5px;"></div>
+  <div style="border: 1px solid #CCC; margin: 5px; padding: 0.5em; background-color: #FFF;">
+    <div style="display: block;"><span style="display: inline-block; font-weight: bolder; color: #333;">Event start:</span><div style="display: inline-block; float:right; width: 160px; color: #333;">2014-02-19 20:00</div></div><div style="clear: right; border-top: 1px solid #CCC; margin-bottom: 5px;"></div>  <div style="display: block;"><span style="display: inline-block; font-weight: bolder; color: #333;">iCalendar:</span><div style="display: inline-block; float:right; width: 160px; color: #333;"><span class="smw-icalendar-furtherresults"><a href="Special:Ask/-5B-5BEvent-20page::Kernel-20debugging-20essentials-20workshop-5D-5D/-3FStart-20date%3Dstart/-3FEvent-20page%3Dsummary/format%3D-20icalendar/sort%3D-20Start-20date/searchlabel%3D-20download/title%3D-20Kernel_debugging_essentials_workshop/offset%3D0" title="Special:Ask/-5B-5BEvent-20page::Kernel-20debugging-20essentials-20workshop-5D-5D/-3FStart-20date=start/-3FEvent-20page=summary/format=-20icalendar/sort=-20Start-20date/searchlabel=-20download/title=-20Kernel debugging essentials workshop/offset=0">download</a></span></div></div>  <div style="clear: right; margin-top: 4px;"></div>
+  </div>
+</div>    
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Topics"><span class="tocnumber">1</span> <span class="toctext">Topics</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Requirements"><span class="tocnumber">2</span> <span class="toctext">Requirements</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Language"><span class="tocnumber">3</span> <span class="toctext">Language</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Setup_instructions"><span class="tocnumber">4</span> <span class="toctext">Setup instructions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Install_required_packages"><span class="tocnumber">4.1</span> <span class="toctext">Install required packages</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Get_the_kernel_source_tree"><span class="tocnumber">4.2</span> <span class="toctext">Get the kernel source tree</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Cheatsheet"><span class="tocnumber">5</span> <span class="toctext">Cheatsheet</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Enable_kdump"><span class="tocnumber">5.1</span> <span class="toctext">Enable kdump</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Enable_netconsole"><span class="tocnumber">5.2</span> <span class="toctext">Enable netconsole</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Running_crash"><span class="tocnumber">5.3</span> <span class="toctext">Running crash</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#Materials"><span class="tocnumber">6</span> <span class="toctext">Materials</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Topics">Topics</span></h2>
+<div class="floatright"><a href="./File:Angry-tux.png.html" class="image"><img alt="Angry-tux.png" src="images/3/3d/Angry-tux.png" width="128" height="154" /></a></div>
+<p>We'll be holding a workshop on basics of finding and debugging (and eventually fixing) common issues with Linux kernel.
+</p><p>Topics I'd initially cover would include leveraging in-kernel debugging facilities, techniques for capturing debug output from various crashes, understanding the captured data, and modifying, building and loading the altered kernel code with more debugging code or an actual fix.
+</p><p>Original mailing list reference: <a rel="nofollow" class="external autonumber" href="http://lists.base48.cz/pipermail/public/2014-January/000235.html">[1]</a>
+</p>
+<h2><span class="mw-headline" id="Requirements">Requirements</span></h2>
+<ul><li> Some elementary knowledge of C</li>
+<li> A laptop with Linux (Fedora 20 preferred, Debian 7 fine, we'll try to cover older versions and other distribution too) and root access, 2G + size of RAM free space
+<ul><li> If you don't have any available, please let me know in advance</li></ul></li></ul>
+<h2><span class="mw-headline" id="Language">Language</span></h2>
+<p>I'm fine with holding the workshop in English language if there's anyone who doesn't speak Czech/Slovak.
+</p>
+<h2><span class="mw-headline" id="Setup_instructions">Setup instructions</span></h2>
+<p>Please prepare your laptop in advance so that we don't waste too much time at the workshop.
+</p><p>Extra hardware will be available for ones who won't be able to bring their own laptops.
+</p>
+<h3><span class="mw-headline" id="Install_required_packages">Install required packages</span></h3>
+<table>
+<tr>
+<th> Debian
+</th>
+<th> Fedora
+</th></tr>
+<tr style="vertical-align:top;">
+<td>
+<ol><li> <code>apt-get -y install kdump-tools crash git linux-headers linux-image-$(uname -r)-dbg linux-source ncurses-dbg</code></li></ol>
+</td>
+<td>
+<ol><li> <code>pkcon install kernel{-debug,}{-devel,} kexec-tools crash git gcc ncurses-devel</li></ol>
+<p>debuginfo-install -y kernel{-debug,}</code>
+</p>
+</td></tr></table>
+<h3><span class="mw-headline" id="Get_the_kernel_source_tree">Get the kernel source tree</span></h3>
+<p><code>git clone <a rel="nofollow" class="external free" href="git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git">git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git</a></code>
+</p>
+<h2><span class="mw-headline" id="Cheatsheet">Cheatsheet</span></h2>
+<p>Here are some distro-dependent details. I'll be using Fedora, follow these to translate to Debian equivalents if you're running Debian.
+</p><p>These are here just for reference, no need to follow these prior to the workshop.
+</p>
+<h3><span class="mw-headline" id="Enable_kdump">Enable kdump</span></h3>
+<table>
+<tr>
+<th> Debian
+</th>
+<th> Fedora
+</th></tr>
+<tr style="vertical-align:top;">
+<td>
+<ol><li> Edit <code>/etc/default/kdump-tools</code></li>
+<li> Add <code>crashkernel=256M</code> to <code>/etc/default/grub</code></li>
+<li> Run <code>update-grub2</code></li>
+<li> Reboot</li>
+<li> Check <code>kdump-config status</code></li></ol>
+</td>
+<td>
+<ol><li> <code>system-config-kdump</code></li></ol>
+<p>or
+</p>
+<ol><li> Add <code>crashkernel=256M</code> to <code>/etc/default/grub</code></li>
+<li> Run <code>grub2-mkconfig &gt;/etc/grub.conf</code></li>
+<li> <code>systemctl enable kdump.service</code></li>
+<li> Reboot</li>
+<li> <code>Check systemctl status kdump.service</code></li></ol>
+</td></tr></table>
+<h3><span class="mw-headline" id="Enable_netconsole">Enable netconsole</span></h3>
+<table>
+<tr>
+<th> Debian
+</th>
+<th> Fedora
+</th></tr>
+<tr style="vertical-align:top;">
+<td>
+<ol><li> <code>modprobe netconsole \</code><br /><code>    netconsole=@/,514@$(getent hosts odvarok.local |</code><br /><code>    awk '{print $1}')/</code></li></ol>
+</td>
+<td>
+<ol><li> Edit <code>/etc/sysconfig/netconsole</code></li>
+<li> <code>systemctl enable netconsole.service</code></li>
+<li> <code>systemctl start netconsole.service</code></li></ol>
+</td></tr></table>
+<h3><span class="mw-headline" id="Running_crash">Running crash</span></h3>
+<p>The location of the raw <code>vmlinux</code> binary from the debugging packages differs in distros.
+</p>
+<table>
+<tr>
+<th> Debian
+</th>
+<th> Fedora
+</th></tr>
+<tr style="vertical-align:top;">
+<td>
+<ol><li> <code>crash /usr/lib/debug/boot/vmlinux-$(uname -r) /var/crash/201402090936/dump.201402090936</code></li></ol>
+</td>
+<td>
+<ol><li> <code>crash /usr/lib/debug/lib/modules/$(uname -r)/vmlinux /var/crash/127.0.0.1-2013.10.24-02:48:40/vmcore</code></li></ol>
+</td></tr></table>
+<h2><span class="mw-headline" id="Materials">Materials</span></h2>
+<p>Work-in-progress slides. Content will be extended and polished (as I learn beamer...), but outline will stay roughly the same: <a href="./File:Kernel-workshop.pdf.gz.html" title="File:Kernel-workshop.pdf.gz">File:Kernel-workshop.pdf.gz</a>
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/lkundrak/sad-ugly-and-broken">https://github.com/lkundrak/sad-ugly-and-broken</a> This is a repository for variously broken kernel code, for demonstration</li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/lkundrak/kexec-tools">https://github.com/lkundrak/kexec-tools</a> Patched kexec-tools, for &gt;= 3.11 kernels</li>
+<li> <a rel="nofollow" class="external free" href="http://v3.sk/~lkundrak/firescope/">http://v3.sk/~lkundrak/firescope/</a> Firewire debugging tool</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20220703192736
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.145 seconds
+Real time usage: 0.153 seconds
+Preprocessor visited node count: 126/1000000
+Preprocessor generated node count: 427/1000000
+Post‐expand include size: 3675/2097152 bytes
+Template argument size: 722/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   70.323      1 - -total
+100.00%   70.323      1 - Template:Event
+ 74.82%   52.614      2 - Template:ProjectInfoBoxItem
+  5.95%    4.182      2 - Template:ProjectInfoBoxItemDivider
+-->
+
+<!-- Saved in parser cache with key smwikidb:pcache:idhash:480-0!*!*!!en!5!* and timestamp 20220703192735 and revision id 2810
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;oldid=2810.html">index.php?title=Kernel_debugging_essentials_workshop&amp;oldid=2810</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="./Special:Categories.html" title="Special:Categories">Category</a>: <ul><li><a href="./Category:Events.html" title="Category:Events">Events</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="./index.php%3Ftitle=Special:CreateAccount&amp;returnto=Kernel+debugging+essentials+workshop.html" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="./index.php%3Ftitle=Special:UserLogin&amp;returnto=Kernel+debugging+essentials+workshop.html" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:Kernel_debugging_essentials_workshop&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Kernel&#32;debugging&#32;essentials&#32;workshop.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="Special:WhatLinksHere/Kernel_debugging_essentials_workshop" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/Kernel_debugging_essentials_workshop" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;printable=yes.html" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;oldid=2810.html" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="index.php%3Ftitle=Kernel_debugging_essentials_workshop&amp;action=info.html" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="./Special:Browse/Kernel_debugging_essentials_workshop.html" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 19 February 2014, at 10:31.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share Alike</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["ext.smw.tooltips","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":355});});</script>
+	</body>
+</html>

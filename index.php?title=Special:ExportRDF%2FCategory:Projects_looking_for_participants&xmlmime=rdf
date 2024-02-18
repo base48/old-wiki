@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AProjects_looking_for_participants">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:23:07+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants">
+		<rdfs:label>Projects looking for participants</rdfs:label>
+		<swivt:page rdf:resource="Category:Projects_looking_for_participants"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Projects_looking_for_participants"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-25T11:45:34Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456286.9899769</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-25T11:45:34Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456286.9899769</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Projects looking for participants</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OpenStreetMap">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>OpenStreetMap</rdfs:label>
+		<swivt:page rdf:resource="OpenStreetMap"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OpenStreetMap"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenStreetMap</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RaspberryPiLinux">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>RaspberryPiLinux</rdfs:label>
+		<swivt:page rdf:resource="RaspberryPiLinux"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RaspberryPiLinux"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RaspberryPiLinux</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/TrackpointSensor">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>TrackpointSensor</rdfs:label>
+		<swivt:page rdf:resource="TrackpointSensor"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/TrackpointSensor"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrackpointSensor</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/LivingInTheConsole">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>LivingInTheConsole</rdfs:label>
+		<swivt:page rdf:resource="LivingInTheConsole"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/LivingInTheConsole"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LivingInTheConsole</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Silicon_hacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Silicon hacking</rdfs:label>
+		<swivt:page rdf:resource="Silicon_hacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Silicon_hacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silicon hacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>InfraHacking</rdfs:label>
+		<swivt:page rdf:resource="InfraHacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Nestihacky">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Nestihacky</rdfs:label>
+		<swivt:page rdf:resource="Nestihacky"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Nestihacky"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nestihacky</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/SID">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>SID</rdfs:label>
+		<swivt:page rdf:resource="SID"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/SID"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Shelfs_take1">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Shelfs take1</rdfs:label>
+		<swivt:page rdf:resource="Shelfs_take1"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Shelfs_take1"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shelfs take1</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Wall-2Dmounted_LCDs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Wall-mounted LCDs</rdfs:label>
+		<swivt:page rdf:resource="Wall-mounted_LCDs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Wall-mounted_LCDs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall-mounted LCDs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OpenStreetMap">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>OpenStreetMap</rdfs:label>
+		<swivt:page rdf:resource="OpenStreetMap"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OpenStreetMap"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenStreetMap</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RaspberryPiLinux">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>RaspberryPiLinux</rdfs:label>
+		<swivt:page rdf:resource="RaspberryPiLinux"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RaspberryPiLinux"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RaspberryPiLinux</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/TrackpointSensor">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>TrackpointSensor</rdfs:label>
+		<swivt:page rdf:resource="TrackpointSensor"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/TrackpointSensor"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrackpointSensor</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/LivingInTheConsole">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>LivingInTheConsole</rdfs:label>
+		<swivt:page rdf:resource="LivingInTheConsole"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/LivingInTheConsole"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LivingInTheConsole</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Silicon_hacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Silicon hacking</rdfs:label>
+		<swivt:page rdf:resource="Silicon_hacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Silicon_hacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silicon hacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>InfraHacking</rdfs:label>
+		<swivt:page rdf:resource="InfraHacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Nestihacky">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Nestihacky</rdfs:label>
+		<swivt:page rdf:resource="Nestihacky"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Nestihacky"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nestihacky</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/SID">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>SID</rdfs:label>
+		<swivt:page rdf:resource="SID"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/SID"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Shelfs_take1">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Shelfs take1</rdfs:label>
+		<swivt:page rdf:resource="Shelfs_take1"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Shelfs_take1"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shelfs take1</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Wall-2Dmounted_LCDs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>Wall-mounted LCDs</rdfs:label>
+		<swivt:page rdf:resource="Wall-mounted_LCDs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Wall-mounted_LCDs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall-mounted LCDs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

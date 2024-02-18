@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJaHgzt68L0EdjlY9L7@gAAAAE","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="../extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="../load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="../api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="../index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="block">action=block</h2><div class="apihelp-linktrail">(<a href="main.html" class="apihelp-linktrail">main</a> | <b>block</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-flag-writerights">This module requires write rights.</span></li><li><span class="apihelp-flag-mustbeposted">This module only accepts POST requests.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Block a user.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Block">https://www.mediawiki.org/wiki/API:Block</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>user</dt><dd class="description"><p>Username, IP address, or IP address range to block.
+</p></dd><dd class="info">This parameter is required.</dd><dd class="info">Type: user name</dd><dt>expiry</dt><dd class="description"><p>Expiry time. May be relative (e.g. <kbd>5 months</kbd> or <kbd>2 weeks</kbd>) or absolute (e.g. <kbd>2014-09-18T12:34:56Z</kbd>). If set to <kbd>infinite</kbd>, <kbd>indefinite</kbd>, or <kbd>never</kbd>, the block will never expire.
+</p></dd><dd class="info">Default: never</dd><dt>reason</dt><dd class="description"><p>Reason for block.
+</p></dd><dd class="info">Default: <span class="apihelp-empty">(empty)</span></dd><dt>anononly</dt><dd class="description"><p>Block anonymous users only (i.e. disable anonymous edits for this IP address).
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>nocreate</dt><dd class="description"><p>Prevent account creation.
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>autoblock</dt><dd class="description"><p>Automatically block the last used IP address, and any subsequent IP addresses they try to login from.
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>noemail</dt><dd class="description"><p>Prevent user from sending email through the wiki. (Requires the <code>blockemail</code> right).
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>hidename</dt><dd class="description"><p>Hide the username from the block log. (Requires the <code>hideuser</code> right).
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>allowusertalk</dt><dd class="description"><p>Allow the user to edit their own talk page (depends on <var><a href="http://www.mediawiki.org/wiki/Manual:%24wgBlockAllowsUTEdit" class="extiw" title="mw:Manual:$wgBlockAllowsUTEdit">$wgBlockAllowsUTEdit</a></var>).
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>reblock</dt><dd class="description"><p>If the user is already blocked, overwrite the existing block.
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>watchuser</dt><dd class="description"><p>Watch the user's or IP address's user and talk pages.
+</p></dd><dd class="info">Type: boolean (<a href="main.html#main.2Fdatatypes">details</a>)</dd><dt>token</dt><dd class="description"><p>A "csrf" token retrieved from <a href="../api.php%3Faction=help&amp;modules=query+tokens.html">action=query&amp;meta=tokens</a>
+</p></dd><dd class="info">This parameter is required.</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Block IP address <kbd>192.0.2.5</kbd> for three days with reason <kbd>First strike</kbd>.</dt><dd><a href="../api.php%3Faction=block&amp;user=192.0.2.5&amp;expiry=3&#32;days&amp;reason=First&#32;strike&amp;token=123ABC.html">api.php?action=block&amp;user=192.0.2.5&amp;expiry=3%20days&amp;reason=First%20strike&amp;token=123ABC</a> <a href="../Special:ApiSandbox.html#action=block&amp;user=192.0.2.5&amp;expiry=3%20days&amp;reason=First%20strike&amp;token=123ABC"><small>[open in sandbox]</small></a></dd><dt>Block user <kbd>Vandal</kbd> indefinitely with reason <kbd>Vandalism</kbd>, and prevent new account creation and email sending.</dt><dd><a href="../api.php%3Faction=block&amp;user=Vandal&amp;expiry=never&amp;reason=Vandalism&amp;nocreate=&amp;autoblock=&amp;noemail=&amp;token=123ABC.html">api.php?action=block&amp;user=Vandal&amp;expiry=never&amp;reason=Vandalism&amp;nocreate=&amp;autoblock=&amp;noemail=&amp;token=123ABC</a> <a href="../Special:ApiSandbox.html#action=block&amp;user=Vandal&amp;expiry=never&amp;reason=Vandalism&amp;nocreate=&amp;autoblock=&amp;noemail=&amp;token=123ABC"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="../Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="../extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":386});});</script>		</body></html>

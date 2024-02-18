@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJaBXum8HvCuiZZuE8b9gAAAAg","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+usercontribs">list=usercontribs (uc)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>usercontribs</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Get all edits by a user.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Usercontribs">https://www.mediawiki.org/wiki/API:Usercontribs</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>uclimit</dt><dd class="description"><p>The maximum number of contributions to return.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 10</dd><dt>ucstart</dt><dd class="description"><p>The start timestamp to return from.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>ucend</dt><dd class="description"><p>The end timestamp to return to.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>uccontinue</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd><dt>ucuser</dt><dd class="description"><p>The users to retrieve contributions for.
+</p></dd><dd class="info">Type: list of user names</dd><dd class="info">Separate values with <kbd>|</kbd>. Maximum number of values is 50 (500 for bots).</dd><dt>ucuserprefix</dt><dd class="description"><p>Retrieve contributions for all users whose names begin with this value. Overrides ucuser.
+</p></dd><dt>ucdir</dt><dd class="description"><p>In which direction to enumerate:
+</p>
+<dl><dt>newer</dt>
+<dd>List oldest first. Note: ucstart has to be before ucend.</dd>
+<dt>older</dt>
+<dd>List newest first (default). Note: ucstart has to be later than ucend.</dd></dl></dd><dd class="info">One of the following values: newer, older</dd><dd class="info">Default: older</dd><dt>ucnamespace</dt><dd class="description"><p>Only list contributions in these namespaces.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 102, 103, 104, 105, 108, 109</dd><dt>ucprop</dt><dd class="description"><p>Include additional pieces of information:
+</p><dl><dt>ids</dt>
+<dd>Adds the page ID and revision ID.</dd>
+<dt>title</dt>
+<dd>Adds the title and namespace ID of the page.</dd>
+<dt>timestamp</dt>
+<dd>Adds the timestamp of the edit.</dd>
+<dt>comment</dt>
+<dd>Adds the comment of the edit.</dd>
+<dt>parsedcomment</dt>
+<dd>Adds the parsed comment of the edit.</dd>
+<dt>size</dt>
+<dd>Adds the new size of the edit.</dd>
+<dt>sizediff</dt>
+<dd>Adds the size delta of the edit against its parent.</dd>
+<dt>flags</dt>
+<dd>Adds flags of the edit.</dd>
+<dt>patrolled</dt>
+<dd>Tags patrolled edits.</dd>
+<dt>tags</dt>
+<dd>Lists tags for the edit.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): ids, title, timestamp, comment, parsedcomment, size, sizediff, flags, patrolled, tags</dd><dd class="info">Default: ids|title|timestamp|comment|size|flags</dd><dt>ucshow</dt><dd class="description"><p>Show only items that meet these criteria, e.g. non minor edits only: <kbd>ucshow=!minor</kbd>.
+</p><p>If <kbd>ucshow=patrolled</kbd> or <kbd>ucshow=!patrolled</kbd> is set, revisions older than <var><a href="http://www.mediawiki.org/wiki/Manual:%24wgRCMaxAge" class="extiw" title="mw:Manual:$wgRCMaxAge">$wgRCMaxAge</a></var> (7776000 seconds) won't be shown.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): minor, !minor, patrolled, !patrolled, top, !top, new, !new</dd><dt>uctag</dt><dd class="description"><p>Only list revisions tagged with this tag.
+</p></dd><dt>uctoponly</dt><dd class="info"><strong class="apihelp-deprecated">Deprecated.</strong></dd><dd class="description"><p>Only list changes which are the latest revision.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Show contributions of user <kbd>Example</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;list=usercontribs&amp;ucuser=Example.html">api.php?action=query&amp;list=usercontribs&amp;ucuser=Example</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=usercontribs&amp;ucuser=Example"><small>[open in sandbox]</small></a></dd><dt>Show contributions from all IP addresses with prefix <kbd>192.0.2.</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;list=usercontribs&amp;ucuserprefix=192.0.2..html">api.php?action=query&amp;list=usercontribs&amp;ucuserprefix=192.0.2.</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=usercontribs&amp;ucuserprefix=192.0.2."><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":403});});</script>		</body></html>

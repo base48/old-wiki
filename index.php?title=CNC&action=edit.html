@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>View source for CNC - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"CNC","wgTitle":"CNC","wgCurRevisionId":4036,"wgRevisionId":0,"wgArticleId":456,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"CNC","wgRelevantArticleId":456,"wgRequestId":"YsIt-6RoSHG2B3zIC3YPgAAAAAE","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="CNC" href="./index.php%3Ftitle=Special:ExportRDF%252FCNC&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-CNC rootpage-CNC skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for CNC</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="CNC.html" title="CNC">CNC</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=CNC&amp;action=edit.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=CNC&amp;action=edit.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in the group: <a href="index.php?title=Base48:Users&amp;action=edit&amp;redlink=1" class="new" title="Base48:Users (page does not exist)">Users</a>.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="./Special:Preferences.html" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">
+
+{{Project
+ |founder=[[user:rmarko]]
+ |coops=Adluc,snajpa,skirit
+ |status=active
+ |shortdesc=Big CNC machine 
+}}
+
+The rest of this page is now kind-of obsolete and needs work. Machine was recently rebuilt with 1.5kW spindle and LinuxCNC control.
+
+[[File:Shaepoko rebuild0.jpg|500px]]
+
+== Oversized Shapeoko 2 ==
+
+Scaled to 1x1m workspace.
+
+[[File:cnc_IMG_2359_v1_1024.png|500px]]
+
+== Currently required ==
+* Vacuum
+* More tools
+* Y-axis cable chain
+* Electronics Case
+
+
+=== New Spindle ===
+* http://www.buildlog.net/blog/2011/09/new-brushless-dc-router-spindle/
+* (have) Motor [http://www.hobbyking.com/hobbyking/store/__48177__3660SL_3180kv_Brushless_Inrunner_WaterCooled_EU_Warehouse_.html 3660SL 3180kv Brushless Inrunner (WaterCooled)]
+* (have) ESC
+* Need:
+** Angular contact bearings, high rpm
+*** http://www.dimensor.cz/produkty/prumyslova-loziska/loziska-kulickova/s-kosouhlym-stykem/7200-betng-000-004665.html
+** ER16 collet http://www.aliexpress.com/item/ER16-C20-150MM-With-Wrench-Straight-Shank-Collet-Milling-Chuck-Holder-Fixed-Milling/32369879952.html?ws_ab_test=201407_3,201444_5_3_2_1_5_4,201409_4
+*** C20 = 20mm shank dia
+** water cooling
+
+
+==BoM==
+
+{| class="wikitable" style="width: 100%"
+ !Part
+ !Required
+ !Where to get it
+ !Price
+ !Bought/Donated
+ |-
+ !colspan="5"| Electronics
+ |-
+ | Microcon SX24-3341 Nema23 steppers for Y axis (6.6A)
+ | 2
+ | [http://microcon.cz/prodej.asp microcon]
+ | 1439
+ | 
+ |-
+ | Microcon SX23-2727 Nema23 stepper for X and Z axes
+ | 2
+ | [http://microcon.cz/prodej.asp microcon]
+ | 
+ | 
+ |-
+ | Driver M542 Bi-polar 2phase 4.2A for X/Y
+ | 4
+ | http://www.cncshop.cz/m542-driver-pro-krokove-motory-50v-4-2a
+ | 4 * 1670
+ |
+ |}
+
+
+Add to BOM:
+* Pulleys for 8 mm shaft, max d=28 +- 5mm (from robotdigg)
+* Belts 3m of max w=8mm, e.g. http://www.tyma.cz/produkty/detail/zrm-t05-08-nestandard-2817/
+* Nema23 for X &amp; Y axis - 2x SX23-1414 from http://microcon.cz/prodej.asp
+* Drivers - 4x M542 http://www.cncshop.cz/m542-driver-pro-krokove-motory-50v-4-2a
+
+
+Links:
+* http://www.c-n-c.cz/
+* http://www.cncshop.cz/
+
+How to:
+http://lcamtuf.coredump.cx/gcnc/
+
+== HeeksCad ==
+  git clone https://github.com/Heeks/heekscad
+  git clone https://github.com/Heeks/heekscnc
+  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+
+=== Add Shapeoko 2 support ===
+  git clone https://github.com/fix-all-the-things/heekscnc heekscnc_base
+  cd heekscnc_base
+  git checkout smoothie
+  cp smoothie/machines.xml /usr/share/heekscnc/machines.xml
+  cp smoothie/*py /usr/lib/heekscnc/nc/
+* in heekscad switch Program 1/machine (LinuxCNC -> Smoothie)
+
+== Use Shapeoko 2 ==
+  git clone https://github.com/kliment/Printrun
+  git clone https://github.com/hackerspace/cnc
+* plug usb in, turn on sec. switch 
+  ./Printrun/pronsole.py --conf cnc/shapeoko/pronsolerc_shapeoko -e connect
+
+=== Basic Commands ===
+  m114                  ;print position
+  psu_on                ;power source on 
+  motors_on             ;motors on
+  g0 x1 y1 z1 f1000     ;go to 1 1 1 speed 1000
+  g92 x0 y0 z0          ;set act. pos. to 0 0 0
+  load file.ngc         ;load gcode 
+                        ;switch on spindle ESC
+  m3 s10                ;spindle on
+  m3 s128               ;spindle on
+  print                 ;print gcode
+  m220 s120             ;switch speed to 120%
+  m5                    ;spindle off
+                        ;switch off spindle ESC
+
+* http://smoothieware.org/supported-g-codes
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Templates used on this page:
+</p></div><ul>
+<li><a href="./Template:Project.html" title="Template:Project">Template:Project</a> (<a href="./index.php%3Ftitle=Template:Project&amp;action=edit.html" title="Template:Project">view source</a>) </li><li><a href="Template:ProjectCategoryTags" title="Template:ProjectCategoryTags">Template:ProjectCategoryTags</a> (<a href="index.php?title=Template:ProjectCategoryTags&amp;action=edit" title="Template:ProjectCategoryTags">view source</a>) </li><li><a href="Template:ProjectInfoBoxItem" title="Template:ProjectInfoBoxItem">Template:ProjectInfoBoxItem</a> (<a href="index.php?title=Template:ProjectInfoBoxItem&amp;action=edit" title="Template:ProjectInfoBoxItem">view source</a>) </li><li><a href="Template:ProjectInfoBoxItemDivider" title="Template:ProjectInfoBoxItemDivider">Template:ProjectInfoBoxItemDivider</a> (<a href="index.php?title=Template:ProjectInfoBoxItemDivider&amp;action=edit" title="Template:ProjectInfoBoxItemDivider">view source</a>) </li><li><a href="Template:Time" title="Template:Time">Template:Time</a> (<a href="index.php?title=Template:Time&amp;action=edit" title="Template:Time">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="CNC.html" title="CNC">CNC</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="CNC.html">CNC</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=CNC&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=CNC&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="CNC.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:CNC&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=CNC&amp;action=edit.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view"><span><a href="CNC.html" >Read</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php%3Ftitle=CNC&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=CNC&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=CNC&amp;action=edit.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/CNC.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/CNC" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="index.php%3Ftitle=CNC&amp;action=info.html" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":394});});</script>
+	</body>
+</html>

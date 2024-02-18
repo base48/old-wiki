@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJaBnum8HvCuiZZuE8b9wAAAAg","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+userinfo">meta=userinfo (ui)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>userinfo</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Get information about the current user.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Userinfo">https://www.mediawiki.org/wiki/API:Userinfo</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>uiprop</dt><dd class="description"><p>Which pieces of information to include:
+</p><dl><dt>blockinfo</dt>
+<dd>Tags if the current user is blocked, by whom, and for what reason.</dd>
+<dt>hasmsg</dt>
+<dd>Adds a tag <samp>messages</samp> if the current user has pending messages.</dd>
+<dt>groups</dt>
+<dd>Lists all the groups the current user belongs to.</dd>
+<dt>implicitgroups</dt>
+<dd>Lists all the groups the current user is automatically a member of.</dd>
+<dt>rights</dt>
+<dd>Lists all the rights the current user has.</dd>
+<dt>changeablegroups</dt>
+<dd>Lists the groups the current user can add to and remove from.</dd>
+<dt>options</dt>
+<dd>Lists all preferences the current user has set.</dd>
+<dt>preferencestoken</dt>
+<dd><span class="apihelp-deprecated">Deprecated.</span> Get a token to change current user's preferences.</dd>
+<dt>editcount</dt>
+<dd>Adds the current user's edit count.</dd>
+<dt>ratelimits</dt>
+<dd>Lists all rate limits applying to the current user.</dd>
+<dt>email</dt>
+<dd>Adds the user's email address and email authentication date.</dd>
+<dt>realname</dt>
+<dd>Adds the user's real name.</dd>
+<dt>acceptlang</dt>
+<dd>Echoes the <code>Accept-Language</code> header sent by the client in a structured format.</dd>
+<dt>registrationdate</dt>
+<dd>Adds the user's registration date.</dd>
+<dt>unreadcount</dt>
+<dd>Adds the count of unread pages on the user's watchlist (maximum 999; returns <samp>1000+</samp> if more).</dd>
+<dt>centralids</dt>
+<dd>Adds the central IDs and attachment status for the user.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): blockinfo, hasmsg, groups, implicitgroups, rights, changeablegroups, options, preferencestoken, editcount, ratelimits, email, realname, acceptlang, registrationdate, unreadcount, centralids</dd><dt>uiattachedwiki</dt><dd class="description"><p>With <kbd>uiprop=centralids</kbd>, indicate whether the user is attached with the wiki identified by this ID.
+</p></dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Get information about the current user.</dt><dd><a href="api.php%3Faction=query&amp;meta=userinfo.html">api.php?action=query&amp;meta=userinfo</a> <a href="./Special:ApiSandbox.html#action=query&amp;meta=userinfo"><small>[open in sandbox]</small></a></dd><dt>Get additional information about the current user.</dt><dd><a href="api.php%3Faction=query&amp;meta=userinfo&amp;uiprop=blockinfo|groups|rights|hasmsg.html">api.php?action=query&amp;meta=userinfo&amp;uiprop=blockinfo|groups|rights|hasmsg</a> <a href="./Special:ApiSandbox.html#action=query&amp;meta=userinfo&amp;uiprop=blockinfo%7Cgroups%7Crights%7Chasmsg"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":360});});</script>		</body></html>

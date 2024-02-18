@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>base48  - Recent changes [en]</title>
+		<link>Special:RecentChanges</link>
+		<description>Track the most recent changes to the wiki in this feed.</description>
+		<language>en</language>
+		<generator>MediaWiki 1.27.1</generator>
+		<lastBuildDate>Mon, 04 Jul 2022 03:08:58 GMT</lastBuildDate>
+		<item>
+			<title>Space</title>
+			<link>index.php?title=Space&amp;diff=4311&amp;oldid=4309</link>
+			<guid isPermaLink="false">index.php?title=Space&amp;diff=4311&amp;oldid=4309</guid>
+			<description>&lt;p&gt;‎&lt;span dir=&quot;auto&quot;&gt;&lt;span class=&quot;autocomment&quot;&gt;Contact&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table class=&quot;diff diff-contentalign-left&quot; data-mw=&quot;interface&quot;&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;col class='diff-marker' /&gt;
+				&lt;col class='diff-content' /&gt;
+				&lt;tr style='vertical-align: top;' lang='en'&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;← Older revision&lt;/td&gt;
+				&lt;td colspan='2' style=&quot;background-color: white; color:black; text-align: center;&quot;&gt;Revision as of 13:59, 3 July 2022&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot; id=&quot;mw-diff-left-l9&quot; &gt;Line 9:&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;diff-lineno&quot;&gt;Line 9:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://web.libera.chat/?#base48 #base48 @ irc.libera.chat]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://web.libera.chat/?#base48 #base48 @ irc.libera.chat]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://lists.base48.cz mailing lists]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://lists.base48.cz mailing lists]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;−&lt;/td&gt;&lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #ffe49c; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://&lt;del class=&quot;diffchange diffchange-inline&quot;&gt;t&lt;/del&gt;.&lt;del class=&quot;diffchange diffchange-inline&quot;&gt;me&lt;/del&gt;/&lt;del class=&quot;diffchange diffchange-inline&quot;&gt;joinchat/LWq6sBbyDBkvDRfX2iIQog telegram&lt;/del&gt;]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;+&lt;/td&gt;&lt;td style=&quot;color:black; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #a3d3ff; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://&lt;ins class=&quot;diffchange diffchange-inline&quot;&gt;signal&lt;/ins&gt;.&lt;ins class=&quot;diffchange diffchange-inline&quot;&gt;group&lt;/ins&gt;/&lt;ins class=&quot;diffchange diffchange-inline&quot;&gt;#CjQKIFfa1_drdrVA8tzfolFIZVAbCSvg4cUCn5zx-czVGvUsEhDwl_MecwpNt4xC1kIujc49 signal group&lt;/ins&gt;]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://www.facebook.com/Base48.cz/ Facebook]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://www.facebook.com/Base48.cz/ Facebook]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://twitter.com/base48_cz Twitter]&lt;/div&gt;&lt;/td&gt;&lt;td class='diff-marker'&gt;&amp;#160;&lt;/td&gt;&lt;td style=&quot;background-color: #f9f9f9; color: #333333; font-size: 88%; border-style: solid; border-width: 1px 1px 1px 4px; border-radius: 0.33em; border-color: #e6e6e6; vertical-align: top; white-space: pre-wrap;&quot;&gt;&lt;div&gt;* [https://twitter.com/base48_cz Twitter]&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;!-- diff cache key smwikidb:diff:version:1.11a:oldid:4309:newid:4311 --&gt;
+&lt;/table&gt;</description>
+			<pubDate>Sun, 03 Jul 2022 13:59:29 GMT</pubDate>			<dc:creator>Skirit</dc:creator>			<comments>Talk:Space</comments>		</item>
+	</channel>
+</rss>

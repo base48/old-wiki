@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>Haskell - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Haskell","wgTitle":"Haskell","wgCurRevisionId":4227,"wgRevisionId":4227,"wgArticleId":661,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Haskell","wgRelevantArticleId":661,"wgRequestId":"YsJGRWRykz4fia5GOZHragAAAAc","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.smw.style","mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="Haskell" href="./index.php%3Ftitle=Special:ExportRDF%252FHaskell&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Haskell rootpage-Haskell skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Haskell</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From base48</div>
+								<div id="contentSub"><div id="mw-revision-info">Revision as of 16:15, 24 June 2019 by <a href="./User:Rmarko.html" title="User:Rmarko" class="mw-userlink">Rmarko</a> <span class="mw-usertoollinks">(<a href="./index.php%3Ftitle=User_talk:Rmarko&amp;action=edit&amp;redlink=1.html" class="new" title="User talk:Rmarko (page does not exist)">talk</a> | <a href="./Special:Contributions/Rmarko.html" title="Special:Contributions/Rmarko">contribs</a>)</span> <span class="comment">(add http://www-cs-students.stanford.edu/~blynn/haskell/)</span></div><br />
+				<div id="mw-revision-nav">(<a href="index.php?title=Haskell&amp;diff=prev&amp;oldid=4227" title="Haskell">diff</a>) <a href="index.php?title=Haskell&amp;direction=prev&amp;oldid=4227" title="Haskell">← Older revision</a> | Latest revision (diff) | Newer revision → (diff)</div></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Resources_for_learning_Haskell"><span class="tocnumber">1</span> <span class="toctext">Resources for learning Haskell</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#General"><span class="tocnumber">1.1</span> <span class="toctext">General</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Topics"><span class="tocnumber">1.2</span> <span class="toctext">Topics</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Parsing"><span class="tocnumber">1.2.1</span> <span class="toctext">Parsing</span></a>
+<ul>
+<li class="toclevel-4 tocsection-5"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Aeson"><span class="tocnumber">1.2.1.1</span> <span class="toctext">Aeson</span></a></li>
+<li class="toclevel-4 tocsection-6"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#HTML"><span class="tocnumber">1.2.1.2</span> <span class="toctext">HTML</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-7"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Databases"><span class="tocnumber">1.2.2</span> <span class="toctext">Databases</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#APIs"><span class="tocnumber">1.2.3</span> <span class="toctext">APIs</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Streaming"><span class="tocnumber">1.2.4</span> <span class="toctext">Streaming</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Shell_programming"><span class="tocnumber">1.2.5</span> <span class="toctext">Shell programming</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Networking"><span class="tocnumber">1.2.6</span> <span class="toctext">Networking</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Monoids"><span class="tocnumber">1.2.7</span> <span class="toctext">Monoids</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Functors.2C_applicative.2C_monads"><span class="tocnumber">1.2.8</span> <span class="toctext">Functors, applicative, monads</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Lens"><span class="tocnumber">1.2.9</span> <span class="toctext">Lens</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Concurrency"><span class="tocnumber">1.2.10</span> <span class="toctext">Concurrency</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Utilities"><span class="tocnumber">1.2.11</span> <span class="toctext">Utilities</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Advanced_topics"><span class="tocnumber">1.3</span> <span class="toctext">Advanced topics</span></a>
+<ul>
+<li class="toclevel-3 tocsection-18"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Free_.2F_CoFree"><span class="tocnumber">1.3.1</span> <span class="toctext">Free / CoFree</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#LogicT"><span class="tocnumber">1.3.2</span> <span class="toctext">LogicT</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Monads"><span class="tocnumber">1.3.3</span> <span class="toctext">Monads</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Monad_transformers"><span class="tocnumber">1.3.4</span> <span class="toctext">Monad transformers</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#MonadLib"><span class="tocnumber">1.3.5</span> <span class="toctext">MonadLib</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#.28e.29DSLs_.2F_Languages"><span class="tocnumber">1.3.6</span> <span class="toctext">(e)DSLs / Languages</span></a></li>
+<li class="toclevel-3 tocsection-24"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Category_theory"><span class="tocnumber">1.3.7</span> <span class="toctext">Category theory</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-25"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Blogs"><span class="tocnumber">1.4</span> <span class="toctext">Blogs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#Local_projects"><span class="tocnumber">2</span> <span class="toctext">Local projects</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Resources_for_learning_Haskell">Resources for learning Haskell</span></h2>
+<h3><span class="mw-headline" id="General">General</span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="http://book.realworldhaskell.org/">http://book.realworldhaskell.org/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://learnyouahaskell.com/">http://learnyouahaskell.com/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://dev.stephendiehl.com/hask/">http://dev.stephendiehl.com/hask/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/NICTA/course">https://github.com/NICTA/course</a></li>
+<li> <a rel="nofollow" class="external free" href="https://www.schoolofhaskell.com/">https://www.schoolofhaskell.com/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://books.goalkicker.com/HaskellBook/">http://books.goalkicker.com/HaskellBook/</a> (notes, short&amp;handy cheatsheet)</li>
+<li> Learn Haskell the Easy Way <a rel="nofollow" class="external free" href="https://cosmius.bitbucket.io/tkhe/">https://cosmius.bitbucket.io/tkhe/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www-cs-students.stanford.edu/~blynn/haskell/">http://www-cs-students.stanford.edu/~blynn/haskell/</a></li></ul>
+<h3><span class="mw-headline" id="Topics">Topics</span></h3>
+<h4><span class="mw-headline" id="Parsing">Parsing</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://book.realworldhaskell.org/read/using-parsec.html">http://book.realworldhaskell.org/read/using-parsec.html</a></li>
+<li> <a rel="nofollow" class="external free" href="https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/text-manipulation/attoparsec">https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/text-manipulation/attoparsec</a></li>
+<li> <a rel="nofollow" class="external free" href="https://hbtvl.wordpress.com/2015/11/19/efficient-parsing-of-large-text-files-part-1/">https://hbtvl.wordpress.com/2015/11/19/efficient-parsing-of-large-text-files-part-1/</a></li></ul>
+<h5><span class="mw-headline" id="Aeson">Aeson</span></h5>
+<ul><li> <a rel="nofollow" class="external free" href="https://artyom.me/aeson">https://artyom.me/aeson</a></li></ul>
+<h5><span class="mw-headline" id="HTML">HTML</span></h5>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/egonSchiele/HandsomeSoup">https://github.com/egonSchiele/HandsomeSoup</a></li>
+<li> <a rel="nofollow" class="external free" href="http://adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html">http://adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html</a></li></ul>
+<h4><span class="mw-headline" id="Databases">Databases</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://ocharles.org.uk/blog/posts/2013-12-06-24-days-of-hackage-persistent-esqueleto.html">https://ocharles.org.uk/blog/posts/2013-12-06-24-days-of-hackage-persistent-esqueleto.html</a></li></ul>
+<h4><span class="mw-headline" id="APIs">APIs</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://haskell-servant.readthedocs.io/en/stable/tutorial/index.html">https://haskell-servant.readthedocs.io/en/stable/tutorial/index.html</a></li></ul>
+<h4><span class="mw-headline" id="Streaming">Streaming</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://hackage.haskell.org/package/pipes-4.2.0/docs/Pipes-Tutorial.html">https://hackage.haskell.org/package/pipes-4.2.0/docs/Pipes-Tutorial.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.yesodweb.com/blog/2014/03/network-conduit-async">http://www.yesodweb.com/blog/2014/03/network-conduit-async</a></li></ul>
+<h4><span class="mw-headline" id="Shell_programming">Shell programming</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://hackage.haskell.org/package/turtle-1.2.8/docs/Turtle-Tutorial.html">https://hackage.haskell.org/package/turtle-1.2.8/docs/Turtle-Tutorial.html</a></li></ul>
+<h4><span class="mw-headline" id="Networking">Networking</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://jacob.stanley.io/2010/08/12/ip-addresses-and-mac-addresses-in-haskell/">http://jacob.stanley.io/2010/08/12/ip-addresses-and-mac-addresses-in-haskell/</a></li></ul>
+<h4><span class="mw-headline" id="Monoids">Monoids</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://ozark.hendrix.edu/~yorgey/pub/monoid-pearl.pdf">http://ozark.hendrix.edu/~yorgey/pub/monoid-pearl.pdf</a> - monoids in diagrams lib</li></ul>
+<h4><span class="mw-headline" id="Functors.2C_applicative.2C_monads">Functors, applicative, monads</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html">http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://adit.io/posts/2013-06-10-three-useful-monads.html">http://adit.io/posts/2013-06-10-three-useful-monads.html</a></li></ul>
+<h4><span class="mw-headline" id="Lens">Lens</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://adit.io/posts/2013-07-22-lenses-in-pictures.html">http://adit.io/posts/2013-07-22-lenses-in-pictures.html</a></li></ul>
+<h4><span class="mw-headline" id="Concurrency">Concurrency</span></h4>
+<ul><li> <a rel="nofollow" class="external text" href="http://chimera.labs.oreilly.com/books/1230000000929/index.html">Parallel and Concurrent Programming in Haskell</a></li>
+<li> <a rel="nofollow" class="external free" href="http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html">http://adit.io/posts/2013-05-15-Locks,-Actors,-And-STM-In-Pictures.html</a></li></ul>
+<h4><span class="mw-headline" id="Utilities">Utilities</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://haskelltools.org/">http://haskelltools.org/</a></li></ul>
+<h3><span class="mw-headline" id="Advanced_topics">Advanced topics</span></h3>
+<h4><span class="mw-headline" id="Free_.2F_CoFree">Free / CoFree</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html">http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.haskellforall.com/2013/02/you-could-have-invented-comonads.html">http://www.haskellforall.com/2013/02/you-could-have-invented-comonads.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://dlaing.org/cofun/posts/free_and_cofree.html">http://dlaing.org/cofun/posts/free_and_cofree.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html">http://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html</a></li></ul>
+<h4><span class="mw-headline" id="LogicT">LogicT</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://okmij.org/ftp/papers/LogicT.pdf">http://okmij.org/ftp/papers/LogicT.pdf</a></li></ul>
+<h4><span class="mw-headline" id="Monads">Monads</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/anton-k/monads-for-drummers">https://github.com/anton-k/monads-for-drummers</a></li>
+<li> <a rel="nofollow" class="external free" href="http://blog.sigfpe.com/2008/11/from-monoids-to-monads.html">http://blog.sigfpe.com/2008/11/from-monoids-to-monads.html</a></li>
+<li> <a rel="nofollow" class="external free" href="https://kseo.github.io//posts/2017-01-21-writer-monad.html">https://kseo.github.io//posts/2017-01-21-writer-monad.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.stephendiehl.com/posts/monads.html">http://www.stephendiehl.com/posts/monads.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.muitovar.com/monad/moncow.xhtml">http://www.muitovar.com/monad/moncow.xhtml</a></li></ul>
+<h4><span class="mw-headline" id="Monad_transformers">Monad transformers</span></h4>
+<ul><li>  <a rel="nofollow" class="external free" href="http://book.realworldhaskell.org/read/monad-transformers.html">http://book.realworldhaskell.org/read/monad-transformers.html</a></li></ul>
+<h4><span class="mw-headline" id="MonadLib">MonadLib</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://www.galois.com/~diatchki/monadLib/monadLib_talk.pdf">https://www.galois.com/~diatchki/monadLib/monadLib_talk.pdf</a></li></ul>
+<h4><span class="mw-headline" id=".28e.29DSLs_.2F_Languages">(e)DSLs / Languages</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://www.andres-loeh.de/HaskellForDSLs.pdf">https://www.andres-loeh.de/HaskellForDSLs.pdf</a></li>
+<li> <a rel="nofollow" class="external free" href="https://ocharles.org.uk/blog/posts/2013-02-12-quick-dsls-with-endo-writers.html">https://ocharles.org.uk/blog/posts/2013-02-12-quick-dsls-with-endo-writers.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://dev.stephendiehl.com/fun/">http://dev.stephendiehl.com/fun/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://dlaing.org/little-languages/">http://dlaing.org/little-languages/</a></li></ul>
+<h4><span class="mw-headline" id="Category_theory">Category theory</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/">https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=I8LbkfSSR58&amp;list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_">https://www.youtube.com/watch?v=I8LbkfSSR58&amp;list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_</a></li>
+<li> <a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=3XTQSx1A3x8&amp;list=PLbgaMIhjbmElia1eCEZNvsVscFef9m0dm">https://www.youtube.com/watch?v=3XTQSx1A3x8&amp;list=PLbgaMIhjbmElia1eCEZNvsVscFef9m0dm</a></li></ul>
+<h3><span class="mw-headline" id="Blogs">Blogs</span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.haskellforall.com/">http://www.haskellforall.com/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://ocharles.org.uk/blog/">https://ocharles.org.uk/blog/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://chrisdone.com/archive">http://chrisdone.com/archive</a></li>
+<li> <a rel="nofollow" class="external free" href="https://kseo.github.io/archive.html">https://kseo.github.io/archive.html</a></li></ul>
+<h2><span class="mw-headline" id="Local_projects">Local projects</span></h2>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/hackerspace/gcodehs">https://github.com/hackerspace/gcodehs</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/distrap/liveplot">https://github.com/distrap/liveplot</a></li>
+<li> <a href="EmbeddedHaskell.html" title="EmbeddedHaskell">EmbeddedHaskell</a></li>
+<li> <a href="ESPhs.html" title="ESPhs">ESPhs</a></li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20220704001851
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.046 seconds
+Real time usage: 0.047 seconds
+Preprocessor visited node count: 102/1000000
+Preprocessor generated node count: 108/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key smwikidb:pcache:idhash:661-0!*!0!!en!*!* and timestamp 20220704001851 and revision id 4227
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="index.php%3Ftitle=Haskell&amp;oldid=4227.html">index.php?title=Haskell&amp;oldid=4227</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=Haskell&amp;returntoquery=oldid%3D4227" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=Haskell&amp;returntoquery=oldid%3D4227" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Haskell.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:Haskell&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Haskell.html" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="index.php%3Ftitle=Haskell&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=Haskell&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="Special:WhatLinksHere/Haskell" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/Haskell" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="index.php?title=Haskell&amp;oldid=4227&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="index.php%3Ftitle=Haskell&amp;oldid=4227.html" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="index.php%3Ftitle=Haskell&amp;action=info.html" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="./Special:Browse/Haskell.html" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 4 July 2022, at 01:45.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share Alike</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["ext.smw.tooltips","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":390});});</script>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJI@l-qOiKQM51nrlYG8wAAAAI","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="parse">action=parse</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <b>parse</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Parses content and returns parser output.
+</p><p>See the various prop-modules of <kbd><a href="./Special:ApiHelp/query.html">action=query</a></kbd> to get information from the current version of a page.
+</p><p>There are several ways to specify the text to parse:
+</p>
+<ol><li> Specify a page or revision, using <var>page</var>, <var>pageid</var>, or <var>oldid</var>.</li>
+<li> Specify content explicitly, using <var>text</var>, <var>title</var>, and <var>contentmodel</var>.</li>
+<li> Specify only a summary to parse. <var>prop</var> should be given an empty value.</li></ol><div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Parsing_wikitext#parse">https://www.mediawiki.org/wiki/API:Parsing_wikitext#parse</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>title</dt><dd class="description"><p>Title of page the text belongs to. If omitted, <var>contentmodel</var> must be specified, and <a href="index.php?title=API&amp;action=edit&amp;redlink=1" class="new" title="API (page does not exist)">API</a> will be used as the title.
+</p></dd><dt>text</dt><dd class="description"><p>Text to parse. Use <var>title</var> or <var>contentmodel</var> to control the content model.
+</p></dd><dt>summary</dt><dd class="description"><p>Summary to parse.
+</p></dd><dt>page</dt><dd class="description"><p>Parse the content of this page. Cannot be used together with <var>text</var> and <var>title</var>.
+</p></dd><dt>pageid</dt><dd class="description"><p>Parse the content of this page. Overrides <var>page</var>.
+</p></dd><dd class="info">Type: integer</dd><dt>redirects</dt><dd class="description"><p>If <var>page</var> or <var>pageid</var> is set to a redirect, resolve it.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>oldid</dt><dd class="description"><p>Parse the content of this revision. Overrides <var>page</var> and <var>pageid</var>.
+</p></dd><dd class="info">Type: integer</dd><dt>prop</dt><dd class="description"><p>Which pieces of information to get:
+</p><dl><dt>text</dt>
+<dd>Gives the parsed text of the wikitext.</dd>
+<dt>langlinks</dt>
+<dd>Gives the language links in the parsed wikitext.</dd>
+<dt>categories</dt>
+<dd>Gives the categories in the parsed wikitext.</dd>
+<dt>categorieshtml</dt>
+<dd>Gives the HTML version of the categories.</dd>
+<dt>links</dt>
+<dd>Gives the internal links in the parsed wikitext.</dd>
+<dt>templates</dt>
+<dd>Gives the templates in the parsed wikitext.</dd>
+<dt>images</dt>
+<dd>Gives the images in the parsed wikitext.</dd>
+<dt>externallinks</dt>
+<dd>Gives the external links in the parsed wikitext.</dd>
+<dt>sections</dt>
+<dd>Gives the sections in the parsed wikitext.</dd>
+<dt>revid</dt>
+<dd>Adds the revision ID of the parsed page.</dd>
+<dt>displaytitle</dt>
+<dd>Adds the title of the parsed wikitext.</dd>
+<dt>headitems</dt>
+<dd>Gives items to put in the <code>&lt;head&gt;</code> of the page.</dd>
+<dt>headhtml</dt>
+<dd>Gives parsed <code>&lt;head&gt;</code> of the page.</dd>
+<dt>modules</dt>
+<dd>Gives the ResourceLoader modules used on the page. Either <kbd>jsconfigvars</kbd> or <kbd>encodedjsconfigvars</kbd> must be requested jointly with <kbd>modules</kbd>.</dd>
+<dt>jsconfigvars</dt>
+<dd>Gives the JavaScript configuration variables specific to the page.</dd>
+<dt>encodedjsconfigvars</dt>
+<dd>Gives the JavaScript configuration variables specific to the page as a JSON string.</dd>
+<dt>indicators</dt>
+<dd>Gives the HTML of page status indicators used on the page.</dd>
+<dt>iwlinks</dt>
+<dd>Gives interwiki links in the parsed wikitext.</dd>
+<dt>wikitext</dt>
+<dd>Gives the original wikitext that was parsed.</dd>
+<dt>properties</dt>
+<dd>Gives various properties defined in the parsed wikitext.</dd>
+<dt>limitreportdata</dt>
+<dd>Gives the limit report in a structured way. Gives no data, when <var>disablelimitreport</var> is set.</dd>
+<dt>limitreporthtml</dt>
+<dd>Gives the HTML version of the limit report. Gives no data, when <var>disablelimitreport</var> is set.</dd>
+<dt>parsetree</dt>
+<dd>The XML parse tree of revision content (requires content model <code>wikitext</code>)</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): text, langlinks, categories, categorieshtml, links, templates, images, externallinks, sections, revid, displaytitle, headitems, headhtml, modules, jsconfigvars, encodedjsconfigvars, indicators, iwlinks, wikitext, properties, limitreportdata, limitreporthtml, parsetree</dd><dd class="info">Default: text|langlinks|categories|links|templates|images|externallinks|sections|revid|displaytitle|iwlinks|properties</dd><dt>pst</dt><dd class="description"><p>Do a pre-save transform on the input before parsing it. Only valid when used with text.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>onlypst</dt><dd class="description"><p>Do a pre-save transform (PST) on the input, but don't parse it. Returns the same wikitext, after a PST has been applied. Only valid when used with <var>text</var>.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>effectivelanglinks</dt><dd class="description"><p>Includes language links supplied by extensions (for use with <kbd>prop=langlinks</kbd>).
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>section</dt><dd class="description"><p>Only parse the content of this section number.
+</p><p>When <kbd>new</kbd>, parse <var>text</var> and <var>sectiontitle</var> as if adding a new section to the page.
+</p><p><kbd>new</kbd> is allowed only when specifying <var>text</var>.
+</p></dd><dt>sectiontitle</dt><dd class="description"><p>New section title when <var>section</var> is <kbd>new</kbd>.
+</p><p>Unlike page editing, this does not fall back to <var>summary</var> when omitted or empty.
+</p></dd><dt>disablepp</dt><dd class="info"><strong class="apihelp-deprecated">Deprecated.</strong></dd><dd class="description"><p>Use <var>disablelimitreport</var> instead.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>disablelimitreport</dt><dd class="description"><p>Omit the limit report ("NewPP limit report") from the parser output.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>disableeditsection</dt><dd class="description"><p>Omit edit section links from the parser output.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>disabletidy</dt><dd class="description"><p>Do not run HTML cleanup (e.g. tidy) on the parser output.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>generatexml</dt><dd class="info"><strong class="apihelp-deprecated">Deprecated.</strong></dd><dd class="description"><p>Generate XML parse tree (requires content model <code>wikitext</code>; replaced by <kbd>prop=parsetree</kbd>).
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>preview</dt><dd class="description"><p>Parse in preview mode.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>sectionpreview</dt><dd class="description"><p>Parse in section preview mode (enables preview mode too).
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>disabletoc</dt><dd class="description"><p>Omit table of contents in output.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>contentformat</dt><dd class="description"><p>Content serialization format used for the input text. Only valid when used with text.
+</p></dd><dd class="info">One of the following values: text/x-wiki, text/javascript, application/json, text/css, text/plain</dd><dt>contentmodel</dt><dd class="description"><p>Content model of the input text. If omitted, title must be specified, and default will be the model of the specified title. Only valid when used with text.
+</p></dd><dd class="info">One of the following values: wikitext, javascript, json, css, text</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Parse a page.</dt><dd><a href="./api.php%3Faction=parse&amp;page=Project:Sandbox.html">api.php?action=parse&amp;page=Project:Sandbox</a> <a href="./Special:ApiSandbox.html#action=parse&amp;page=Project:Sandbox"><small>[open in sandbox]</small></a></dd><dt>Parse wikitext.</dt><dd><a href="./api.php%3Faction=parse&amp;text={{Project:Sandbox}}&amp;contentmodel=wikitext.html">api.php?action=parse&amp;text={{Project:Sandbox}}&amp;contentmodel=wikitext</a> <a href="./Special:ApiSandbox.html#action=parse&amp;text=%7B%7BProject:Sandbox%7D%7D&amp;contentmodel=wikitext"><small>[open in sandbox]</small></a></dd><dt>Parse wikitext, specifying the page title.</dt><dd><a href="api.php%3Faction=parse&amp;text={{PAGENAME}}&amp;title=Test.html">api.php?action=parse&amp;text={{PAGENAME}}&amp;title=Test</a> <a href="./Special:ApiSandbox.html#action=parse&amp;text=%7B%7BPAGENAME%7D%7D&amp;title=Test"><small>[open in sandbox]</small></a></dd><dt>Parse a summary.</dt><dd><a href="api.php%3Faction=parse&amp;summary=Some+[[link]]&amp;prop=.html">api.php?action=parse&amp;summary=Some+[[link]]&amp;prop=</a> <a href="./Special:ApiSandbox.html#action=parse&amp;summary=Some+%5B%5Blink%5D%5D&amp;prop="><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":481});});</script>		</body></html>

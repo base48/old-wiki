@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>View source for PCBMilling - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PCBMilling","wgTitle":"PCBMilling","wgCurRevisionId":4041,"wgRevisionId":0,"wgArticleId":679,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PCBMilling","wgRelevantArticleId":679,"wgRequestId":"YsI0V6RoSHG2B3zIC3YQ0QAAAAE","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="PCBMilling" href="./index.php%3Ftitle=Special:ExportRDF%252FPCBMilling&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PCBMilling rootpage-PCBMilling skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for PCBMilling</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="PCBMilling.html" title="PCBMilling">PCBMilling</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=PCBMilling&amp;action=edit.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=PCBMilling&amp;action=edit.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in the group: <a href="index.php?title=Base48:Users&amp;action=edit&amp;redlink=1" class="new" title="Base48:Users (page does not exist)">Users</a>.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="./Special:Preferences.html" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">{{Project
+ |founder=[[user:rmarko]]
+ |status=active
+ |shortdesc=Milling and drilling PCB's on LinuxCNC
+ |image=Millingatbase.jpg
+}}
+
+Step-by step PCB milling tutorial.
+
+= Board preparation =
+
+== Required software ==
+
+Make sure you have following tools installed:
+
+* Kicad or Eagle
+* pcb2gcode - conversion of Gerber files to G-code
+* pcb2gcodeGUI - GUI for pcb2gcode
+* Camotics - G-code simulator for verification (optional)
+* hacked_cnc - control, visualization and G-code leveling (optional, installed on linuxcnc host)
+
+On Fedora pcb2gcode(GUI) can be installed from packages:
+{{cmd|code=
+dnf install pcb2gcode pcb2gcodeGUI
+}}
+
+== Kicad export ==
+
+Note: it's better to export gerbers and gcode to separate folder, sometimes you need
+to re-export stuff to correct for errors and you don't want to mix files between revisions.
+
+To export Gerber files from Kicad
+* choose File -> Plot
+* set ''Plot'' format to ''Gerber'' (default)
+* set ''Exclude PCB edge from other layer''
+* select layers to export - depending on your design this is either F.Cu or B.Cu and Edge.Cuts layers
+* click ''Plot'' on the bottom of the window
+* click ''Generate Drill file'' next to ''Plot''
+* set ''Drill Units'' to ''Millimeters''
+* set ''Drill Origin'' to ''Absolute''
+* click ''Drill File'' button on the right side of the window
+
+== G-Code conversion ==
+
+To convert Gerbers to G-code use either pcb2gcode from command line
+or pcb2gcodeGUI.
+
+Make sure to '''set correct drill side''', if your design is on F.Cu you want to drill from the front side (--dril-side=front) and vice versa.
+
+If you don't want to switch tools for drilling choose One drill option (--onedrill=true) which merges all drill operations to one
+file (bit size).
+
+== Simulation / preview ==
+
+You can verify if everything is correct by importing all files to Camotics G-code simulator.
+
+Ideally your board should start at positive X, Y coordinates with lower left corner near X0/Y0.
+
+== File upload ==
+
+Upload folder to LinuxCNC machine:
+{{cmd|code=
+scp -r project/ base@linuxcnc.base48.cz:&lt;your_nick>/
+}}
+
+= Machining =
+
+== Machine preparation ==
+
+* Start linuxcnc machine (reachable at linuxcnc.base48.cz)
+* Start machine controller
+* Start cooling pump
+* Pick a V-shaped tool from the box and install it
+
+== Clamping ==
+
+Make sure to clamp PCB blank as good as possible as it's critical for the outcome of the leveling and milling.
+
+* Clamp PCB blank on top of piece of wood with at least 4 clamps
+* Make sure RED wire is touching the PCB, it has to be put under one of the clamps so it won't come loose
+
+== LinuxCNC ==
+
+* Start LinuxCNC by running base_mill shortcut on the desktop
+* Enable machine control by disabling emergency stop (F1) and enabling power (F2)
+* Position the machine with arrow keys to a starting point (bottom left corner of your future pcb)
+* Home each axis of the machine, don't forget to home A axis as well
+* Load F.Cu or B.Cu G-code file
+* Try moving machine around displayed job to make sure it can actually reach all sides of the job without collisions
+* Switch to MDI tab (F5) (all the required commands in the following section should be present in the history)
+** To get to the starting point run '''G0 X0 Y0'''
+** To home Z-axis use '''G38.2 Z-100 F30'''
+** Go back to manual tab and '''re-home Z axis'''
+
+== Leveling ==
+
+* Switch to workspace 3, open terminal and find a directory with your jobs G-code files
+* Run pcb2gcode_postproc.py in that folder
+* Switch to workspace 4, find terminals with hacked_cnc directories
+* In the first terminal (''~/hacked_cnc'') run
+{{cmd|code=
+./hcc server --linuxcnc
+}}
+* In the second terminal (''~/hacked_cnc/hc/ui/probe/'') run
+{{cmd|code=
+./probe.py
+}}
+* Open postprocessed file in probe GUI e.g. ''proj_front_post.ngc''
+* Check if there are enough probe points for the size of your board and andjust if not
+* Probing first goes to '''-margin''' which means it will start at '''X-3''' (default margin of 3mm) if your board stars at '''X0''', make sure there's enough free space for this move if you're tight on the space of the blank PCB - the margin has to be at least 1mm for leveling to work
+* Run '''Run Probe'''
+* When probing is done run '''Process'''
+* File is automatically saved with ''lvl_'' prefix when processing is done
+* Now switch back to LinuxCNC window and load suffixed file
+
+== Milling ==
+
+* Start job with blue arrow button
+* Hope for the best, abort with F1 if stuff goes wrong
+
+== Adjusting milling depth ==
+
+If your board is not milled deep enough
+* Stop job with F1
+* Disable safety stop by pressing F1 again
+* In MDI tab
+** Move machine to Z1 with '''G0 Z1'''
+** Set machine position to e.g. Z1.1 to add 0.1mm with '''G92 Z1.1'''
+
+== Drilling ==
+
+* Load drill file (e.g. ''drill_post.ngc'') 
+* Install correct drill bit
+* To re-establish Z height again
+** Go to Manual tab (F3) and position a head outside of the milled PCB near clamp with probing wire attached so probing is possible, then few millimeters on top of the spot but don't try to make contact
+** Go to MDI tab (F5) and issue probing command '''G38.2 Z-100 F30'''
+** Go back to manual tab and '''re-home Z axis'''
+* Start drilling job
+
+== Outline ==
+
+* Load outline file (e.g. ''outline_post.ngc'')
+* Load 3.175mm endmill
+* Go to manual tab a re-establish Z height again by positioning tool slightly over the board
+* '''re-home Z axis'''
+* Start job
+
+= Post-processing =
+
+* Clean your board with sandpaper and alcohol
+* Use flux spray
+* Leave a board on a warm place for a while
+* Clean-up and power down the machine meanwhile, remove tool from tool holder
+* Take pictures
+* Solder components
+* Profit
+
+= Gallery =
+
+Feel free to upload pictures of your finished PCBs and add link(s) to following gallery:
+
+&lt;gallery widths=200>
+File:Milled-pcb-esp8266.jpg
+File:Milled-pcb-phsensor.jpg
+File:Milling_pcb2_stm32f042.jpg
+File:Oven.jpg
+File:3020pcb.jpg
+File:Hc pcb.jpg
+File:Synth pcb.jpg
+File:Millingatbase.jpg
+File:Audiothing0.jpeg
+File:Audiothing1.jpeg
+File:Audiothing2.jpg
+File:Mag brk.jpeg
+File:RN2348PCB.JPG
+File:Cpld brk.jpg
+File:Amp2.jpg
+&lt;/gallery>
+
+==== Oldstuff mov to git ====
+
+=== pcb2gcode ===
+  git clone https://github.com/pcb2gcode/pcb2gcode
+sample make_gcode script
+{{cmd|code=
+#!/bin/bash
+
+pcb2gcode \
+--front=front-gerber-F.Cu.gtl \
+--back=back-gerber-B.Cu.gbl \
+--drill=drill.drl \
+--outline=Edge.Cuts.gm1 \
+--output-dir=gcode \
+--dpi=1000 \
+--metric=true \
+--metricoutput=true \
+--mirror-absolute=false \
+--optimise=true \
+--tile-x=1 --tile-y=1 \
+--vectorial=false \
+--zchange=20.0000 \
+--zero-start=true \
+--zsafe=2.0000 \
+--extra-passes=3 \
+--mill-feed=450 \
+--mill-speed=24000 \
+--offset=0.1500 \
+--zwork=-0.0500 \
+--drill-feed=250 \
+--drill-side=back \
+--drill-speed=12000 \
+--milldrill=false \
+--nog81=false \
+--onedrill=false \
+--zdrill=-3.0000 \
+--bridges=0.8000 \
+--bridgesnum=4 \
+--cut-feed=200 \
+--cut-infeed=1.0000 \
+--cut-side=back \
+--cut-speed=24000 \
+--cutter-diameter=3.1750 \
+--fill-outline=true \
+--outline-width=0.2000 \
+--zbridges=-0.0500 \
+--zcut=-1.7000
+}}
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Templates used on this page:
+</p></div><ul>
+<li><a href="Template:Cmd" title="Template:Cmd">Template:Cmd</a> (<a href="index.php?title=Template:Cmd&amp;action=edit" title="Template:Cmd">view source</a>) </li><li><a href="./Template:Project.html" title="Template:Project">Template:Project</a> (<a href="./index.php%3Ftitle=Template:Project&amp;action=edit.html" title="Template:Project">view source</a>) </li><li><a href="Template:ProjectCategoryTags" title="Template:ProjectCategoryTags">Template:ProjectCategoryTags</a> (<a href="index.php?title=Template:ProjectCategoryTags&amp;action=edit" title="Template:ProjectCategoryTags">view source</a>) </li><li><a href="Template:ProjectInfoBoxItem" title="Template:ProjectInfoBoxItem">Template:ProjectInfoBoxItem</a> (<a href="index.php?title=Template:ProjectInfoBoxItem&amp;action=edit" title="Template:ProjectInfoBoxItem">view source</a>) </li><li><a href="Template:ProjectInfoBoxItemDivider" title="Template:ProjectInfoBoxItemDivider">Template:ProjectInfoBoxItemDivider</a> (<a href="index.php?title=Template:ProjectInfoBoxItemDivider&amp;action=edit" title="Template:ProjectInfoBoxItemDivider">view source</a>) </li><li><a href="Template:Time" title="Template:Time">Template:Time</a> (<a href="index.php?title=Template:Time&amp;action=edit" title="Template:Time">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="PCBMilling.html" title="PCBMilling">PCBMilling</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="PCBMilling.html">PCBMilling</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=PCBMilling&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=PCBMilling&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PCBMilling.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:PCBMilling&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=PCBMilling&amp;action=edit.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view"><span><a href="PCBMilling.html" >Read</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php%3Ftitle=PCBMilling&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=PCBMilling&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=PCBMilling&amp;action=edit.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/PCBMilling.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/PCBMilling" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="index.php%3Ftitle=PCBMilling&amp;action=info.html" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":400});});</script>
+	</body>
+</html>

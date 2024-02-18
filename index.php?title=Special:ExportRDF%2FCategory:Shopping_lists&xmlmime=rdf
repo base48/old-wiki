@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AShopping_lists">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:33:14+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists">
+		<rdfs:label>Shopping lists</rdfs:label>
+		<swivt:page rdf:resource="Category:Shopping_lists"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Shopping_lists"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-30T11:18:17Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456016.9710301</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-30T11:18:17Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456016.9710301</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shopping lists</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PowerSwitchTail_Order">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>PowerSwitchTail Order</rdfs:label>
+		<swivt:page rdf:resource="PowerSwitchTail_Order"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PowerSwitchTail_Order"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PowerSwitchTail Order</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Unimagnet.cz">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Unimagnet.cz</rdfs:label>
+		<swivt:page rdf:resource="Unimagnet.cz"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Unimagnet.cz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unimagnet.cz</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Lilliputdirect">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Lilliputdirect</rdfs:label>
+		<swivt:page rdf:resource="Lilliputdirect"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Lilliputdirect"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lilliputdirect</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Tme">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Tme</rdfs:label>
+		<swivt:page rdf:resource="Tme"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Tme"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tme</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RS_Components">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>RS Components</rdfs:label>
+		<swivt:page rdf:resource="RS_Components"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RS_Components"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS Components</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/HobbyKing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>HobbyKing</rdfs:label>
+		<swivt:page rdf:resource="HobbyKing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/HobbyKing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HobbyKing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Sparkfun">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Sparkfun</rdfs:label>
+		<swivt:page rdf:resource="Sparkfun"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Sparkfun"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkfun</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Ikea">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Ikea</rdfs:label>
+		<swivt:page rdf:resource="Ikea"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Ikea"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ikea</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/GME.cz">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>GME.cz</rdfs:label>
+		<swivt:page rdf:resource="GME.cz"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/GME.cz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GME.cz</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PCBs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>PCBs</rdfs:label>
+		<swivt:page rdf:resource="PCBs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PCBs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCBs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Farnell">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Farnell</rdfs:label>
+		<swivt:page rdf:resource="Farnell"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Farnell"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farnell</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PowerSwitchTail_Order">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>PowerSwitchTail Order</rdfs:label>
+		<swivt:page rdf:resource="PowerSwitchTail_Order"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PowerSwitchTail_Order"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PowerSwitchTail Order</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Unimagnet.cz">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Unimagnet.cz</rdfs:label>
+		<swivt:page rdf:resource="Unimagnet.cz"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Unimagnet.cz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unimagnet.cz</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Lilliputdirect">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Lilliputdirect</rdfs:label>
+		<swivt:page rdf:resource="Lilliputdirect"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Lilliputdirect"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lilliputdirect</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Tme">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Tme</rdfs:label>
+		<swivt:page rdf:resource="Tme"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Tme"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tme</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RS_Components">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>RS Components</rdfs:label>
+		<swivt:page rdf:resource="RS_Components"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RS_Components"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS Components</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/HobbyKing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>HobbyKing</rdfs:label>
+		<swivt:page rdf:resource="HobbyKing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/HobbyKing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HobbyKing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Sparkfun">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Sparkfun</rdfs:label>
+		<swivt:page rdf:resource="Sparkfun"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Sparkfun"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sparkfun</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Ikea">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Ikea</rdfs:label>
+		<swivt:page rdf:resource="Ikea"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Ikea"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ikea</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/GME.cz">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>GME.cz</rdfs:label>
+		<swivt:page rdf:resource="GME.cz"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/GME.cz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GME.cz</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PCBs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>PCBs</rdfs:label>
+		<swivt:page rdf:resource="PCBs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PCBs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCBs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Farnell">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AShopping_lists"/>
+		<rdfs:label>Farnell</rdfs:label>
+		<swivt:page rdf:resource="Farnell"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Farnell"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farnell</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>View source for STM32 - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"STM32","wgTitle":"STM32","wgCurRevisionId":4185,"wgRevisionId":0,"wgArticleId":668,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"STM32","wgRelevantArticleId":668,"wgRequestId":"YsJGKVzz7qJ@2AnBl@tmTQAAAAw","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="STM32" href="./index.php%3Ftitle=Special:ExportRDF%252FSTM32&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-STM32 rootpage-STM32 skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for STM32</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="STM32.html" title="STM32">STM32</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=STM32&amp;action=edit.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=STM32&amp;action=edit.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in the group: <a href="index.php?title=Base48:Users&amp;action=edit&amp;redlink=1" class="new" title="Base48:Users (page does not exist)">Users</a>.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="./Special:Preferences.html" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">= STM32 programming =
+
+== Boot mode configuration ==
+
+{{cmd|code=
+BOOT1 BOOT0 Boot mode                              Address
+  x     0   Main Flash memory                      0x8000000
+  0     1   System memory (built-in bootloader)    0x1FFFB000
+  1     1   Embedded SRAM                          0x20000000
+
+  in Main flash memory and System memory boot modes address is aliased to 0x0
+}}
+
+
+
+=== STM32F103C86T dev board boot pins ===
+
+* https://www.aliexpress.com/item/Free-Shipping-STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-Forarduino/32525208361.html
+* http://www.ebay.com/itm/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-Arduino-DHUS-/321569700934?pt=LH_DefaultDomain_0&amp;hash=item4adf0c3c46
+
+==== Legend ====
+
+ &lt;nowiki>
+ o o o BOOT0
+ o o o BOOT1
+ ---
+ |R|   Reset button
+ ---&lt;/nowiki>
+
+==== Boot to bootloader (built-in bootloader) ====
+
+* Allows flashing over USART
+
+ &lt;nowiki>
+ o [=]
+ [=] o
+ ---
+ |R|
+ ---&lt;/nowiki>
+
+==== Boot to main flash (user code) ====
+
+ &lt;nowiki>
+ [=] o
+ o o o
+ ---
+ |R|
+ ---&lt;/nowiki>
+
+== Flashing ==
+
+* Flashing is done via USART1 (A9 TX A10 RX)
+
+=== Converting Elf to Bin ===
+
+Required if you only have elf files produced by your toolchain - stm32flash accepts
+only *.bin files.
+{{cmd|
+arm-none-eabi-objcopy -O binary miniblink.elf miniblink.bin
+}}
+
+=== Using stm32flash ===
+
+Test connection with
+{{cmd|
+stm32flash /dev/ttyUSB0
+}}
+
+Flash and run from 0x0
+{{cmd|
+stm32flash /dev/ttyUSB0 -w miniblink.bin -g 0x0
+}}
+
+== Pinout ==
+
+[[Image:Stm32f103c8cb-pinlayout-wp01.jpg|700px]]
+
+== Libraries ==
+
+=== libopencm3 ===
+
+Minimalistic firmware library/framework.
+
+==== Bootstrapping on Fedora ====
+
+===== Library =====
+
+{{cmd|code=
+dnf install arm-none-eabi*
+mkdir embedded
+git clone https://github.com/libopencm3/libopencm3
+cd libopencm3
+# Edit TARGETS in Makefile and keep only targets that you need (or just stm32/f1 for example).
+make -j8
+cd ..
+}}
+
+===== DFU bootloader =====
+
+This is a bootloader for Device Firmware Update via USB (stm32/f1).
+{{cmd|code=
+git clone https://git.48.io/libopencm3_dfu
+cd libopencm3_dfu
+# connect JTAG
+make flash
+# or flash via USART &amp; stm32flash, see flashing section above
+make stm32flash
+}}
+
+===== Sample application =====
+
+For use with DFU bootloader (stm32/f1).
+{{cmd|code=
+git clone https://git.48.io/libopencm3_template
+cd libopencm3_template
+# flash via dfu
+make dfu
+# or with JTAG
+make flash
+}}
+
+===== Library examples =====
+
+{{cmd|code=
+git clone https://github.com/libopencm3/libopencm3-examples
+# Either fetch git submodule pointing to libopencm3 and repeat steps in Library section
+# or symlink libopecm3 dir to previously built libopencm3
+cd libopencm3-examples
+rmdir libopencm3
+ln -s &lt;PATH_TO-->/libopencm3 .
+# try building miniblink example
+cd examples/stm32/f1/stm32-h103/miniblink
+make
+}}
+
+==== Troubleshooting ====
+
+* use make V=1 when make fails
+* make sure openocd is not running when doing 'make flash'
+
+===== Locked device =====
+
+If you can't flash and 'make V=1 flash' reports something similar
+{{cmd|code=
+Info : Device Security Bit Set
+stm32x unlocked
+}}
+
+You need to unlock your device first (with JTAG):
+{{cmd|code=
+openocd -f jlink_swd_f103.cfg
+telnet 127.0.0.1 4444
+# in telnet issue:
+stm32f1x unlock 0
+}}
+
+== Debugging ==
+
+* https://github.com/blacksphere/blackmagic/wiki/Useful-GDB-commands
+
+=== Debugging hardware ===
+
+* [https://www.segger.com/jlink-debug-probes.html JLink]
+* [http://www.tincantools.com/JTAG/Flyswatter.html Flyswatter]
+* [https://1bitsquared.com/products/black-magic-probe Black Magic Probe]
+* [https://www.aliexpress.com/item/ST-Link-V2-stlink-mini-STM8STM32-STLINK-simulator-download-programming-With-Cover/1956977845.html?ws_ab_test=searchweb0_0,searchweb201602_0_10065_10068_10000009_10084_10083_10080_10082_10081_10060_10062_10056_10055_10054_10059_10099_10078_10079_426_10103_10073_10102_10096_10052_10050_10107_10051_10106-10050,searchweb201603_0,afswitch_5&amp;btsid=f39dbbe1-ea1c-4d29-805c-279816b30494 ST-Link clones]
+
+ST-Link clones or Discovery boards are [http://embdev.net/articles/STM_Discovery_as_Black_Magic_Probe flashable with Black Magic Probe firmware].
+
+=== JLink ===
+
+{{cmd|code=
+# add to Makefile to generate debuginfo
+CXXFLAGS = -g
+
+# run openocd
+openocd -f jlink_swd_f103.cfg
+
+# connect to openocd via gdb
+arm-none-eabi-gdb --ex 'target remote localhost:3333' &lt;EXECUTABLE>.elf
+# Use following commands when in gdb (more at http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
+# c (continue), stop execution with Ctrl-C
+# bt (stacktrace)
+# b (break), e.g. 'b main' or 'b template.c:360'
+}}
+
+=== Black Magic probe ===
+
+* https://github.com/blacksphere/blackmagic/wiki
+
+====  Running BMP on Discovery boards ====
+
+* http://embdev.net/articles/STM_Discovery_as_Black_Magic_Probe
+* https://esden.net/2014/12/29/black-magic-discovery/
+* http://nuft.github.io/arm/2015/08/24/blackmagic-stlink.html
+* https://mjoldfield.com/atelier/2018/08/nucleo-bmp.html
+
+===== F3 Discovery =====
+
+Shorting solder bridges SB13 and SB15 connects UART1 port from STM32F303 to STM32F103 making it possible
+to use Black Magic Probe as UART bridge via /dev/ttyACM1
+
+===== F4 Discovery =====
+
+To enable UART bridge via BMP on older F4 discovery (STM32F407) you need to solder wires between UART2 (PA2/PA3) on STM32F407
+to pins PA2/PA3 on STM32F103. These are located in the corners of the chips. Take care when soldering PA3 on F407 as it's
+positioned near VSS, if you manage to short these pins try lifting PA3 from the pad completely soldering wire directly to it.
+
+===== Flashing =====
+
+To see device states during the process it is useful to open a second terminal and run
+{{cmd|code=
+dmesg -Hw
+}}
+
+Next build firmware for stlink target and upload it to target
+{{cmd|code=
+# make PROBE_HOST=stlink
+# flashing blackmagic_dfu via black magic probe
+git clone https://github.com/blacksphere/blackmagic/
+cd blackmagic
+make PROBE_HOST=stlink
+arm-none-eabi-gdb --ex 'target extended-remote /dev/ttyACM0' src/blackmagic_dfu
+monitor swdp_scan
+attach 1
+monitor option erase
+# restart target so it unlocks, repeat up to 'monitor option erase' then issue
+load
+# restart target, it should boot to black magic dfu
+# [  +0.000002] usb 1-1.2: Product: Black Magic (Upgrade) for STLink/Discovery, (Firmware v1.6-rc0-257-gd6e2977)
+# upload black magic via dfu
+#
+# disconnect your programmer so only target board is connected
+#
+sudo dfu-util -s 0x08002000:leave -D src/blackmagic.bin
+# if dfu-util can't find your device you can specify -S &lt;serial> from dmesg output
+sudo dfu-util -S 7EBA7BA4 -s 0x08002000:leave -D src/blackmagic.bin
+}}
+
+Sample session:
+{{cmd|code=
+$ arm-none-eabi-gdb --ex 'target extended-remote /dev/ttyACM0' src/blackmagic_dfu
+Reading symbols from src/blackmagic_dfu...done.
+Remote debugging using /dev/ttyACM0
+(gdb) monitor swdp_scan
+Target voltage: unknown
+Available Targets:
+No. Att Driver
+ 1      STM32F1 medium density
+(gdb) attach 1
+Attaching to program: /home/rmarko/embedded/blackmagic/src/blackmagic_dfu, Remote target
+0x08010064 in ?? ()
+(gdb) monitor option erase
+0x1FFFF800: 0x0000
+0x1FFFF802: 0x0000
+0x1FFFF804: 0x0000
+0x1FFFF806: 0x0000
+0x1FFFF808: 0x0000
+0x1FFFF80A: 0x0000
+0x1FFFF80C: 0x0000
+0x1FFFF80E: 0x0000
+(gdb) load
+Error erasing flash with vFlashErase packet
+# ^^ target needs rebooting to unlock flash
+(gdb) quit
+
+&lt;TARGET REBOOTED>
+
+$ arm-none-eabi-gdb --ex 'target extended-remote /dev/ttyACM0' src/blackmagic_dfu
+Reading symbols from src/blackmagic_dfu...done.
+Remote debugging using /dev/ttyACM0
+(gdb) monitor swdp_scan
+Target voltage: unknown
+Available Targets:
+No. Att Driver
+ 1      STM32F1 medium density
+(gdb) attach 1
+Attaching to program: /home/rmarko/embedded/blackmagic/src/blackmagic_dfu, Remote target
+0xfffffffe in ?? ()
+(gdb) load
+Loading section .text, size 0x1c48 lma 0x8000000
+Loading section .data, size 0x90 lma 0x8001c48
+Start address 0x8001498, load size 7384
+Transfer rate: 11 KB/sec, 820 bytes/write.
+(gdb) quit
+
+&lt;TARGET REBOOTED>
+
+$ dmesg
+[691195.851258] usb 1-1.6: new full-speed USB device number 112 using ehci-pci
+[691195.943994] usb 1-1.6: New USB device found, idVendor=1d50, idProduct=6017
+[691195.943997] usb 1-1.6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[691195.943999] usb 1-1.6: Product: Black Magic (Upgrade) for STLink/Discovery, (Firmware v1.6.1-98-g9a5b31c)
+[691195.944001] usb 1-1.6: Manufacturer: Black Sphere Technologies
+[691195.944002] usb 1-1.6: SerialNumber: 7EBA7BA4
+
+$ sudo dfu-util -S 7EBA7BA4 -s 0x08002000:leave -D src/blackmagic.bin
+dfu-util 0.9
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+dfu-util: Invalid DFU suffix signature
+dfu-util: A valid DFU suffix will be required in a future dfu-util release!!!
+Opening DFU capable USB device...
+ID 1d50:6017
+Run-time device DFU version 011a
+Claiming USB DFU Interface...
+Setting Alternate Setting #0 ...
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 011a
+Device returned transfer size 1024
+DfuSe interface name: "Internal Flash   "
+Downloading to address = 0x08002000, size = 60660
+Download	[=========================] 100%        60660 bytes
+Download done.
+File downloaded successfully
+Transitioning to dfuMANIFEST state
+
+&lt;TARGET REBOOTED>
+
+$ dmesg
+[691227.339977] usb 1-1.6: new full-speed USB device number 113 using ehci-pci
+[691227.432954] usb 1-1.6: New USB device found, idVendor=1d50, idProduct=6018
+[691227.432956] usb 1-1.6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[691227.432957] usb 1-1.6: Product: Black Magic Probe (STLINK), (Firmware v1.6.1-98-g9a5b31c)
+[691227.432958] usb 1-1.6: Manufacturer: Black Sphere Technologies
+[691227.432959] usb 1-1.6: SerialNumber: 7EBA7BA4
+[691227.433654] cdc_acm 1-1.6:1.0: ttyACM0: USB ACM device
+[691227.434290] cdc_acm 1-1.6:1.2: ttyACM1: USB ACM device
+}}
+
+===== Usage =====
+
+{{cmd|code=
+arm-none-eabi-gdb --ex 'target extended-remote /dev/ttyACM0'
+# Use following commands when in gdb
+monitor swdp_scan
+attach 1
+}}
+
+Sample session:
+{{cmd|code=
+(gdb) monitor swdp_scan
+Target voltage: unknown
+Available Targets:
+No. Att Driver
+1      STM32F4xx
+(gdb) attach 1
+Attaching to Remote target
+Error while running hook_stop:
+Invalid type combination in equality test.
+0x080035c2 in ?? ()
+(gdb) bt
+#0  0x080035c2 in ?? ()
+#1  0x08001032 in ?? ()
+#2  0x08001032 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+}}
+
+To access serial bridge:
+{{cmd|code=
+screen /dev/ttyACM1 115200
+}}
+
+===== Tested boards =====
+* STLink programmers
+* STM32 F4 Discovery
+* STM32 IoT node (STM32L475)
+
+== Links ==
+=== DMA ===
+* http://jeelabs.org/article/1610c/
+
+=== DAC ===
+* http://embedded-lab.com/blog/stm32-digital-analogue-converter-dac/
+
+=== Docs ===
+* [http://www.st.com/content/ccc/resource/technical/document/user_manual/8a/56/97/63/8d/56/41/73/DM00063382.pdf/files/DM00063382.pdf/jcr:content/translations/en.DM00063382.pdf STM32 F3 Discovery (STM32F303VC) Manual]
+* [http://www.st.com/content/ccc/resource/technical/document/user_manual/70/fe/4a/3f/e7/e1/4f/7d/DM00039084.pdf/files/DM00039084.pdf/jcr:content/translations/en.DM00039084.pdf STM32 F4 Discovery (STM32F407VG) Manual]
+* [http://www.st.com/content/ccc/resource/technical/document/datasheet/f2/1f/e1/41/ef/59/4d/50/DM00058181.pdf/files/DM00058181.pdf/jcr:content/translations/en.DM00058181.pdf STM32F303VC]
+* [http://www.st.com/content/ccc/resource/technical/document/reference_manual/3d/6d/5a/66/b4/99/40/d4/DM00031020.pdf/files/DM00031020.pdf/jcr:content/translations/en.DM00031020.pdf STM32F407]
+* [http://www.mouser.com/ds/2/389/stm32f334k4-956319.pdf STM32F334]
+* [http://www.st.com/content/ccc/resource/technical/document/application_note/31/14/f4/9d/d3/8f/48/2b/DM00070391.pdf/files/DM00070391.pdf/jcr:content/translations/en.DM00070391.pdf Getting started with STM32F3 series]
+* [http://www.st.com/content/ccc/resource/technical/document/application_note/8e/c8/8d/e3/ee/ff/44/e6/DM00073522.pdf/files/DM00073522.pdf/jcr:content/translations/en.DM00073522.pdf Migrating from F1 to F3 series]
+
+= Calculating Timer Frequency =
+
+== MUCH WIP ==
+
+period_target_ms = p1
+period_hz = p2
+
+1000ms / p1 = p2
+
+E.g. for 20ms (servo) period
+
+1000ms / 20 ms = 50 hz
+
+cpu_freq = 72Mhz
+prescale = 72
+
+72MHz / 72 = 1Mhz
+
+This increases out count register CNT by 1 000 000 each second.
+To calculate what is the correct value for the ARR register (which defines the period),
+we divide the result of the prescaled frequency
+by the intended frequency for our period:
+
+1 000 000 Hz / 50 Hz = 20 000
+
+Now every time the CNT register is increased by one, this is the equivalent to 1us.
+The duty cycle now could by set easily.
+E.g. for a 1.5ms duty cycle we set the CCRx register to 1500.
+
+
+== Stepper ==
+
+driver_max_duty = 250khz
+
+From http://www.kaltpost.de/?page_id=412
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Template used on this page:
+</p></div><ul>
+<li><a href="Template:Cmd" title="Template:Cmd">Template:Cmd</a> (<a href="index.php?title=Template:Cmd&amp;action=edit" title="Template:Cmd">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="STM32.html" title="STM32">STM32</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="STM32.html">STM32</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=STM32&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=STM32&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="STM32.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:STM32&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=STM32&amp;action=edit.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view"><span><a href="STM32.html" >Read</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php%3Ftitle=STM32&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=STM32&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=STM32&amp;action=edit.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="Special:WhatLinksHere/STM32" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/STM32" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="index.php%3Ftitle=STM32&amp;action=info.html" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":403});});</script>
+	</body>
+</html>

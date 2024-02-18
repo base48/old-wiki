@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Bike_repair_workshop">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T01:58:31+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events"/>
+		<rdfs:label>Bike repair workshop</rdfs:label>
+		<swivt:page rdf:resource="Bike_repair_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_query rdf:resource="&wiki;Bike_repair_workshop-23_QUERYddf84c279cdc2dda410e2675125bb209"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-21T23:53:33Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456100.4955208</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31T02:01:12Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457053.5841667</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_147ed0c87a19639a4bead199d59ddf86"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_374c14dd69a2e9befc2d947fef048287"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_b85b1e7075022d9dd487d7bc6c69f4e9"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_2447397f67118fdf9ddd34267e40e673"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_70b6e48394d372a227620459de75f63b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_eafb091b9f9a131458eca0258432a992"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_4ca8476db3b7bda077c8b5371a2b1178"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_8956136458fd8b15cb327ffcfa5170fb"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_155f1df90d39477dbe65adcdb9c9a2aa"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_7bacaa9938d3d6c5bef95fbb68a1b693"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_30c0bcfba9ca4f38d864dea4387c39b4"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_3ad293b822e663cc4d5c2a44f210951d"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_4f1658dd1b09f307e96cf6aa75ba3ece"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_3e2ef03bf5829627a9a1bae71ed58760"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_365769296ff69215124ac8d5cdde0e1d"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_e5425647d7b477766827e2b6aff180ab"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_bb74a125472f9ae7aab18f587357b800"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_ac19b6b7cdd3893155874f074a7c660f"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_3fff6764c7ca551c994cd6b198981b28"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_b2137389f54bb0dae2a9f62996dcfa28"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_a4d8fe03f6d9253edea00058dde9bf74"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_4b69bcaab1cf24f9f23fe90118e85bc7"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_fe3828ed9b57d584534a19bb78a8287b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_6c293fa049f8cbe94a7a127a0e71fa3a"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_1519ad961c4f28c234fdf6bd483a7a5b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_2a6595f6fd8551968f283120e4b2c519"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_40567023b10f9c05d7eb3daacdc33f3a"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_7785dc117b52b713e1a514749c1e1204"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_b0415a657edf5850de66c4edc7073683"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_5c9029ca095ae3d699bda4466e523771"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_a19a881bc55f38bf72864e76c94691e5"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_8c471ddfd88db89b86a5cfb9dbc902a1"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_e84b6d35f1cce45d6cf42436ab2b7ed5"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_a1b72c42d2a832f9e58bf057c90b2ece"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_ee83203b71f90b464bfe6a795c2d983a"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_438acb9d1eab9c38027bec950508f57b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_fbb742d63a2d6841257a17aacc1a5014"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_cef8abc29786408586195d8c6d40a12d"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_f2fc812e9de0285f38e4f879b36a5b2e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_b30fbfa87a2e1e5379f536f5111cf210"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_0014af5fa18634d8042204388fef1e67"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_33a4bbe3f3e8b340c252a7a4003eeeb3"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_0340c037b727f92b41900852a553f386"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_88d845b569a39ef69b13d0d26b446f6c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_35cae600ca9be07bbd859e786bf6ff5b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_90936ae3ebae78f9c2fbf923522f8470"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_efc020ad5d9292304a504562aeeb818c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_3e6f2f91a98e8e12fcb59f4d6f293cbd"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_80c76a8a6bc23f37d51553011684e52e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_377200d84a06834dcec4d106c2510219"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_39fc73a9d17da000642629f9ac774446"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_fd59e1153d59cb18526d9bc5f05e7430"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_b22c72fa24d5f583950083344b335def"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_1eeb55d0cd4fbb798239736c2dd7b96f"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_544a9d8b13d15f0ed8d8c49a6e04a09c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_7ea2cf350e5a074c8d7c6636dbf4367a"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_c761a27b644fd6d67c1300fea7a051d9"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_df0418144ea98d5681913512ea32d928"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_05dd45d0d9b354510922b91cc758d939"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_fe994239dd58f65c37fb5557ca602fcb"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_1ef20d99cf0c6df10041e183fb79547f"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_d331eaea7fbd1edcc94d3887585ab386"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_f41895d421ddd325fc5a0548758f3978"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_1abf1f769e43c67a5a86234805f6a376"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_6bfd8016d06825f3759d52c9fc307536"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_e52257428052346169e1b907c317247a"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_62e31253b3ad481ba2fb16bb9cdcb33b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_833abf905103bd8094d93b9adc5ca9b1"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_4a8779f6e19955f73dedf34af6f3919e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_24d9dc41eaba622f9c3e5257f01ffe14"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_d31ed49d698c07e2723072a506ac601b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_2e8c982b533bc6018cc2966bf4261148"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_133829d33931e2144dd3d9a8c560483e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_62f2201ec819a0737b1231cad4195ef1"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_127e07b64cf324bb2cf0e760a05571c6"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_dae87203a5dc2b3664a2fa0e3386d027"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_db83d53234441acb2aa7cc0bbfb33b02"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_dfbcd69939d6849cf21b8be2119668e7"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_25e79e45b611584b7fb6929619231608"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_4f3842ecfd7f61e91782d7d59020d7e4"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_53f4037f3829b18c43ee97a0d0296eae"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_1c0afd08a8ea292398afced533232f8c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_68cd4941cba80875ee5193dfdff1451e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_e5bbe199b41880e5a2a0ba35c5706064"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_00425fe07b9896d51f89d211e6ce1fbe"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_007520720eab0f3aa4fd68e123609f5e"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_9c7767d6d2c0869aed8d63f4cc9daeac"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_5c606d8977e126c8abe160d59e19e3f0"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_131cc63330eeea6433db2b7797771061"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_fae9a539db3f667043f220b2049899cd"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_3122d553dd99566f3418756004c1bcba"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_bc793c507118bd2f6c6310694f0957b2"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_aba174326bd3368a00bca0473b52b363"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_757463d54fb5903d4b21e2e8dbe546aa"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_f1ae2fd061cb54b8b0314c57623bd07c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_9e41fef9da213c700443e0c200aec3ca"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_587634c9e256e4be6f5c091286837439"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_9aa6fc948b3ce4dccce807082095823c"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_36df1956b8840864f5e7b6de16e8afc5"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_7cc4d586f7720ca888d8ce44aec3850b"/>
+		<property:Has_subobject rdf:resource="&wiki;Bike_repair_workshop-23_0d3fabd046d085d0e89ca5d11cdc3af6"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_QUERYddf84c279cdc2dda410e2675125bb209">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">icalendar</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Event page::Bike repair workshop]] [[Start date::\342\211\24511 October 2017]] [[Start date::\342\211\24411 April 2018]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_147ed0c87a19639a4bead199d59ddf86">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456596.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_374c14dd69a2e9befc2d947fef048287">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456302.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b85b1e7075022d9dd487d7bc6c69f4e9">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456309.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2447397f67118fdf9ddd34267e40e673">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456316.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_70b6e48394d372a227620459de75f63b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456323.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_eafb091b9f9a131458eca0258432a992">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456330.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4ca8476db3b7bda077c8b5371a2b1178">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456337.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_8956136458fd8b15cb327ffcfa5170fb">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456344.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_155f1df90d39477dbe65adcdb9c9a2aa">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456351.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7bacaa9938d3d6c5bef95fbb68a1b693">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456358.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_30c0bcfba9ca4f38d864dea4387c39b4">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456365.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3ad293b822e663cc4d5c2a44f210951d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456372.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4f1658dd1b09f307e96cf6aa75ba3ece">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456379.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3e2ef03bf5829627a9a1bae71ed58760">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456386.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_365769296ff69215124ac8d5cdde0e1d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456393.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e5425647d7b477766827e2b6aff180ab">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456400.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_bb74a125472f9ae7aab18f587357b800">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456407.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_ac19b6b7cdd3893155874f074a7c660f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456414.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3fff6764c7ca551c994cd6b198981b28">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456421.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b2137389f54bb0dae2a9f62996dcfa28">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456428.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a4d8fe03f6d9253edea00058dde9bf74">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456435.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4b69bcaab1cf24f9f23fe90118e85bc7">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456442.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fe3828ed9b57d584534a19bb78a8287b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456449.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_6c293fa049f8cbe94a7a127a0e71fa3a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456456.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1519ad961c4f28c234fdf6bd483a7a5b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456463.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2a6595f6fd8551968f283120e4b2c519">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456470.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_40567023b10f9c05d7eb3daacdc33f3a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456477.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7785dc117b52b713e1a514749c1e1204">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456484.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b0415a657edf5850de66c4edc7073683">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456491.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_5c9029ca095ae3d699bda4466e523771">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456498.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a19a881bc55f38bf72864e76c94691e5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-31T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456505.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_8c471ddfd88db89b86a5cfb9dbc902a1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456512.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e84b6d35f1cce45d6cf42436ab2b7ed5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456519.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a1b72c42d2a832f9e58bf057c90b2ece">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456526.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_ee83203b71f90b464bfe6a795c2d983a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456533.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_438acb9d1eab9c38027bec950508f57b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456540.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fbb742d63a2d6841257a17aacc1a5014">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456547.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_cef8abc29786408586195d8c6d40a12d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456554.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f2fc812e9de0285f38e4f879b36a5b2e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456561.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b30fbfa87a2e1e5379f536f5111cf210">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456568.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0014af5fa18634d8042204388fef1e67">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456575.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_33a4bbe3f3e8b340c252a7a4003eeeb3">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456582.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0340c037b727f92b41900852a553f386">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456589.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_88d845b569a39ef69b13d0d26b446f6c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456603.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_35cae600ca9be07bbd859e786bf6ff5b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456610.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_90936ae3ebae78f9c2fbf923522f8470">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456617.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_efc020ad5d9292304a504562aeeb818c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456624.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3e6f2f91a98e8e12fcb59f4d6f293cbd">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456631.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_80c76a8a6bc23f37d51553011684e52e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456638.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_377200d84a06834dcec4d106c2510219">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456645.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_39fc73a9d17da000642629f9ac774446">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456652.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fd59e1153d59cb18526d9bc5f05e7430">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456659.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b22c72fa24d5f583950083344b335def">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456666.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1eeb55d0cd4fbb798239736c2dd7b96f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456673.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_544a9d8b13d15f0ed8d8c49a6e04a09c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456680.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7ea2cf350e5a074c8d7c6636dbf4367a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456687.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_c761a27b644fd6d67c1300fea7a051d9">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456694.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_df0418144ea98d5681913512ea32d928">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456701.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_05dd45d0d9b354510922b91cc758d939">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456708.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fe994239dd58f65c37fb5557ca602fcb">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456715.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1ef20d99cf0c6df10041e183fb79547f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456722.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_d331eaea7fbd1edcc94d3887585ab386">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456729.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f41895d421ddd325fc5a0548758f3978">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456736.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1abf1f769e43c67a5a86234805f6a376">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456743.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_6bfd8016d06825f3759d52c9fc307536">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456750.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e52257428052346169e1b907c317247a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456757.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_62e31253b3ad481ba2fb16bb9cdcb33b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456764.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_833abf905103bd8094d93b9adc5ca9b1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456771.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4a8779f6e19955f73dedf34af6f3919e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456778.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_24d9dc41eaba622f9c3e5257f01ffe14">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456785.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_d31ed49d698c07e2723072a506ac601b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456792.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2e8c982b533bc6018cc2966bf4261148">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456799.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_133829d33931e2144dd3d9a8c560483e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456806.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_62f2201ec819a0737b1231cad4195ef1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456813.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_127e07b64cf324bb2cf0e760a05571c6">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456820.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_dae87203a5dc2b3664a2fa0e3386d027">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456827.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_db83d53234441acb2aa7cc0bbfb33b02">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456834.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_dfbcd69939d6849cf21b8be2119668e7">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456841.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_25e79e45b611584b7fb6929619231608">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456848.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4f3842ecfd7f61e91782d7d59020d7e4">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456855.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_53f4037f3829b18c43ee97a0d0296eae">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456862.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1c0afd08a8ea292398afced533232f8c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456869.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_68cd4941cba80875ee5193dfdff1451e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456876.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e5bbe199b41880e5a2a0ba35c5706064">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456883.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_00425fe07b9896d51f89d211e6ce1fbe">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456890.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_007520720eab0f3aa4fd68e123609f5e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-08-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456897.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9c7767d6d2c0869aed8d63f4cc9daeac">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456904.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_5c606d8977e126c8abe160d59e19e3f0">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456911.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_131cc63330eeea6433db2b7797771061">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456918.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fae9a539db3f667043f220b2049899cd">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456925.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3122d553dd99566f3418756004c1bcba">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456932.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_bc793c507118bd2f6c6310694f0957b2">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456939.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_aba174326bd3368a00bca0473b52b363">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456946.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_757463d54fb5903d4b21e2e8dbe546aa">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456953.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f1ae2fd061cb54b8b0314c57623bd07c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456960.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9e41fef9da213c700443e0c200aec3ca">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456967.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_587634c9e256e4be6f5c091286837439">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456974.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9aa6fc948b3ce4dccce807082095823c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456981.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_36df1956b8840864f5e7b6de16e8afc5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456988.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7cc4d586f7720ca888d8ce44aec3850b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456995.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0d3fabd046d085d0e89ca5d11cdc3af6">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457002.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_365769296ff69215124ac8d5cdde0e1d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_ee83203b71f90b464bfe6a795c2d983a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_24d9dc41eaba622f9c3e5257f01ffe14">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fe994239dd58f65c37fb5557ca602fcb">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_5c606d8977e126c8abe160d59e19e3f0">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4b69bcaab1cf24f9f23fe90118e85bc7">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fd59e1153d59cb18526d9bc5f05e7430">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_70b6e48394d372a227620459de75f63b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_d31ed49d698c07e2723072a506ac601b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_db83d53234441acb2aa7cc0bbfb33b02">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e5425647d7b477766827e2b6aff180ab">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_127e07b64cf324bb2cf0e760a05571c6">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4f3842ecfd7f61e91782d7d59020d7e4">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fae9a539db3f667043f220b2049899cd">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_25e79e45b611584b7fb6929619231608">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1c0afd08a8ea292398afced533232f8c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_aba174326bd3368a00bca0473b52b363">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_5c9029ca095ae3d699bda4466e523771">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4ca8476db3b7bda077c8b5371a2b1178">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4a8779f6e19955f73dedf34af6f3919e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_88d845b569a39ef69b13d0d26b446f6c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_8956136458fd8b15cb327ffcfa5170fb">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_587634c9e256e4be6f5c091286837439">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1eeb55d0cd4fbb798239736c2dd7b96f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7cc4d586f7720ca888d8ce44aec3850b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a19a881bc55f38bf72864e76c94691e5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_cef8abc29786408586195d8c6d40a12d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a4d8fe03f6d9253edea00058dde9bf74">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_377200d84a06834dcec4d106c2510219">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9c7767d6d2c0869aed8d63f4cc9daeac">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_eafb091b9f9a131458eca0258432a992">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_00425fe07b9896d51f89d211e6ce1fbe">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_4f1658dd1b09f307e96cf6aa75ba3ece">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_90936ae3ebae78f9c2fbf923522f8470">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_62f2201ec819a0737b1231cad4195ef1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f2fc812e9de0285f38e4f879b36a5b2e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b30fbfa87a2e1e5379f536f5111cf210">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fe3828ed9b57d584534a19bb78a8287b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7bacaa9938d3d6c5bef95fbb68a1b693">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3fff6764c7ca551c994cd6b198981b28">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_bb74a125472f9ae7aab18f587357b800">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b2137389f54bb0dae2a9f62996dcfa28">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_efc020ad5d9292304a504562aeeb818c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_757463d54fb5903d4b21e2e8dbe546aa">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b0415a657edf5850de66c4edc7073683">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_fbb742d63a2d6841257a17aacc1a5014">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_dae87203a5dc2b3664a2fa0e3386d027">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_133829d33931e2144dd3d9a8c560483e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_ac19b6b7cdd3893155874f074a7c660f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3ad293b822e663cc4d5c2a44f210951d">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7ea2cf350e5a074c8d7c6636dbf4367a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_40567023b10f9c05d7eb3daacdc33f3a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_33a4bbe3f3e8b340c252a7a4003eeeb3">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1abf1f769e43c67a5a86234805f6a376">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_05dd45d0d9b354510922b91cc758d939">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9e41fef9da213c700443e0c200aec3ca">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e84b6d35f1cce45d6cf42436ab2b7ed5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_d331eaea7fbd1edcc94d3887585ab386">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_007520720eab0f3aa4fd68e123609f5e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1519ad961c4f28c234fdf6bd483a7a5b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_438acb9d1eab9c38027bec950508f57b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0340c037b727f92b41900852a553f386">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_155f1df90d39477dbe65adcdb9c9a2aa">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_1ef20d99cf0c6df10041e183fb79547f">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e52257428052346169e1b907c317247a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_dfbcd69939d6849cf21b8be2119668e7">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_e5bbe199b41880e5a2a0ba35c5706064">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_131cc63330eeea6433db2b7797771061">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_374c14dd69a2e9befc2d947fef048287">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_6c293fa049f8cbe94a7a127a0e71fa3a">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_36df1956b8840864f5e7b6de16e8afc5">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3e2ef03bf5829627a9a1bae71ed58760">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_68cd4941cba80875ee5193dfdff1451e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_6bfd8016d06825f3759d52c9fc307536">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_df0418144ea98d5681913512ea32d928">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_147ed0c87a19639a4bead199d59ddf86">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f1ae2fd061cb54b8b0314c57623bd07c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_a1b72c42d2a832f9e58bf057c90b2ece">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_bc793c507118bd2f6c6310694f0957b2">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_8c471ddfd88db89b86a5cfb9dbc902a1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_80c76a8a6bc23f37d51553011684e52e">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_30c0bcfba9ca4f38d864dea4387c39b4">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_833abf905103bd8094d93b9adc5ca9b1">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0014af5fa18634d8042204388fef1e67">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_544a9d8b13d15f0ed8d8c49a6e04a09c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_c761a27b644fd6d67c1300fea7a051d9">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3122d553dd99566f3418756004c1bcba">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2e8c982b533bc6018cc2966bf4261148">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_62e31253b3ad481ba2fb16bb9cdcb33b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_53f4037f3829b18c43ee97a0d0296eae">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_3e6f2f91a98e8e12fcb59f4d6f293cbd">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2447397f67118fdf9ddd34267e40e673">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b85b1e7075022d9dd487d7bc6c69f4e9">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_9aa6fc948b3ce4dccce807082095823c">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_f41895d421ddd325fc5a0548758f3978">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_2a6595f6fd8551968f283120e4b2c519">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_35cae600ca9be07bbd859e786bf6ff5b">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_7785dc117b52b713e1a514749c1e1204">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_0d3fabd046d085d0e89ca5d11cdc3af6">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_39fc73a9d17da000642629f9ac774446">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop-23_b22c72fa24d5f583950083344b335def">
+		<swivt:masterPage rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair">
+		<rdfs:label>Bike repair</rdfs:label>
+		<swivt:page rdf:resource="Bike_repair"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Bike_repair"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:redirectsTo rdf:resource="&wiki;Bike_repair_workshop"/>
+		<owl:sameAs rdf:resource="&wiki;Bike_repair_workshop"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AEvent_page">
+		<rdfs:label>Event page</rdfs:label>
+		<swivt:page rdf:resource="Property:Event_page"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Event_page"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event page</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_subobject" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AIs_recurring" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date-23aux" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#redirectsTo" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

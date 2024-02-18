@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>EmbeddedHaskell - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"EmbeddedHaskell","wgTitle":"EmbeddedHaskell","wgCurRevisionId":4165,"wgRevisionId":4165,"wgArticleId":695,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"EmbeddedHaskell","wgRelevantArticleId":695,"wgRequestId":"YsJGHVqCoJAB@JkWwb@y2QAAAAQ","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.smw.style","mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.pygments|mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="EmbeddedHaskell" href="./index.php%3Ftitle=Special:ExportRDF%252FEmbeddedHaskell&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-EmbeddedHaskell rootpage-EmbeddedHaskell skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">EmbeddedHaskell</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From base48</div>
+								<div id="contentSub"><div id="mw-revision-info">Revision as of 08:50, 2 April 2019 by <a href="./User:Rmarko.html" title="User:Rmarko" class="mw-userlink">Rmarko</a> <span class="mw-usertoollinks">(<a href="./index.php%3Ftitle=User_talk:Rmarko&amp;action=edit&amp;redlink=1.html" class="new" title="User talk:Rmarko (page does not exist)">talk</a> | <a href="./Special:Contributions/Rmarko.html" title="Special:Contributions/Rmarko">contribs</a>)</span> <span class="comment">(book links)</span></div><br />
+				<div id="mw-revision-nav">(<a href="index.php?title=EmbeddedHaskell&amp;diff=prev&amp;oldid=4165" title="EmbeddedHaskell">diff</a>) <a href="index.php?title=EmbeddedHaskell&amp;direction=prev&amp;oldid=4165" title="EmbeddedHaskell">← Older revision</a> | Latest revision (diff) | Newer revision → (diff)</div></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>"Life is too short to C" -- Adluc
+</p><p>There are now serveral ways to generate C code for embedded applications with domain specific languages embedded in Haskell.
+This allows us to use type system and powerful compiler
+to catch errors sooner and get close to 'if it compiles it works' experience for embedded
+world.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Links"><span class="tocnumber">1</span> <span class="toctext">Links</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Frameworks"><span class="tocnumber">2</span> <span class="toctext">Frameworks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Ivory_Tower"><span class="tocnumber">2.1</span> <span class="toctext">Ivory Tower</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Repositories"><span class="tocnumber">2.1.1</span> <span class="toctext">Repositories</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Papers"><span class="tocnumber">2.1.2</span> <span class="toctext">Papers</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Projects"><span class="tocnumber">2.1.3</span> <span class="toctext">Projects</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Local_projects"><span class="tocnumber">2.1.4</span> <span class="toctext">Local projects</span></a>
+<ul>
+<li class="toclevel-4 tocsection-8"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#CAN4DISCO"><span class="tocnumber">2.1.4.1</span> <span class="toctext">CAN4DISCO</span></a></li>
+<li class="toclevel-4 tocsection-9"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#ODrive_experimental_firmware"><span class="tocnumber">2.1.4.2</span> <span class="toctext">ODrive experimental firmware</span></a></li>
+<li class="toclevel-4 tocsection-10"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#HEXAMON_Firmware"><span class="tocnumber">2.1.4.3</span> <span class="toctext">HEXAMON Firmware</span></a></li>
+<li class="toclevel-4 tocsection-11"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Various"><span class="tocnumber">2.1.4.4</span> <span class="toctext">Various</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-12"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Working_with_Ivory_Tower"><span class="tocnumber">2.1.5</span> <span class="toctext">Working with Ivory Tower</span></a>
+<ul>
+<li class="toclevel-4 tocsection-13"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Prepare_environment"><span class="tocnumber">2.1.5.1</span> <span class="toctext">Prepare environment</span></a></li>
+<li class="toclevel-4 tocsection-14"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Running_UART_test"><span class="tocnumber">2.1.5.2</span> <span class="toctext">Running UART test</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Atom"><span class="tocnumber">3</span> <span class="toctext">Atom</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Copilot"><span class="tocnumber">4</span> <span class="toctext">Copilot</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Tutorials"><span class="tocnumber">4.1</span> <span class="toctext">Tutorials</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#Ion"><span class="tocnumber">5</span> <span class="toctext">Ion</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Links">Links</span></h2>
+<ul><li> Haskell embedded blog <a rel="nofollow" class="external free" href="https://haskellembedded.github.io/">https://haskellembedded.github.io/</a></li>
+<li> #haskell-embedded on freenode</li></ul>
+<h2><span class="mw-headline" id="Frameworks">Frameworks</span></h2>
+<h3><span class="mw-headline" id="Ivory_Tower">Ivory Tower</span></h3>
+<p>The Ivory Language is an eDSL for safe systems programming. You can think of Ivory as a safer C, embedded in Haskell.
+</p><p>The Tower Language is an eDSL for composing Ivory programs into real-time systems. Tower programs specify communication channels, tasks, and signal handlers, and generate Ivory code which implements scheduling and communication for real-time operating systems.  
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://ivorylang.org/">http://ivorylang.org/</a></li>
+<li> <a rel="nofollow" class="external free" href="http://ivorylang.org/tower-overview.html">http://ivorylang.org/tower-overview.html</a></li></ul>
+<p>Work in progress book:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://48.io/~rmarko/book/">http://48.io/~rmarko/book/</a></li>
+<li> Sources <a rel="nofollow" class="external free" href="https://github.com/HaskellEmbedded/book">https://github.com/HaskellEmbedded/book</a></li></ul>
+<h4><span class="mw-headline" id="Repositories">Repositories</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/ivory/">https://github.com/GaloisInc/ivory/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/tower/">https://github.com/GaloisInc/tower/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/ivory-tower-stm32/">https://github.com/GaloisInc/ivory-tower-stm32/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/smaccmpilot-stm32f4/">https://github.com/GaloisInc/smaccmpilot-stm32f4/</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/smaccmpilot-build">https://github.com/GaloisInc/smaccmpilot-build</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/gidl">https://github.com/GaloisInc/gidl</a></li></ul>
+<h4><span class="mw-headline" id="Papers">Papers</span></h4>
+<ul><li> Guilt Free Ivory <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/ivory/blob/master/ivory-paper/ivory.pdf">https://github.com/GaloisInc/ivory/blob/master/ivory-paper/ivory.pdf</a></li>
+<li> Building Embedded Systems with Embedded DSLs <a rel="nofollow" class="external free" href="https://github.com/GaloisInc/smaccmpilot-experiencereport/raw/master/embedded-experience.pdf">https://github.com/GaloisInc/smaccmpilot-experiencereport/raw/master/embedded-experience.pdf</a></li></ul>
+<h4><span class="mw-headline" id="Projects">Projects</span></h4>
+<ul><li> <a rel="nofollow" class="external free" href="http://smaccmpilot.org/">http://smaccmpilot.org/</a></li></ul>
+<h4><span class="mw-headline" id="Local_projects">Local projects</span></h4>
+<h5><span class="mw-headline" id="CAN4DISCO">CAN4DISCO</span></h5>
+<p>UART2CAN bridge (with kernel support via SLCAN protocol) and CAN development board/firmware.
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/distrap/can4disco">https://github.com/distrap/can4disco</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/distrap/can4disco-hw">https://github.com/distrap/can4disco-hw</a></li></ul>
+<h5><span class="mw-headline" id="ODrive_experimental_firmware">ODrive experimental firmware</span></h5>
+<p>Brushless DC motor controller firmware for ODrive board.
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/distrap/lambdadrive">https://github.com/distrap/lambdadrive</a></li>
+<li> <a rel="nofollow" class="external free" href="https://hackaday.io/project/11583-odrive-high-performance-motor-control/">https://hackaday.io/project/11583-odrive-high-performance-motor-control/</a></li></ul>
+<h5><span class="mw-headline" id="HEXAMON_Firmware">HEXAMON Firmware</span></h5>
+<p>Beehive monitoring node firmware.
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/lucansky/hexamon-firmware">https://github.com/lucansky/hexamon-firmware</a></li></ul>
+<h5><span class="mw-headline" id="Various">Various</span></h5>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/distrap/ivory-tower-base">https://github.com/distrap/ivory-tower-base</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/distrap/ivory-tower-canopen">https://github.com/distrap/ivory-tower-canopen</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/distrap/ivory-tower-hxstream">https://github.com/distrap/ivory-tower-hxstream</a></li>
+<li> <a rel="nofollow" class="external free" href="https://github.com/distrap/ivory-tower-helloworld">https://github.com/distrap/ivory-tower-helloworld</a></li></ul>
+<h4><span class="mw-headline" id="Working_with_Ivory_Tower">Working with Ivory Tower</span></h4>
+<h5><span class="mw-headline" id="Prepare_environment">Prepare environment</span></h5>
+<p>Install stack first - <a rel="nofollow" class="external free" href="http://docs.haskellstack.org/en/stable/install_and_upgrade/">http://docs.haskellstack.org/en/stable/install_and_upgrade/</a>
+</p>
+<div class="b48mw-cmd">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span>mkdir embedded
+<span class="nb">cd</span> embedded
+git clone  https://github.com/GaloisInc/ivory/
+git clone  https://github.com/GaloisInc/tower/
+git clone https://github.com/GaloisInc/ivory-tower-stm32/
+</pre></div>
+</div>
+<h5><span class="mw-headline" id="Running_UART_test">Running UART test</span></h5>
+<p>Test application located in
+</p>
+<div class="b48mw-cmd">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="nb">cd</span> ivory-tower-stm32/ivory-bsp-tests
+</pre></div>
+</div>
+<div class="b48mw-cmd">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre><span></span><span class="c1"># set platform to f4 discovery</span>
+cat &gt; default.conf
+<span class="o">[</span>args<span class="o">]</span>
+<span class="nv">platform</span><span class="o">=</span><span class="s2">&quot;f4discovery&quot;</span>
+
+make bsp-uart-test
+<span class="nb">cd</span> bsp-uart-test
+<span class="c1"># now look around carefuly</span>
+<span class="c1"># oO</span>
+<span class="c1"># Oo</span>
+<span class="c1"># ...</span>
+<span class="c1"># then flash it</span>
+arm-none-eabi-gdb --ex <span class="s1">&#39;target extended-remote /dev/f4gdb&#39;</span> <span class="se">\</span>
+  --ex <span class="s1">&#39;monitor swdp_scan&#39;</span> <span class="se">\</span>
+  --ex <span class="s1">&#39;attach 1&#39;</span> <span class="se">\</span>
+  --ex <span class="s1">&#39;load&#39;</span> image<span class="s1">&#39;</span>
+
+<span class="s1"># try talking to /dev/f4uart</span>
+<span class="s1"># bsp-uart-test app accepts characters &#39;</span><span class="m">1</span><span class="s1">&#39; for output on and &#39;</span><span class="m">2</span><span class="err">&#39;</span> <span class="k">for</span> output off
+screen /dev/f4uart <span class="m">115200</span>
+</pre></div>
+</div>
+<h2><span class="mw-headline" id="Atom">Atom</span></h2>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/tomahawkins/atom">https://github.com/tomahawkins/atom</a></li></ul>
+<p>Atom is a Haskell EDSL for designing hard realtime embedded software.
+Based on guarded atomic actions (similar to STM), Atom enables highly concurrent
+programming without the need for mutex locking. In addition,
+Atom performs compile-time task scheduling and generates code with deterministic
+execution time and constant memory use, simplifying the process of timing verification
+and memory consumption in hard realtime applications. Without mutex locking and run-time task scheduling,
+Atom eliminates the need and overhead of RTOSes for many embedded applications.
+</p>
+<h2><span class="mw-headline" id="Copilot">Copilot</span></h2>
+<ul><li> <a rel="nofollow" class="external free" href="https://leepike.github.io/Copilot/">https://leepike.github.io/Copilot/</a></li></ul>
+<p>Copilot is a stream (i.e., infinite lists)
+domain-specific language (DSL)
+in Haskell that compiles into embedded C.
+Two compiler backends are available, both of which
+generate constant-time and constant-space
+C code:
+</p>
+<ul><li> <i>copilot-c99</i> targets Atom language</li>
+<li> <i>copilot-sbv</i> targets SBV language</li></ul>
+<h3><span class="mw-headline" id="Tutorials">Tutorials</span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/leepike/copilot-discussion/blob/master/tutorial/copilot_tutorial.pdf">https://github.com/leepike/copilot-discussion/blob/master/tutorial/copilot_tutorial.pdf</a></li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Ion">Ion</span></h2>
+<ul><li> <a rel="nofollow" class="external free" href="https://github.com/HaskellEmbedded/ion">https://github.com/HaskellEmbedded/ion</a></li>
+<li> <a rel="nofollow" class="external free" href="https://haskellembedded.github.io/posts/2016-09-23-introducing-ion.html">https://haskellembedded.github.io/posts/2016-09-23-introducing-ion.html</a></li></ul>
+<p>Ion is a (heavily experimental) Haskell EDSL for concurrent, realtime, embedded programming.
+It performs compile-time scheduling, and produces scheduling code with constant memory usage
+and deterministic execution (i.e. no possibility for divergence).
+</p><p>Ion targets Ivory to perform code generation. It generates scheduling code to be called
+at regular intervals (e.g. from an interrupt).
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20220703192904
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.045 seconds
+Real time usage: 0.047 seconds
+Preprocessor visited node count: 113/1000000
+Preprocessor generated node count: 192/1000000
+Post‐expand include size: 354/2097152 bytes
+Template argument size: 656/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   10.855      1 - -total
+ 94.01%   10.205      3 - Template:Cmd
+-->
+
+<!-- Saved in parser cache with key smwikidb:pcache:idhash:695-0!*!*!!en!*!* and timestamp 20220703192904 and revision id 4165
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html">index.php?title=EmbeddedHaskell&amp;oldid=4165</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=EmbeddedHaskell&amp;returntoquery=oldid%3D4165" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=EmbeddedHaskell&amp;returntoquery=oldid%3D4165" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="EmbeddedHaskell.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:EmbeddedHaskell&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="EmbeddedHaskell.html" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="index.php%3Ftitle=EmbeddedHaskell&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=EmbeddedHaskell&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/EmbeddedHaskell.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/EmbeddedHaskell" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="index.php?title=EmbeddedHaskell&amp;oldid=4165&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;oldid=4165.html" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="index.php%3Ftitle=EmbeddedHaskell&amp;action=info.html" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="./Special:Browse/EmbeddedHaskell.html" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 4 July 2022, at 01:45.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share Alike</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["ext.smw.tooltips","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":667});});</script>
+	</body>
+</html>

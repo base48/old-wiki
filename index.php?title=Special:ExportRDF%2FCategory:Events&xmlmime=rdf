@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AEvents">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:33:34+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents">
+		<rdfs:label>Events</rdfs:label>
+		<swivt:page rdf:resource="Category:Events"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Events"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Has_query rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents-23_QUERY6ff63d84b9fffb873b4e17b9acad7b58"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-27T16:54:52Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456289.2047685</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-17T23:53:17Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456310.4953356</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents-23_QUERY6ff63d84b9fffb873b4e17b9acad7b58">
+		<swivt:masterPage rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eventline</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Start date::≤11 April 2018 13:45:00]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PRINTexpo">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>PRINTexpo</rdfs:label>
+		<swivt:page rdf:resource="PRINTexpo"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PRINTexpo"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRINTexpo</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/CTJB">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>CTJB</rdfs:label>
+		<swivt:page rdf:resource="CTJB"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/CTJB"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTJB</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Retrofest_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Retrofest 2013</rdfs:label>
+		<swivt:page rdf:resource="Retrofest_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Retrofest_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrofest 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/DNS_Workshop_2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>DNS Workshop 2</rdfs:label>
+		<swivt:page rdf:resource="DNS_Workshop_2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/DNS_Workshop_2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS Workshop 2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2014-2D11-2D20_21-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2014-11-20 21:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2014-11-20_21:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2014-11-20_21:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2014-11-20 21:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OSS_Vikend">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OSS Vikend</rdfs:label>
+		<swivt:page rdf:resource="OSS_Vikend"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OSS_Vikend"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSS Vikend</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>InfraHacking</rdfs:label>
+		<swivt:page rdf:resource="InfraHacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MCAE_Systems_-2D_exkurze">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>MCAE Systems - exkurze</rdfs:label>
+		<swivt:page rdf:resource="MCAE_Systems_-_exkurze"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MCAE_Systems_-_exkurze"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCAE Systems - exkurze</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RobotickyDen">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>RobotickyDen</rdfs:label>
+		<swivt:page rdf:resource="RobotickyDen"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RobotickyDen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RobotickyDen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Red_Hat_Open_House_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Red Hat Open House 2014</rdfs:label>
+		<swivt:page rdf:resource="Red_Hat_Open_House_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Red_Hat_Open_House_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Hat Open House 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D11-2D28">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2017-11-28</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-11-28"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-11-28"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-11-28</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OHM2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OHM2013</rdfs:label>
+		<swivt:page rdf:resource="OHM2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OHM2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OHM2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2015-2D10-2D15_20-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2015-10-15 20:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2015-10-15_20:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2015-10-15_20:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2015-10-15 20:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OWASP_chapter_meeting">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OWASP chapter meeting</rdfs:label>
+		<swivt:page rdf:resource="OWASP_chapter_meeting"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OWASP_chapter_meeting"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWASP chapter meeting</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Openmobility_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Openmobility 2013</rdfs:label>
+		<swivt:page rdf:resource="Openmobility_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Openmobility_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openmobility 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Security_Session_2016">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Security Session 2016</rdfs:label>
+		<swivt:page rdf:resource="Security_Session_2016"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Security_Session_2016"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security Session 2016</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Regular base48 session</rdfs:label>
+		<swivt:page rdf:resource="Regular_base48_session"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2016-2D10-2D19">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2016-10-19</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2016-10-19"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2016-10-19"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2016-10-19</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OpenArena_Match">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OpenArena Match</rdfs:label>
+		<swivt:page rdf:resource="OpenArena_Match"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OpenArena_Match"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenArena Match</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Bike repair workshop</rdfs:label>
+		<swivt:page rdf:resource="Bike_repair_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/3DExpo_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>3DExpo 2014</rdfs:label>
+		<swivt:page rdf:resource="3DExpo_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/3DExpo_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3DExpo 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Security_Session_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Security Session 2014</rdfs:label>
+		<swivt:page rdf:resource="Security_Session_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Security_Session_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security Session 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Zit_Kino_sprint">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Zit Kino sprint</rdfs:label>
+		<swivt:page rdf:resource="Zit_Kino_sprint"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Zit_Kino_sprint"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zit Kino sprint</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Linuxalt_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Linuxalt 2013</rdfs:label>
+		<swivt:page rdf:resource="Linuxalt_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Linuxalt_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linuxalt 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Kernel_debugging_essentials_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Kernel debugging essentials workshop</rdfs:label>
+		<swivt:page rdf:resource="Kernel_debugging_essentials_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Kernel_debugging_essentials_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kernel debugging essentials workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_13">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 13</rdfs:label>
+		<swivt:page rdf:resource="IT_13"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_13"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 13</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Cryptofest_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Cryptofest 2013</rdfs:label>
+		<swivt:page rdf:resource="Cryptofest_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Cryptofest_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptofest 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D05-2D14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-05-14</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-05-14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-05-14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-05-14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Scraper_Challenge_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Scraper Challenge 2014</rdfs:label>
+		<swivt:page rdf:resource="Scraper_Challenge_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Scraper_Challenge_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scraper Challenge 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/DNS_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>DNS workshop</rdfs:label>
+		<swivt:page rdf:resource="DNS_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/DNS_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D08-2D06_20.00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-08-06 20.00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-08-06_20.00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-08-06_20.00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-08-06 20.00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Haskell_Web_App_Workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Haskell Web App Workshop</rdfs:label>
+		<swivt:page rdf:resource="Haskell_Web_App_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Haskell_Web_App_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haskell Web App Workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/International_Hackerspace_Day_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>International Hackerspace Day 2013</rdfs:label>
+		<swivt:page rdf:resource="International_Hackerspace_Day_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/International_Hackerspace_Day_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Hackerspace Day 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Positive_Hack_Days_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Positive Hack Days 2013</rdfs:label>
+		<swivt:page rdf:resource="Positive_Hack_Days_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Positive_Hack_Days_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positive Hack Days 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D12-2D10_20-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-12-10 20:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-12-10_20:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-12-10_20:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-12-10 20:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Rostock_the_Movie_Star">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Rostock the Movie Star</rdfs:label>
+		<swivt:page rdf:resource="Rostock_the_Movie_Star"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Rostock_the_Movie_Star"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rostock the Movie Star</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Scraper_Challenge_2015">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Scraper Challenge 2015</rdfs:label>
+		<swivt:page rdf:resource="Scraper_Challenge_2015"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Scraper_Challenge_2015"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scraper Challenge 2015</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/30C3_Congress_Everywhere">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>30C3 Congress Everywhere</rdfs:label>
+		<swivt:page rdf:resource="30C3_Congress_Everywhere"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/30C3_Congress_Everywhere"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30C3 Congress Everywhere</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/New_space_meeting">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>New space meeting</rdfs:label>
+		<swivt:page rdf:resource="New_space_meeting"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/New_space_meeting"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New space meeting</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/KiCAD_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>KiCAD workshop</rdfs:label>
+		<swivt:page rdf:resource="KiCAD_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/KiCAD_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KiCAD workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D04-2D09">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-04-09</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-04-09"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-04-09"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-04-09</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Project_night">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Project night</rdfs:label>
+		<swivt:page rdf:resource="Project_night"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Project_night"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project night</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2018-2D04-2D05">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2018-04-05</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2018-04-05"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2018-04-05"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2018-04-05</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Installfest">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Installfest</rdfs:label>
+		<swivt:page rdf:resource="Installfest"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Installfest"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Installfest</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 14</rdfs:label>
+		<swivt:page rdf:resource="IT_14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_13.2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 13.2</rdfs:label>
+		<swivt:page rdf:resource="IT_13.2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_13.2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 13.2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/CNC_Hackathon">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>CNC Hackathon</rdfs:label>
+		<swivt:page rdf:resource="CNC_Hackathon"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/CNC_Hackathon"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNC Hackathon</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/33C3_Congress_Everywhere">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>33C3 Congress Everywhere</rdfs:label>
+		<swivt:page rdf:resource="33C3_Congress_Everywhere"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/33C3_Congress_Everywhere"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33C3 Congress Everywhere</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D01-2D16">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2017-01-16</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-01-16"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-01-16"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-01-16</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D11-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-11-12</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-11-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-11-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-11-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_14.2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 14.2</rdfs:label>
+		<swivt:page rdf:resource="IT_14.2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_14.2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 14.2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D02-2D26_19-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-02-26 19:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-02-26_19:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-02-26_19:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-02-26 19:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Cleaning_base48_session">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Cleaning base48 session</rdfs:label>
+		<swivt:page rdf:resource="Cleaning_base48_session"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Cleaning_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleaning base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/PRINTexpo">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>PRINTexpo</rdfs:label>
+		<swivt:page rdf:resource="PRINTexpo"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/PRINTexpo"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRINTexpo</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/CTJB">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>CTJB</rdfs:label>
+		<swivt:page rdf:resource="CTJB"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/CTJB"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTJB</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Retrofest_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Retrofest 2013</rdfs:label>
+		<swivt:page rdf:resource="Retrofest_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Retrofest_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrofest 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/DNS_Workshop_2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>DNS Workshop 2</rdfs:label>
+		<swivt:page rdf:resource="DNS_Workshop_2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/DNS_Workshop_2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS Workshop 2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2014-2D11-2D20_21-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2014-11-20 21:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2014-11-20_21:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2014-11-20_21:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2014-11-20 21:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OSS_Vikend">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OSS Vikend</rdfs:label>
+		<swivt:page rdf:resource="OSS_Vikend"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OSS_Vikend"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSS Vikend</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>InfraHacking</rdfs:label>
+		<swivt:page rdf:resource="InfraHacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MCAE_Systems_-2D_exkurze">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>MCAE Systems - exkurze</rdfs:label>
+		<swivt:page rdf:resource="MCAE_Systems_-_exkurze"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MCAE_Systems_-_exkurze"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCAE Systems - exkurze</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/RobotickyDen">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>RobotickyDen</rdfs:label>
+		<swivt:page rdf:resource="RobotickyDen"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/RobotickyDen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RobotickyDen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Red_Hat_Open_House_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Red Hat Open House 2014</rdfs:label>
+		<swivt:page rdf:resource="Red_Hat_Open_House_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Red_Hat_Open_House_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Hat Open House 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D11-2D28">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2017-11-28</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-11-28"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-11-28"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-11-28</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OHM2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OHM2013</rdfs:label>
+		<swivt:page rdf:resource="OHM2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OHM2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OHM2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2015-2D10-2D15_20-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2015-10-15 20:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2015-10-15_20:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2015-10-15_20:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2015-10-15 20:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OWASP_chapter_meeting">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OWASP chapter meeting</rdfs:label>
+		<swivt:page rdf:resource="OWASP_chapter_meeting"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OWASP_chapter_meeting"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWASP chapter meeting</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Openmobility_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Openmobility 2013</rdfs:label>
+		<swivt:page rdf:resource="Openmobility_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Openmobility_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openmobility 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Security_Session_2016">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Security Session 2016</rdfs:label>
+		<swivt:page rdf:resource="Security_Session_2016"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Security_Session_2016"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security Session 2016</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Regular_base48_session">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Regular base48 session</rdfs:label>
+		<swivt:page rdf:resource="Regular_base48_session"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Regular_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2016-2D10-2D19">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2016-10-19</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2016-10-19"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2016-10-19"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2016-10-19</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/OpenArena_Match">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>OpenArena Match</rdfs:label>
+		<swivt:page rdf:resource="OpenArena_Match"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/OpenArena_Match"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenArena Match</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Bike_repair_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Bike repair workshop</rdfs:label>
+		<swivt:page rdf:resource="Bike_repair_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Bike_repair_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bike repair workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/3DExpo_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>3DExpo 2014</rdfs:label>
+		<swivt:page rdf:resource="3DExpo_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/3DExpo_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3DExpo 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Security_Session_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Security Session 2014</rdfs:label>
+		<swivt:page rdf:resource="Security_Session_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Security_Session_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security Session 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Zit_Kino_sprint">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Zit Kino sprint</rdfs:label>
+		<swivt:page rdf:resource="Zit_Kino_sprint"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Zit_Kino_sprint"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zit Kino sprint</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Linuxalt_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Linuxalt 2013</rdfs:label>
+		<swivt:page rdf:resource="Linuxalt_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Linuxalt_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linuxalt 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Kernel_debugging_essentials_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Kernel debugging essentials workshop</rdfs:label>
+		<swivt:page rdf:resource="Kernel_debugging_essentials_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Kernel_debugging_essentials_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kernel debugging essentials workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_13">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 13</rdfs:label>
+		<swivt:page rdf:resource="IT_13"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_13"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 13</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Cryptofest_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Cryptofest 2013</rdfs:label>
+		<swivt:page rdf:resource="Cryptofest_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Cryptofest_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptofest 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D05-2D14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-05-14</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-05-14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-05-14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-05-14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Scraper_Challenge_2014">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Scraper Challenge 2014</rdfs:label>
+		<swivt:page rdf:resource="Scraper_Challenge_2014"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Scraper_Challenge_2014"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scraper Challenge 2014</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/DNS_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>DNS workshop</rdfs:label>
+		<swivt:page rdf:resource="DNS_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/DNS_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNS workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D08-2D06_20.00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-08-06 20.00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-08-06_20.00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-08-06_20.00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-08-06 20.00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Haskell_Web_App_Workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Haskell Web App Workshop</rdfs:label>
+		<swivt:page rdf:resource="Haskell_Web_App_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Haskell_Web_App_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haskell Web App Workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/International_Hackerspace_Day_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>International Hackerspace Day 2013</rdfs:label>
+		<swivt:page rdf:resource="International_Hackerspace_Day_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/International_Hackerspace_Day_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Hackerspace Day 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Positive_Hack_Days_2013">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Positive Hack Days 2013</rdfs:label>
+		<swivt:page rdf:resource="Positive_Hack_Days_2013"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Positive_Hack_Days_2013"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positive Hack Days 2013</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D12-2D10_20-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-12-10 20:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-12-10_20:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-12-10_20:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-12-10 20:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Rostock_the_Movie_Star">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Rostock the Movie Star</rdfs:label>
+		<swivt:page rdf:resource="Rostock_the_Movie_Star"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Rostock_the_Movie_Star"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rostock the Movie Star</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Scraper_Challenge_2015">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Scraper Challenge 2015</rdfs:label>
+		<swivt:page rdf:resource="Scraper_Challenge_2015"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Scraper_Challenge_2015"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scraper Challenge 2015</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/30C3_Congress_Everywhere">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>30C3 Congress Everywhere</rdfs:label>
+		<swivt:page rdf:resource="30C3_Congress_Everywhere"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/30C3_Congress_Everywhere"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30C3 Congress Everywhere</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/New_space_meeting">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>New space meeting</rdfs:label>
+		<swivt:page rdf:resource="New_space_meeting"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/New_space_meeting"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New space meeting</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/KiCAD_workshop">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>KiCAD workshop</rdfs:label>
+		<swivt:page rdf:resource="KiCAD_workshop"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/KiCAD_workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KiCAD workshop</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D04-2D09">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-04-09</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-04-09"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-04-09"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-04-09</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Project_night">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Project night</rdfs:label>
+		<swivt:page rdf:resource="Project_night"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Project_night"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project night</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2018-2D04-2D05">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2018-04-05</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2018-04-05"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2018-04-05"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2018-04-05</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Installfest">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Installfest</rdfs:label>
+		<swivt:page rdf:resource="Installfest"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Installfest"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Installfest</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 14</rdfs:label>
+		<swivt:page rdf:resource="IT_14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_13.2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 13.2</rdfs:label>
+		<swivt:page rdf:resource="IT_13.2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_13.2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 13.2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/CNC_Hackathon">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>CNC Hackathon</rdfs:label>
+		<swivt:page rdf:resource="CNC_Hackathon"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/CNC_Hackathon"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNC Hackathon</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/33C3_Congress_Everywhere">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>33C3 Congress Everywhere</rdfs:label>
+		<swivt:page rdf:resource="33C3_Congress_Everywhere"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/33C3_Congress_Everywhere"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33C3 Congress Everywhere</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D01-2D16">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2017-01-16</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-01-16"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-01-16"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-01-16</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D11-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General assembly 2019-11-12</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-11-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-11-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-11-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/IT_14.2">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>IT 14.2</rdfs:label>
+		<swivt:page rdf:resource="IT_14.2"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/IT_14.2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT 14.2</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D02-2D26_19-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>General Meeting 2013-02-26 19:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-02-26_19:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-02-26_19:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-02-26 19:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Cleaning_base48_session">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdfs:label>Cleaning base48 session</rdfs:label>
+		<swivt:page rdf:resource="Cleaning_base48_session"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Cleaning_base48_session"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleaning base48 session</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

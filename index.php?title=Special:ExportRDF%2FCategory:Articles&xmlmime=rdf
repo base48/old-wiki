@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AArticles">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T01:04:40+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles">
+		<rdfs:label>Articles</rdfs:label>
+		<swivt:page rdf:resource="Category:Articles"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Articles"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-18T14:16:44Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456219.0949537</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-18T14:16:44Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456219.0949537</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Articles</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Idea/DC_Motor_driver_around_IC_DRV8432">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Idea/DC Motor driver around IC DRV8432</rdfs:label>
+		<swivt:page rdf:resource="Idea/DC_Motor_driver_around_IC_DRV8432"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Idea/DC_Motor_driver_around_IC_DRV8432"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idea/DC Motor driver around IC DRV8432</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Events_around_us,_summer_2012">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Events around us, summer 2012</rdfs:label>
+		<swivt:page rdf:resource="Events_around_us,_summer_2012"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Events_around_us,_summer_2012"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events around us, summer 2012</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Equipment/mainboard_testing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Equipment/mainboard testing</rdfs:label>
+		<swivt:page rdf:resource="Equipment/mainboard_testing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Equipment/mainboard_testing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equipment/mainboard testing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MSP430">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>MSP430</rdfs:label>
+		<swivt:page rdf:resource="MSP430"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MSP430"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSP430</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Playing_with_LASER_Tag_2.0">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Playing with LASER Tag 2.0</rdfs:label>
+		<swivt:page rdf:resource="Playing_with_LASER_Tag_2.0"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Playing_with_LASER_Tag_2.0"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Playing with LASER Tag 2.0</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Report/Lithium_packs_recycling">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Report/Lithium packs recycling</rdfs:label>
+		<swivt:page rdf:resource="Report/Lithium_packs_recycling"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Report/Lithium_packs_recycling"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Report/Lithium packs recycling</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Interactive_window">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Interactive window</rdfs:label>
+		<swivt:page rdf:resource="Interactive_window"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Interactive_window"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive window</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Howto/Make_Memtest_bootable_in_Fedora">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Howto/Make Memtest bootable in Fedora</rdfs:label>
+		<swivt:page rdf:resource="Howto/Make_Memtest_bootable_in_Fedora"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Howto/Make_Memtest_bootable_in_Fedora"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Howto/Make Memtest bootable in Fedora</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/How_I_destroyed_a_camera">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>How I destroyed a camera</rdfs:label>
+		<swivt:page rdf:resource="How_I_destroyed_a_camera"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/How_I_destroyed_a_camera"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How I destroyed a camera</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Research_for_recycling_places_around_base">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Research for recycling places around base</rdfs:label>
+		<swivt:page rdf:resource="Research_for_recycling_places_around_base"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Research_for_recycling_places_around_base"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research for recycling places around base</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Club-2DMate_supply">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Club-Mate supply</rdfs:label>
+		<swivt:page rdf:resource="Club-Mate_supply"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Club-Mate_supply"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club-Mate supply</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Idea/DC_Motor_driver_around_IC_DRV8432">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Idea/DC Motor driver around IC DRV8432</rdfs:label>
+		<swivt:page rdf:resource="Idea/DC_Motor_driver_around_IC_DRV8432"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Idea/DC_Motor_driver_around_IC_DRV8432"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idea/DC Motor driver around IC DRV8432</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Events_around_us,_summer_2012">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Events around us, summer 2012</rdfs:label>
+		<swivt:page rdf:resource="Events_around_us,_summer_2012"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Events_around_us,_summer_2012"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events around us, summer 2012</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Equipment/mainboard_testing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Equipment/mainboard testing</rdfs:label>
+		<swivt:page rdf:resource="Equipment/mainboard_testing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Equipment/mainboard_testing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Equipment/mainboard testing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MSP430">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>MSP430</rdfs:label>
+		<swivt:page rdf:resource="MSP430"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MSP430"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSP430</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Playing_with_LASER_Tag_2.0">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Playing with LASER Tag 2.0</rdfs:label>
+		<swivt:page rdf:resource="Playing_with_LASER_Tag_2.0"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Playing_with_LASER_Tag_2.0"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Playing with LASER Tag 2.0</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Report/Lithium_packs_recycling">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Report/Lithium packs recycling</rdfs:label>
+		<swivt:page rdf:resource="Report/Lithium_packs_recycling"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Report/Lithium_packs_recycling"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Report/Lithium packs recycling</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Interactive_window">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Interactive window</rdfs:label>
+		<swivt:page rdf:resource="Interactive_window"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Interactive_window"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interactive window</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Howto/Make_Memtest_bootable_in_Fedora">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Howto/Make Memtest bootable in Fedora</rdfs:label>
+		<swivt:page rdf:resource="Howto/Make_Memtest_bootable_in_Fedora"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Howto/Make_Memtest_bootable_in_Fedora"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Howto/Make Memtest bootable in Fedora</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/How_I_destroyed_a_camera">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>How I destroyed a camera</rdfs:label>
+		<swivt:page rdf:resource="How_I_destroyed_a_camera"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/How_I_destroyed_a_camera"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How I destroyed a camera</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Research_for_recycling_places_around_base">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Research for recycling places around base</rdfs:label>
+		<swivt:page rdf:resource="Research_for_recycling_places_around_base"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Research_for_recycling_places_around_base"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research for recycling places around base</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Club-2DMate_supply">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AArticles"/>
+		<rdfs:label>Club-Mate supply</rdfs:label>
+		<swivt:page rdf:resource="Club-Mate_supply"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Club-Mate_supply"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club-Mate supply</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

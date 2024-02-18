@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJI@Q1nBVa5fQjel@x2rwAAAAM","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="options">action=options</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <b>options</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-flag-writerights">This module requires write rights.</span></li><li><span class="apihelp-flag-mustbeposted">This module only accepts POST requests.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Change preferences of the current user.
+</p><p>Only options which are registered in core or in one of installed extensions, or options with keys prefixed with <code>userjs-</code> (intended to be used by user scripts), can be set.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Options">https://www.mediawiki.org/wiki/API:Options</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>reset</dt><dd class="description"><p>Resets preferences to the site defaults.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>resetkinds</dt><dd class="description"><p>List of types of options to reset when the <var>reset</var> option is set.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): registered, registered-multiselect, registered-checkmatrix, userjs, special, unused, all</dd><dd class="info">Default: all</dd><dt>change</dt><dd class="description"><p>List of changes, formatted name=value (e.g. skin=vector). Value cannot contain pipe characters. If no value is given (not even an equals sign), e.g., optionname|otheroption|..., the option will be reset to its default value.
+</p></dd><dd class="info">Separate values with <kbd>|</kbd>. Maximum number of values is 50 (500 for bots).</dd><dt>optionname</dt><dd class="description"><p>The name of the option that should be set to the value given by <var>optionvalue</var>.
+</p></dd><dt>optionvalue</dt><dd class="description"><p>The value for the option specified by <var>optionname</var>, can contain pipe characters.
+</p></dd><dt>token</dt><dd class="description"><p>A "csrf" token retrieved from <a href="api.php%3Faction=help&amp;modules=query+tokens.html">action=query&amp;meta=tokens</a>
+</p></dd><dd class="info">This parameter is required.</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Reset all preferences.</dt><dd><a href="api.php%3Faction=options&amp;reset=&amp;token=123ABC.html">api.php?action=options&amp;reset=&amp;token=123ABC</a> <a href="./Special:ApiSandbox.html#action=options&amp;reset=&amp;token=123ABC"><small>[open in sandbox]</small></a></dd><dt>Change <kbd>skin</kbd> and <kbd>hideminor</kbd> preferences.</dt><dd><a href="api.php%3Faction=options&amp;change=skin=vector|hideminor=1&amp;token=123ABC.html">api.php?action=options&amp;change=skin=vector|hideminor=1&amp;token=123ABC</a> <a href="./Special:ApiSandbox.html#action=options&amp;change=skin=vector%7Chideminor=1&amp;token=123ABC"><small>[open in sandbox]</small></a></dd><dt>Reset all preferences, then set <kbd>skin</kbd> and <kbd>nickname</kbd>.</dt><dd><a href="./api.php%3Faction=options&amp;reset=&amp;change=skin=monobook&amp;optionname=nickname&amp;optionvalue=[[User:Beau|Beau]]&#32;([[User_talk:Beau|talk]])&amp;token=123ABC.html">api.php?action=options&amp;reset=&amp;change=skin=monobook&amp;optionname=nickname&amp;optionvalue=[[User:Beau|Beau]]%20([[User_talk:Beau|talk]])&amp;token=123ABC</a> <a href="./Special:ApiSandbox.html#action=options&amp;reset=&amp;change=skin=monobook&amp;optionname=nickname&amp;optionvalue=%5B%5BUser:Beau%7CBeau%5D%5D%20(%5B%5BUser_talk:Beau%7Ctalk%5D%5D)&amp;token=123ABC"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":391});});</script>		</body></html>

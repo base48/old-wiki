@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJZ-gzt68L0EdjlY9L76gAAAAE","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+info">prop=info (in)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>info</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Get basic page information.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Info">https://www.mediawiki.org/wiki/API:Info</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>inprop</dt><dd class="description"><p>Which additional properties to get:
+</p><dl><dt>protection</dt>
+<dd>List the protection level of each page.</dd>
+<dt>talkid</dt>
+<dd>The page ID of the talk page for each non-talk page.</dd>
+<dt>watched</dt>
+<dd>List the watched status of each page.</dd>
+<dt>watchers</dt>
+<dd>The number of watchers, if allowed.</dd>
+<dt>visitingwatchers</dt>
+<dd>The number of watchers of each page who have visited recent edits to that page, if allowed.</dd>
+<dt>notificationtimestamp</dt>
+<dd>The watchlist notification timestamp of each page.</dd>
+<dt>subjectid</dt>
+<dd>The page ID of the parent page for each talk page.</dd>
+<dt>url</dt>
+<dd>Gives a full URL, an edit URL, and the canonical URL for each page.</dd>
+<dt>readable</dt>
+<dd>Whether the user can read this page.</dd>
+<dt>preload</dt>
+<dd>Gives the text returned by EditFormPreloadText.</dd>
+<dt>displaytitle</dt>
+<dd>Gives the manner in which the page title is actually displayed.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): protection, talkid, watched, watchers, visitingwatchers, notificationtimestamp, subjectid, url, readable, preload, displaytitle</dd><dt>intestactions</dt><dd class="description"><p>Test whether the current user can perform certain actions on the page.
+</p></dd><dd class="info">Separate values with <kbd>|</kbd>. Maximum number of values is 50 (500 for bots).</dd><dt>intoken</dt><dd class="info"><strong class="apihelp-deprecated">Deprecated.</strong></dd><dd class="description"><p>Use <a href="api.php%3Faction=help&amp;modules=query+tokens.html">action=query&amp;meta=tokens</a> instead.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): edit, delete, protect, move, block, unblock, email, import, watch</dd><dt>incontinue</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Get information about the page <kbd>Main Page</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;prop=info&amp;titles=Main&#32;Page.html">api.php?action=query&amp;prop=info&amp;titles=Main%20Page</a> <a href="./Special:ApiSandbox.html#action=query&amp;prop=info&amp;titles=Main%20Page"><small>[open in sandbox]</small></a></dd><dt>Get general and protection information about the page <kbd>Main Page</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;prop=info&amp;inprop=protection&amp;titles=Main&#32;Page.html">api.php?action=query&amp;prop=info&amp;inprop=protection&amp;titles=Main%20Page</a> <a href="./Special:ApiSandbox.html#action=query&amp;prop=info&amp;inprop=protection&amp;titles=Main%20Page"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":367});});</script>		</body></html>

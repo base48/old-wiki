@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>base48 - User contributions [en]</title>
+		<link>Special:Contributions/Example</link>
+		<description>User contributions</description>
+		<language>en</language>
+		<generator>MediaWiki 1.27.1</generator>
+		<lastBuildDate>Mon, 04 Jul 2022 03:08:57 GMT</lastBuildDate>
+	</channel>
+</rss>

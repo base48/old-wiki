@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/InfraHacking">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:23:38+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ASoftware_projects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants"/>
+		<rdfs:label>InfraHacking</rdfs:label>
+		<swivt:page rdf:resource="InfraHacking"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Contributors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[User:Rmarko]], ​[[User:b42]], ​ [[User:snajpa]]</property:Contributors>
+		<property:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-23T10:32:39Z</property:Created>
+		<property:Created-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457196.9393403</property:Created-23aux>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infrastructure hacking workshops</property:Description>
+		<property:Image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neeee.jpg</property:Image>
+		<property:Project_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infrastructure hacking</property:Project_name>
+		<property:Stale rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</property:Stale>
+		<property:Status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active</property:Status>
+		<property:Tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hw,sw,coops</property:Tags>
+		<property:Has_query rdf:resource="&wiki;InfraHacking-23_QUERYe509b56fb2056d69d0ed913b499a0561"/>
+		<property:Has_query rdf:resource="&wiki;InfraHacking-23_QUERY278eacf31eff9d2243fceca9235bfa87"/>
+		<property:Has_query rdf:resource="&wiki;InfraHacking-23_QUERY32159239e9b39f241a95da30d89168f3"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-23T10:32:39Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457196.9393403</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-27T16:49:17Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457262.2008912</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_8a91c6f4ba9234b9cd216c5a7fc2f0fd"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_acc29218a828a3256444db6387e2615b"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_feded8cda3d15d6aaa740ba42c9758f4"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_0e2a2b38ccda9b98aca7c7d642b52310"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7db1b0ecca163b9d73964db4e1a4fe8f"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_016ccf6301a1868599b07a0b79d50e8f"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_b29b142be57d567794c3f0b08ac63e27"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1310b171c27212d3932f0892d5519a6e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_b38519665860e8eafb865dd4eab072ec"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_adeb96a352b713be7e092740e479a73d"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1483a7cc73f387c4d6f9c936a1a77bc7"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_bdc45e851e6232790eaec9d46ab6fa8d"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_64303d02b33acd0239b0d82a69ee55df"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_159073b2479e72cbfd0a2afcc32ebe50"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_e191be39f4a566cbea05a7c3023c5622"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_4238c6e60301365ba7af66d91c18f6be"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_2622aa9b243d7a36c7d3317819f0eca9"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_58bfbd0facb30aa4b6e9a77701c0ef5f"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_a127186adb3dcea5cd5dac891585432c"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_6ec0c68fb681a782e63eeef1db8b406e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_001bdcbfa5f0ebf23f7acd9f039c204c"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_44244a8073dc0fd4132065c8f43ed490"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1833705bb036e9a972c522978584d40a"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_b9ad561bf3107f687604d954004b5aca"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_52ceb980827ac781c5b9aff52180b389"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_a5f1969638b9d227fbeb77b1e2b4e150"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_987443d2a6d5ad13cb9cf583075960f2"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_77201005a07a0cb64fbab676bdfef767"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_e52de772819bda8506de1076bfbb6d35"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_dd18861e5f3515505b2d009e739dc457"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1eeb28c8df4f6f0257a908b20fdb29bd"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_4c20a3937a3cf459c55db140b8d63ee8"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_626b92a5e3c46892ec2f5dd4d1f32567"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_0a1fd60f9210e18c53a191ec3c2c801e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_68538d60cecc26501f650e93d3aaefa3"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_155c3896352538542b18d19d549c5647"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_a85339f1e9881a21ef30fefe74cc56b6"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_0f1eabd8ef0deab9847cf2f45dee4b9e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_2b472348be7db13540044951e8786502"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_370cbfe6bd2eb6e20752082ef273d94e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_26b0d884a2ec7c636f84ef2d870333c4"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_535f92a3c5d3589e9c451bb65d697bbc"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_25a934e1a5f9a87afdfeca5e838bb77e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_e3c5cfcb734691055febdb199a099f2a"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_2373a8d330840f5c5f7a6f1a0783a4f5"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_d6934d5580d017851729154fe332f0ca"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_fb32b621aa4d3af823a0cd0790f8a1ae"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_5e93cdf58c71dece9f5aa7251c8edd00"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7cc242119e915b7048bfcc95ef20b8b7"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_a694d6d9bd74f21ccb5d4bb60fa615bc"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_351847f788055c113535398a39445a60"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_59630a7320df19005542cd66977588e4"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_80b2f29fe04cef9c88a0d1d84a53103a"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_2b84ae668b0a1214ba3fb9cd5e97fd26"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_a8d8d5df4e7a880d6e49355ccedaf523"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_c936cbd3f98e2935e44536a35336632f"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_6823c239e1013e5ec9865281d9375d63"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_f0fd45830bb39d28dcf00d3d7caad454"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_35934ddb963b22cf2c121939bbf8ffe6"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_51308c769fe0a301cbd6845d76963342"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_33b22d32dc079ffd6314edd2a94dc24c"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_92950698b3b103c490a947af068dfa13"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_0acae8691dd7a24dc68a9329394ee7a5"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_765a4d75367822ad8fa18dbcbab26c55"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7637c640d4fbae10fe8f51368590037f"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_242c4ac02de540e1862f1bdb55ab56ce"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_c143ee9ce6fe1cd520dc5b47c4e81adf"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_27fa067222ed7492715c5f5e04f1a9e6"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_d14c5827c25a5b603d8a687e69673122"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_c0939debf153ded370be3dfc10dd9161"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7b9a0d3e6e31c038ea62053313467606"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_269666cddc1b4c1a8bc0e841895ce494"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_45051c112f134371c8a85ce0956d3838"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_39f375d12575bfc13840f84cd2ba3060"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_3f02350771eb4ae1c1e9166ffa59d82a"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_effe7e5bf93e13996a063c7b8a7d7655"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_9abcae41fa36814a2c61043530670fe9"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_df65595536834fd6bf8de62aae463154"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_9973136772df79725b043344658e3d1e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_f8957e68265eae80bb7566e8d8a96c8a"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_73ca86d9ee9795aefc1bf62ffdd2800b"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1ca0c95edc6eff1f2875c134e8c8265c"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_765db373b17db5eeab710fb5218d68d4"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_998d7d01b63ab195cd794a47021c1bb6"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_9a39f0cdf7ea620fb0186824556fb9ee"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_0a85eae738d6196fc377215d99b1f8ce"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_3ce933e95404b8bbd919021e8e0d3f64"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7e7ad70692e3c713ea72a52b449fc415"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_d9783ab27842c86416c37a07ce4320f1"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_1f7ea5e9798743a76490f41ffbda3d25"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_14d51db7fcfdc80fbf0bd16d5bda5eef"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_ce91a112e0e6bf2d29b05fa8d5e87334"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_c2e516920b5b02d5c0cabbcee2717b2c"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_5c38fcbe01fb843cd287840f9d0c5092"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_ea945c75136f7f3dae6c4f721ff80fe6"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_7103d14b24ae80f2f10946c8e4e75de9"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_06165be0ebe53ebd5293f142699032e1"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_6043d75fe49500d3441915c23689ef9b"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_d3f92adfb8c38ed253fdb91bca6add02"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_b4de3cc28a3d71b2c0e576bb9b90838e"/>
+		<property:Has_subobject rdf:resource="&wiki;InfraHacking-23_f55254992145ec20f00834cd1da6cc39"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_QUERYe509b56fb2056d69d0ed913b499a0561">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:InfraHacking]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_QUERY278eacf31eff9d2243fceca9235bfa87">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:InfraHacking]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_QUERY32159239e9b39f241a95da30d89168f3">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">icalendar</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Event page::InfraHacking]] [[Start date::\342\211\24511 October 2017]] [[Start date::\342\211\24411 April 2018]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_8a91c6f4ba9234b9cd216c5a7fc2f0fd">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457197.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_acc29218a828a3256444db6387e2615b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457204.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_feded8cda3d15d6aaa740ba42c9758f4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457211.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0e2a2b38ccda9b98aca7c7d642b52310">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457218.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7db1b0ecca163b9d73964db4e1a4fe8f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457225.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_016ccf6301a1868599b07a0b79d50e8f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457232.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b29b142be57d567794c3f0b08ac63e27">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457239.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1310b171c27212d3932f0892d5519a6e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457246.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b38519665860e8eafb865dd4eab072ec">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457253.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_adeb96a352b713be7e092740e479a73d">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457260.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1483a7cc73f387c4d6f9c936a1a77bc7">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457267.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_bdc45e851e6232790eaec9d46ab6fa8d">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457274.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_64303d02b33acd0239b0d82a69ee55df">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457281.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_159073b2479e72cbfd0a2afcc32ebe50">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457288.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e191be39f4a566cbea05a7c3023c5622">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457295.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_4238c6e60301365ba7af66d91c18f6be">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457302.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2622aa9b243d7a36c7d3317819f0eca9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457309.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_58bfbd0facb30aa4b6e9a77701c0ef5f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457316.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a127186adb3dcea5cd5dac891585432c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457323.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6ec0c68fb681a782e63eeef1db8b406e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457330.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_001bdcbfa5f0ebf23f7acd9f039c204c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457337.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_44244a8073dc0fd4132065c8f43ed490">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457344.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1833705bb036e9a972c522978584d40a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457351.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b9ad561bf3107f687604d954004b5aca">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457358.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_52ceb980827ac781c5b9aff52180b389">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457365.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a5f1969638b9d227fbeb77b1e2b4e150">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457372.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_987443d2a6d5ad13cb9cf583075960f2">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457379.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_77201005a07a0cb64fbab676bdfef767">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457386.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e52de772819bda8506de1076bfbb6d35">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457393.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_dd18861e5f3515505b2d009e739dc457">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457400.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1eeb28c8df4f6f0257a908b20fdb29bd">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457407.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_4c20a3937a3cf459c55db140b8d63ee8">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457414.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_626b92a5e3c46892ec2f5dd4d1f32567">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457421.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0a1fd60f9210e18c53a191ec3c2c801e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457428.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_68538d60cecc26501f650e93d3aaefa3">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457435.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_155c3896352538542b18d19d549c5647">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457442.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a85339f1e9881a21ef30fefe74cc56b6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457449.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0f1eabd8ef0deab9847cf2f45dee4b9e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457456.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2b472348be7db13540044951e8786502">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457463.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_370cbfe6bd2eb6e20752082ef273d94e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457470.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_26b0d884a2ec7c636f84ef2d870333c4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457477.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_535f92a3c5d3589e9c451bb65d697bbc">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457484.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_25a934e1a5f9a87afdfeca5e838bb77e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457491.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e3c5cfcb734691055febdb199a099f2a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457498.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2373a8d330840f5c5f7a6f1a0783a4f5">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457505.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d6934d5580d017851729154fe332f0ca">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457512.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_fb32b621aa4d3af823a0cd0790f8a1ae">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457519.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_5e93cdf58c71dece9f5aa7251c8edd00">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457526.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7cc242119e915b7048bfcc95ef20b8b7">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457533.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a694d6d9bd74f21ccb5d4bb60fa615bc">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-31T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457540.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_351847f788055c113535398a39445a60">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457547.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_59630a7320df19005542cd66977588e4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457554.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_80b2f29fe04cef9c88a0d1d84a53103a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457561.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2b84ae668b0a1214ba3fb9cd5e97fd26">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457568.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a8d8d5df4e7a880d6e49355ccedaf523">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-05T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457575.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c936cbd3f98e2935e44536a35336632f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-12T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457582.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6823c239e1013e5ec9865281d9375d63">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-19T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457589.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f0fd45830bb39d28dcf00d3d7caad454">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-26T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457596.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_35934ddb963b22cf2c121939bbf8ffe6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457603.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_51308c769fe0a301cbd6845d76963342">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457610.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_33b22d32dc079ffd6314edd2a94dc24c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457617.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_92950698b3b103c490a947af068dfa13">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457624.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0acae8691dd7a24dc68a9329394ee7a5">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-30T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457631.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_765a4d75367822ad8fa18dbcbab26c55">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457638.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7637c640d4fbae10fe8f51368590037f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457645.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_242c4ac02de540e1862f1bdb55ab56ce">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457652.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c143ee9ce6fe1cd520dc5b47c4e81adf">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457659.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_27fa067222ed7492715c5f5e04f1a9e6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457666.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d14c5827c25a5b603d8a687e69673122">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457673.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c0939debf153ded370be3dfc10dd9161">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457680.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7b9a0d3e6e31c038ea62053313467606">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457687.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_269666cddc1b4c1a8bc0e841895ce494">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-01T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457694.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_45051c112f134371c8a85ce0956d3838">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457701.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_39f375d12575bfc13840f84cd2ba3060">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-15T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457708.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_3f02350771eb4ae1c1e9166ffa59d82a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-22T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457715.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_effe7e5bf93e13996a063c7b8a7d7655">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-29T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457722.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9abcae41fa36814a2c61043530670fe9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-06T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457729.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_df65595536834fd6bf8de62aae463154">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-13T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457736.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9973136772df79725b043344658e3d1e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-20T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457743.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f8957e68265eae80bb7566e8d8a96c8a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-27T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457750.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_73ca86d9ee9795aefc1bf62ffdd2800b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-03T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457757.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1ca0c95edc6eff1f2875c134e8c8265c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-10T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457764.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_765db373b17db5eeab710fb5218d68d4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-17T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457771.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_998d7d01b63ab195cd794a47021c1bb6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-24T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457778.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9a39f0cdf7ea620fb0186824556fb9ee">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-31T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457785.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0a85eae738d6196fc377215d99b1f8ce">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457792.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_3ce933e95404b8bbd919021e8e0d3f64">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457799.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7e7ad70692e3c713ea72a52b449fc415">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457806.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d9783ab27842c86416c37a07ce4320f1">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457813.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1f7ea5e9798743a76490f41ffbda3d25">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-07T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457820.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_14d51db7fcfdc80fbf0bd16d5bda5eef">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-14T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457827.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_ce91a112e0e6bf2d29b05fa8d5e87334">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-21T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457834.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c2e516920b5b02d5c0cabbcee2717b2c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-28T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457841.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_5c38fcbe01fb843cd287840f9d0c5092">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-04T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457848.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_ea945c75136f7f3dae6c4f721ff80fe6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-11T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457855.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7103d14b24ae80f2f10946c8e4e75de9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-18T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457862.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_06165be0ebe53ebd5293f142699032e1">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-25T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457869.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6043d75fe49500d3441915c23689ef9b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-02T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457876.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d3f92adfb8c38ed253fdb91bca6add02">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-09T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457883.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b4de3cc28a3d71b2c0e576bb9b90838e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-16T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457890.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f55254992145ec20f00834cd1da6cc39">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<property:Is_recurring rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:Is_recurring>
+		<property:Start_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-23T18:00:00Z</property:Start_date>
+		<property:Start_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457897.25</property:Start_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2b472348be7db13540044951e8786502">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d9783ab27842c86416c37a07ce4320f1">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_001bdcbfa5f0ebf23f7acd9f039c204c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_dd18861e5f3515505b2d009e739dc457">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_5e93cdf58c71dece9f5aa7251c8edd00">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f8957e68265eae80bb7566e8d8a96c8a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_77201005a07a0cb64fbab676bdfef767">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_ea945c75136f7f3dae6c4f721ff80fe6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0a1fd60f9210e18c53a191ec3c2c801e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a85339f1e9881a21ef30fefe74cc56b6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2373a8d330840f5c5f7a6f1a0783a4f5">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b38519665860e8eafb865dd4eab072ec">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6ec0c68fb681a782e63eeef1db8b406e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7637c640d4fbae10fe8f51368590037f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_06165be0ebe53ebd5293f142699032e1">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_4238c6e60301365ba7af66d91c18f6be">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c936cbd3f98e2935e44536a35336632f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7b9a0d3e6e31c038ea62053313467606">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_ce91a112e0e6bf2d29b05fa8d5e87334">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_155c3896352538542b18d19d549c5647">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1833705bb036e9a972c522978584d40a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_df65595536834fd6bf8de62aae463154">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9abcae41fa36814a2c61043530670fe9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e52de772819bda8506de1076bfbb6d35">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0a85eae738d6196fc377215d99b1f8ce">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b29b142be57d567794c3f0b08ac63e27">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_27fa067222ed7492715c5f5e04f1a9e6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_44244a8073dc0fd4132065c8f43ed490">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f55254992145ec20f00834cd1da6cc39">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2622aa9b243d7a36c7d3317819f0eca9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7e7ad70692e3c713ea72a52b449fc415">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a5f1969638b9d227fbeb77b1e2b4e150">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_52ceb980827ac781c5b9aff52180b389">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0e2a2b38ccda9b98aca7c7d642b52310">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c0939debf153ded370be3dfc10dd9161">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7103d14b24ae80f2f10946c8e4e75de9">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e191be39f4a566cbea05a7c3023c5622">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b9ad561bf3107f687604d954004b5aca">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_e3c5cfcb734691055febdb199a099f2a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_242c4ac02de540e1862f1bdb55ab56ce">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_8a91c6f4ba9234b9cd216c5a7fc2f0fd">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1ca0c95edc6eff1f2875c134e8c8265c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_68538d60cecc26501f650e93d3aaefa3">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_2b84ae668b0a1214ba3fb9cd5e97fd26">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_80b2f29fe04cef9c88a0d1d84a53103a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c143ee9ce6fe1cd520dc5b47c4e81adf">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_b4de3cc28a3d71b2c0e576bb9b90838e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_370cbfe6bd2eb6e20752082ef273d94e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_feded8cda3d15d6aaa740ba42c9758f4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_351847f788055c113535398a39445a60">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6043d75fe49500d3441915c23689ef9b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_016ccf6301a1868599b07a0b79d50e8f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_92950698b3b103c490a947af068dfa13">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_5c38fcbe01fb843cd287840f9d0c5092">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_51308c769fe0a301cbd6845d76963342">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_765a4d75367822ad8fa18dbcbab26c55">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7cc242119e915b7048bfcc95ef20b8b7">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_3ce933e95404b8bbd919021e8e0d3f64">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1f7ea5e9798743a76490f41ffbda3d25">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_987443d2a6d5ad13cb9cf583075960f2">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d14c5827c25a5b603d8a687e69673122">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1310b171c27212d3932f0892d5519a6e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a127186adb3dcea5cd5dac891585432c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_14d51db7fcfdc80fbf0bd16d5bda5eef">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_bdc45e851e6232790eaec9d46ab6fa8d">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_159073b2479e72cbfd0a2afcc32ebe50">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_6823c239e1013e5ec9865281d9375d63">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_58bfbd0facb30aa4b6e9a77701c0ef5f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_73ca86d9ee9795aefc1bf62ffdd2800b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a694d6d9bd74f21ccb5d4bb60fa615bc">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_acc29218a828a3256444db6387e2615b">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_adeb96a352b713be7e092740e479a73d">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_39f375d12575bfc13840f84cd2ba3060">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_26b0d884a2ec7c636f84ef2d870333c4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_25a934e1a5f9a87afdfeca5e838bb77e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_64303d02b33acd0239b0d82a69ee55df">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_35934ddb963b22cf2c121939bbf8ffe6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_535f92a3c5d3589e9c451bb65d697bbc">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_fb32b621aa4d3af823a0cd0790f8a1ae">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_effe7e5bf93e13996a063c7b8a7d7655">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_998d7d01b63ab195cd794a47021c1bb6">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_f0fd45830bb39d28dcf00d3d7caad454">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_c2e516920b5b02d5c0cabbcee2717b2c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1eeb28c8df4f6f0257a908b20fdb29bd">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d6934d5580d017851729154fe332f0ca">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0acae8691dd7a24dc68a9329394ee7a5">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_a8d8d5df4e7a880d6e49355ccedaf523">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_269666cddc1b4c1a8bc0e841895ce494">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_45051c112f134371c8a85ce0956d3838">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_d3f92adfb8c38ed253fdb91bca6add02">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_0f1eabd8ef0deab9847cf2f45dee4b9e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_4c20a3937a3cf459c55db140b8d63ee8">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_3f02350771eb4ae1c1e9166ffa59d82a">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9a39f0cdf7ea620fb0186824556fb9ee">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_59630a7320df19005542cd66977588e4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_626b92a5e3c46892ec2f5dd4d1f32567">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_7db1b0ecca163b9d73964db4e1a4fe8f">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_33b22d32dc079ffd6314edd2a94dc24c">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_1483a7cc73f387c4d6f9c936a1a77bc7">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_9973136772df79725b043344658e3d1e">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/InfraHacking-23_765db373b17db5eeab710fb5218d68d4">
+		<swivt:masterPage rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Event_page rdf:resource="&wiki;InfraHacking"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InfraHacking</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AEvent_page">
+		<rdfs:label>Event page</rdfs:label>
+		<swivt:page rdf:resource="Property:Event_page"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Event_page"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event page</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AEvents" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ARecurring_events" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ASoftware_projects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects_looking_for_participants" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AContributors" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated-23aux" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ADescription" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AImage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AProject_name" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStale" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStatus" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ATags" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_subobject" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AIs_recurring" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStart_date-23aux" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

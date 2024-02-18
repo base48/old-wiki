@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API result - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJZ97JsVhaOZFjX@K-vPwAAAAY","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.pygments|mediawiki.apipretty,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API result</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><div class="api-pretty-header"><p>This is the HTML representation of the JSON format. HTML is good for debugging, but is unsuitable for application use.
+</p><p>Specify the <var>format</var> parameter to change the output format. To see the non-HTML representation of the JSON format, set <kbd>format=json</kbd>.
+</p><p>See the <a href="http://www.mediawiki.org/wiki/API" class="extiw" title="mw:API">complete documentation</a>, or the <a href="./Special:ApiHelp/main.html">API help</a> for more information.
+</p></div><div dir="ltr"><div class="mw-highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;paraminfo&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;helpformat&quot;</span><span class="o">:</span> <span class="s2">&quot;none&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;modules&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;parse&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;classname&quot;</span><span class="o">:</span> <span class="s2">&quot;ApiParse&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;parse&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;group&quot;</span><span class="o">:</span> <span class="s2">&quot;action&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;prefix&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;sourcename&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licensetag&quot;</span><span class="o">:</span> <span class="s2">&quot;GPL-2.0+&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licenselink&quot;</span><span class="o">:</span> <span class="s2">&quot;Special:Version/License/MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;readrights&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;helpurls&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="s2">&quot;https://www.mediawiki.org/wiki/API:Parsing_wikitext#parse&quot;</span>
+                <span class="p">],</span>
+                <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;title&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;text&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;text&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;summary&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;page&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;pageid&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;integer&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;redirects&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;oldid&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;integer&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prop&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;text|langlinks|categories|links|templates|images|externallinks|sections|revid|displaytitle|iwlinks|properties&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;multi&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;limit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;lowlimit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;highlimit&quot;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;text&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;langlinks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;categories&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;categorieshtml&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;links&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;templates&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;images&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;externallinks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;sections&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;revid&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;displaytitle&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;headitems&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;headhtml&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;modules&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;jsconfigvars&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;encodedjsconfigvars&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;indicators&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;iwlinks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;wikitext&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;properties&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;limitreportdata&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;limitreporthtml&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;parsetree&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;pst&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;onlypst&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;effectivelanglinks&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;section&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;sectiontitle&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;disablepp&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;deprecated&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;disablelimitreport&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;disableeditsection&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;disabletidy&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;generatexml&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;deprecated&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;preview&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;sectionpreview&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;disabletoc&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;contentformat&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;text/x-wiki&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;text/javascript&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;text/css&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;text/plain&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;contentmodel&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;wikitext&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;javascript&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;json&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;css&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;text&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;phpfm&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;classname&quot;</span><span class="o">:</span> <span class="s2">&quot;ApiFormatPhp&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;phpfm&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;group&quot;</span><span class="o">:</span> <span class="s2">&quot;format&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;prefix&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;sourcename&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licensetag&quot;</span><span class="o">:</span> <span class="s2">&quot;GPL-2.0+&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licenselink&quot;</span><span class="o">:</span> <span class="s2">&quot;Special:Version/License/MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;readrights&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;helpurls&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="s2">&quot;https://www.mediawiki.org/wiki/API:Data_formats&quot;</span>
+                <span class="p">],</span>
+                <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;wrappedhtml&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;formatversion&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="mi">1</span><span class="p">,</span>
+                            <span class="mi">2</span><span class="p">,</span>
+                            <span class="s2">&quot;latest&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;allpages&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;classname&quot;</span><span class="o">:</span> <span class="s2">&quot;ApiQueryAllPages&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;query+allpages&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;group&quot;</span><span class="o">:</span> <span class="s2">&quot;list&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;prefix&quot;</span><span class="o">:</span> <span class="s2">&quot;ap&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;sourcename&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licensetag&quot;</span><span class="o">:</span> <span class="s2">&quot;GPL-2.0+&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licenselink&quot;</span><span class="o">:</span> <span class="s2">&quot;Special:Version/License/MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;readrights&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;generator&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;helpurls&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="s2">&quot;https://www.mediawiki.org/wiki/API:Allpages&quot;</span>
+                <span class="p">],</span>
+                <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;from&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;continue&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;to&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prefix&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;namespace&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;namespace&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;filterredir&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;all&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;all&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;redirects&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;nonredirects&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;minsize&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;integer&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;maxsize&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;integer&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prtype&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;multi&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;limit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;lowlimit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;highlimit&quot;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;edit&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;move&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;upload&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prlevel&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;multi&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;limit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;lowlimit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;highlimit&quot;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;autoconfirmed&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;sysop&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prfiltercascade&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;all&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;cascading&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;noncascading&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;all&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;limit&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="mi">10</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;limit&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;max&quot;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+                        <span class="s2">&quot;highmax&quot;</span><span class="o">:</span> <span class="mi">5000</span><span class="p">,</span>
+                        <span class="s2">&quot;min&quot;</span><span class="o">:</span> <span class="mi">1</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;dir&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;ascending&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;ascending&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;descending&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;filterlanglinks&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;all&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;withlanglinks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;withoutlanglinks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;all&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prexpiry&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;all&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;indefinite&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;definite&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;all&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;siteinfo&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;classname&quot;</span><span class="o">:</span> <span class="s2">&quot;ApiQuerySiteinfo&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;query+siteinfo&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;group&quot;</span><span class="o">:</span> <span class="s2">&quot;meta&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;prefix&quot;</span><span class="o">:</span> <span class="s2">&quot;si&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;sourcename&quot;</span><span class="o">:</span> <span class="s2">&quot;MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licensetag&quot;</span><span class="o">:</span> <span class="s2">&quot;GPL-2.0+&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;licenselink&quot;</span><span class="o">:</span> <span class="s2">&quot;Special:Version/License/MediaWiki&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;readrights&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;helpurls&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="s2">&quot;https://www.mediawiki.org/wiki/API:Siteinfo&quot;</span>
+                <span class="p">],</span>
+                <span class="s2">&quot;parameters&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;prop&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;default&quot;</span><span class="o">:</span> <span class="s2">&quot;general&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;multi&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;limit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;lowlimit&quot;</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
+                        <span class="s2">&quot;highlimit&quot;</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;general&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;namespaces&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;namespacealiases&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;specialpagealiases&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;magicwords&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;interwikimap&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;dbrepllag&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;statistics&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;usergroups&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;libraries&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;extensions&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;fileextensions&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;rightsinfo&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;restrictions&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;languages&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;skins&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;extensiontags&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;functionhooks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;showhooks&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;variables&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;protocols&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;defaultoptions&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;uploaddialog&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;filteriw&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="p">[</span>
+                            <span class="s2">&quot;local&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;!local&quot;</span>
+                        <span class="p">]</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;showalldb&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;numberingroup&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;boolean&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;inlanguagecode&quot;</span><span class="p">,</span>
+                        <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;string&quot;</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":353});});</script>		</body></html>

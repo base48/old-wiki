@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AInfrastructure_projects">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T01:52:07+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects">
+		<rdfs:label>Infrastructure projects</rdfs:label>
+		<swivt:page rdf:resource="Category:Infrastructure_projects"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Infrastructure_projects"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-25T17:55:51Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456287.2471181</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-25T17:55:51Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456287.2471181</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infrastructure projects</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/ViewSonicTablet">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>ViewSonicTablet</rdfs:label>
+		<swivt:page rdf:resource="ViewSonicTablet"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/ViewSonicTablet"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ViewSonicTablet</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Project_boxes">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Project boxes</rdfs:label>
+		<swivt:page rdf:resource="Project_boxes"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Project_boxes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project boxes</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Shelfs_take1">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Shelfs take1</rdfs:label>
+		<swivt:page rdf:resource="Shelfs_take1"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Shelfs_take1"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shelfs take1</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Wall-2Dmounted_LCDs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Wall-mounted LCDs</rdfs:label>
+		<swivt:page rdf:resource="Wall-mounted_LCDs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Wall-mounted_LCDs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall-mounted LCDs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/New_Space">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>New Space</rdfs:label>
+		<swivt:page rdf:resource="New_Space"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/New_Space"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Space</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/SpaceBar">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>SpaceBar</rdfs:label>
+		<swivt:page rdf:resource="SpaceBar"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/SpaceBar"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpaceBar</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/NetworkInfrastructure">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>NetworkInfrastructure</rdfs:label>
+		<swivt:page rdf:resource="NetworkInfrastructure"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/NetworkInfrastructure"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NetworkInfrastructure</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Pignus">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Pignus</rdfs:label>
+		<swivt:page rdf:resource="Pignus"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Pignus"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pignus</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MemberPortal">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>MemberPortal</rdfs:label>
+		<swivt:page rdf:resource="MemberPortal"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MemberPortal"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MemberPortal</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/ViewSonicTablet">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>ViewSonicTablet</rdfs:label>
+		<swivt:page rdf:resource="ViewSonicTablet"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/ViewSonicTablet"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ViewSonicTablet</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Project_boxes">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Project boxes</rdfs:label>
+		<swivt:page rdf:resource="Project_boxes"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Project_boxes"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project boxes</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Shelfs_take1">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Shelfs take1</rdfs:label>
+		<swivt:page rdf:resource="Shelfs_take1"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Shelfs_take1"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shelfs take1</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Wall-2Dmounted_LCDs">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Wall-mounted LCDs</rdfs:label>
+		<swivt:page rdf:resource="Wall-mounted_LCDs"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Wall-mounted_LCDs"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall-mounted LCDs</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/New_Space">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>New Space</rdfs:label>
+		<swivt:page rdf:resource="New_Space"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/New_Space"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Space</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/SpaceBar">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>SpaceBar</rdfs:label>
+		<swivt:page rdf:resource="SpaceBar"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/SpaceBar"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpaceBar</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/NetworkInfrastructure">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>NetworkInfrastructure</rdfs:label>
+		<swivt:page rdf:resource="NetworkInfrastructure"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/NetworkInfrastructure"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NetworkInfrastructure</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Pignus">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>Pignus</rdfs:label>
+		<swivt:page rdf:resource="Pignus"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Pignus"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pignus</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/MemberPortal">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AInfrastructure_projects"/>
+		<rdfs:label>MemberPortal</rdfs:label>
+		<swivt:page rdf:resource="MemberPortal"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/MemberPortal"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MemberPortal</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

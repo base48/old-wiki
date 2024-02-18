@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJZ3lzz7qJ@2AnBl@tqAwAAAAw","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+exturlusage">list=exturlusage (eu)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>exturlusage</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-flag-generator">This module can be used as a generator.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Enumerate pages that contain a given URL.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Exturlusage">https://www.mediawiki.org/wiki/API:Exturlusage</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>euprop</dt><dd class="description"><p>Which pieces of information to include:
+</p><dl><dt>ids</dt>
+<dd>Adds the ID of page.</dd>
+<dt>title</dt>
+<dd>Adds the title and namespace ID of the page.</dd>
+<dt>url</dt>
+<dd>Adds the URL used in the page.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): ids, title, url</dd><dd class="info">Default: ids|title|url</dd><dt>euoffset</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd><dd class="info">Type: integer</dd><dt>euprotocol</dt><dd class="description"><p>Protocol of the URL. If empty and <var>euquery</var> is set, the protocol is <kbd>http</kbd>. Leave both this and <var>euquery</var> empty to list all external links.
+</p></dd><dd class="info">One of the following values: Can be empty, or bitcoin, ftp, ftps, geo, git, gopher, http, https, irc, ircs, magnet, mailto, mms, news, nntp, redis, sftp, sip, sips, sms, ssh, svn, tel, telnet, urn, worldwind, xmpp</dd><dd class="info">Default: <span class="apihelp-empty">(empty)</span></dd><dt>euquery</dt><dd class="description"><p>Search string without protocol. See <a href="./Special:LinkSearch.html" title="Special:LinkSearch">Special:LinkSearch</a>. Leave empty to list all external links.
+</p></dd><dt>eunamespace</dt><dd class="description"><p>The page namespaces to enumerate.
+</p><p><strong>Note:</strong> Due to <a href="http://www.mediawiki.org/wiki/Manual:%24wgMiserMode" class="extiw" title="mw:Manual:$wgMiserMode">miser mode</a>, using this may result in fewer than <var>eulimit</var> results returned before continuing; in extreme cases, zero results may be returned.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 102, 103, 104, 105, 108, 109</dd><dt>eulimit</dt><dd class="description"><p>How many pages to return.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 10</dd><dt>euexpandurl</dt><dd class="description"><p>Expand protocol-relative URLs with the canonical protocol.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Example:</div><dl><dt>Show pages linking to <kbd><a class="external free" href="http://www.mediawiki.org">http://www.mediawiki.org</a></kbd>.</dt><dd><a href="api.php%3Faction=query&amp;list=exturlusage&amp;euquery=www.mediawiki.org.html">api.php?action=query&amp;list=exturlusage&amp;euquery=www.mediawiki.org</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=exturlusage&amp;euquery=www.mediawiki.org"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":515});});</script>		</body></html>

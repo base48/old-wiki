@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>View source for RF stuff - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"RF_stuff","wgTitle":"RF stuff","wgCurRevisionId":4264,"wgRevisionId":0,"wgArticleId":811,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"RF_stuff","wgRelevantArticleId":811,"wgRequestId":"YsIy1KLwmw@xsXIVDGmCHQAAAAw","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="RF stuff" href="./index.php%3Ftitle=Special:ExportRDF%252FRF_stuff&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-RF_stuff rootpage-RF_stuff skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for RF stuff</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="RF_stuff.html" title="RF stuff">RF stuff</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=RF_stuff&amp;action=edit.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=RF_stuff&amp;action=edit.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in the group: <a href="index.php?title=Base48:Users&amp;action=edit&amp;redlink=1" class="new" title="Base48:Users (page does not exist)">Users</a>.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="./Special:Preferences.html" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">
+
+== Why DVB rtlsdr dongle has a problem to receive weaker signals ==
+
+The most important factors causing bad reception are overloading by strong signals and bad antenna design and placement.
+Long story short, build filter to pass only what you want to receive (sadly) and design good antenna and place it in line of sight of your signal source.
+
+==== Frequency tuning inaccuracy ====
+DVB dongle has a cheap circuit to receive a wide band of frequencies. It has cheap oscillator, that
+introduces initial frequency inaccuracy and therefore it doesn't tune precisely to frequencies out
+of the box. This would be a must even in cheaper devices such as PMR radios, that have to tune precisely
+to their radio channels. [https://en.wikipedia.org/wiki/PMR446]
+For example channel 1 has center frequency 446.00625 MHz and bandwidth of 12,5 kHz. Next channel sits right
+next to the first one at 446.01875 MHz. Frequencies are spaced 12,5 kHz from each other. If the PMR device
+drifted with its tuning by few kHz, it would cause interference to adjacent channels. So even cheap PMR devices
+have more precise frequency tuning.
+
+To tune precisely to signals you want to receive, you have to first know what is your frequency error in ppm (parts per million). My has around 61 ppm. You can determine your ppm by more ways.
+One is to find some known radio station with known frequency and set in its frequency (which will be off for now)
+and change ppm in your receiver software until your spectral plot shows you are precisely at it's carrier frequency peak.
+Now you determined the ppm.
+Radio station could be for example navigation beacon (VOR) in airband, it has quite narrow peak contrary to commercial
+wide FM stations.
+This was the more hard way which would give you some fun with discovering some transmitters in your neighbourhood.
+
+Other easier way is to use programs that do it automatically. Some are based on tuning into GSM band and searching for
+known BTS channels. 2G is phasing out so this solution will stop working if they're not updated to more modern generations
+of mobile connectivity.[https://www.google.com/search?q=rtlsdr+ppm+callibration] [https://softsyst.com//QIRXCalibrate?sequenceNo=0] [https://karelkeers.nl/karelkeers.nl/rtl-sdr-calibration-with-r820t2-chip/]
+
+Other than that, frequency tuning is temperature dependent and some users have modified their rtlsdr dongles to use more precise sources of clock, txco that have both better initial frequency precision and temperature stability.
+
+==== Overloading by strong signals ====
+any software defined radio accepts a wide band of frequencies (unless it has some filters built in in front of it's signal input). rtl sdr has two amplifiers inside (variant with tuner R820T2), one amplifying input from antenna, after it, there's mixer and after it second amplifier and there are some filters in the middle.
+All those frequencies go into first amplifier and later circuits and take their's dynamic range. They won' leave much or any headroom (dynamic range) for your useful weaker signal you want to receive. Basically if you try to receive radio amateur sattelites in 70 cm band, rtl-sdr becomes useless unless you filter out your strong interfering signals. There are bands that are working better even without filtering (i can successfully receive APRS packets from 144.800 MHz) but there are bands that are completely overloaded.
+Normal radio stations such as PMR's have filters for receiving PMR band and therefore have little problems with interference. Software defined radios are made universal and therefore they don't have filters on input and are susceptible to interference.
+
+The solution is that '''you have to use input filters with your SDR'''.
+Strong are radio FM stations 88-108 MHz, some AM broadcasts, there are radio towers that can transmit hundreds kilowatts of power. You want to attenuate these signals even before they reach your first amplifier or anything that is a semiconductor in the way. You should place some filter between your antenna feed cable and any first active part that comes in the path: your rtl sdr or any amplifier (LNA).
+
+First choose what frequency band you want to listen to.
+Next, you have two options how to get rid of unwanted signals:
+
+Bandpass filter that let's trough only one frequency band. You have to have one for air band, one for 2m band, one for 70 cm band, one for any other frequency...
+They're not universal and you have to make or buy more of them and switch them if you want to listen to different band.
+Advantage would be, you don't have to think much what everything is overloading your receiver.
+
+Band stop filters (notch filters). First you have to determine what strong signals you have in your neighbourhood. you could check list of AM, FM, DVB radio transmitters in your area, strong radars, and such stuff. Note their frequencies and try to tune them with your rtl-sdr. Get an wideband antenna, set some fixed gain in your receiver software and try to reduce gain. Maybe attach an attenuator, 10dB or 20dB between antenna and your rtl-sdr.
+Note which of those signals are stronger and get trough attenuator. Choose the strongest ones and start building bandstop filter stages. You can make a wide band stop filter to put out whole FM band at once. You can check if filter worked by setting a constant RF gain and trying with and without filter. If you disconnect antenna you will see how many dB has your noisefloor on spectrum plot. If you attach antenna this goes up. Note how many dB over noise floor has your strong interference without filter and with filter attached. Check if your band of interest is not attenuated by your bandstop filter. If you still can't receive your signals, try to filter out next strong interference frequency. You will end up with multiple filters connected together. Some interfering bands need more filtering stages.
+
+Check out [[CoaxNotchFilter]] for some links how to build notch filter from coaxial cable. Advantage is - it's very easy to build and tune and is very modular. But it isn't that cheap because it needs connectors or some metalic shielding box.
+
+==== Bad antenna design and impedance matching ====
+If the antenna isn't designed right or if you have good antenna and it's not impedance matched with receiver,
+antenna's ground plane is not well tuned, or the antenna is badly situated you won't get a good signal.
+
+First, free line of sight to the transmitter and antenna placed high over ground is best for the reception.
+If you have antenna somewhere indoors, you will have problems to receive many of weaker signals. You have to put antenna out of the window or on balcony or better on roof of the building.
+Next you have to choose reliable antenna design, there are non working designs published and shared that just seem to work only because some bad impedance matching causes shielding of coaxial cable connected to antenna working as an antenna instead of your actual antenna. You want to defeat your radiating coax performance with a good antenna. :)
+
+Antennas need good reference to the ground for good reception. there is a antenna called ground plane antena, it has one vertical rod connected to center of coaxial cable and few rods pointing diagonally to ground connected to the shielding of coax. These ground plane rods need to be pointed around until standing wave ratio of antenna goes to good levels. This is measured by SWR meter. Then the antenna will have good reception. This antenna tuning is needed because antenna has it's surrounding of walls and metalic objects that needs to be compensated for. [https://www.google.com/search?q=ground+plane+antenna]
+
+If you build some special antenna, compare it's reception with ground plane antenna or dipole antenna, they are easy tu build.
+
+
+==== Radio imperfection ====
+
+Now when you got rid of strong interfering signals, have built and tuned well working antenna and have your frequency error calibrated you should be able to receive weaker signals on any band that is supported by your tuner type.
+You are just left with the problems that the radio itself has. The circuit has it's own (thermal) noise that it generates, there is noise and interference coming from USB power line. This noise increases your noise floor
+and takes away some of your dynamic range and prevents you from receiving very weak signals.
+Other than that, there are so called spurs or birdies that look like some continuously transmitted signal and are situated all around your spectrogram and they don't change their amplitude much. If you tune a bit around you see them disappearing completely, some of them look like they are fixed in band you are receiving and they move with tuning away. It was reported that there is some spurious noise right in the middle of spectrogram which doesn't move and can be reduced by modifing rtl-sdr by adding more quality and filtered DC powering for IC's.
+All those were spurious signals generated by working of RF circuits, they will be there and there is no much other to do with them, maybe moving to better quality SDR hardware.
+</textarea><div class="templatesUsed"></div><p id="mw-returnto">Return to <a href="RF_stuff.html" title="RF stuff">RF stuff</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="RF_stuff.html">RF_stuff</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=RF+stuff&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=RF+stuff&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="RF_stuff.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:RF_stuff&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=RF_stuff&amp;action=edit.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view"><span><a href="RF_stuff.html" >Read</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php%3Ftitle=RF_stuff&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=RF_stuff&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=RF_stuff&amp;action=edit.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/RF_stuff.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/RF_stuff" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="index.php%3Ftitle=RF_stuff&amp;action=info.html" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":344});});</script>
+	</body>
+</html>

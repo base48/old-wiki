@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/FireFly1_robot">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T00:04:36+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/FireFly1_robot">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ASoftware_projects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects"/>
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3APages_with_broken_file_links"/>
+		<rdfs:label>FireFly1 robot</rdfs:label>
+		<swivt:page rdf:resource="FireFly1_robot"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/FireFly1_robot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Contributors rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zed</property:Contributors>
+		<property:Created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-01Z</property:Created>
+		<property:Created-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456931.5</property:Created-23aux>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FireFly1 robot</property:Description>
+		<property:Image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-000-242_V-02_top_plate_04.jpg</property:Image>
+		<property:Project_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FireFly1 robot</property:Project_name>
+		<property:Stale rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</property:Stale>
+		<property:Status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terminated</property:Status>
+		<property:Tags rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hw, sw</property:Tags>
+		<property:Has_query rdf:resource="&wiki;FireFly1_robot-23_QUERY0909563baaf9068872add6be6a9a102c"/>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-12T21:15:08Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457431.3855093</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-16T23:49:36Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2457435.4927778</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FireFly1 robot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/FireFly1_robot-23_QUERY0909563baaf9068872add6be6a9a102c">
+		<swivt:masterPage rdf:resource="&wiki;FireFly1_robot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:FireFly1 robot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FireFly1 robot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AProjects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ASoftware_projects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AHardware_projects" />
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3APages_with_broken_file_links" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AContributors" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated-23aux" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ADescription" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AImage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AProject_name" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStale" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AStatus" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ATags" />
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_query" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AQuery_string" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

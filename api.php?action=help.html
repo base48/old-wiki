@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJJCrJsVhaOZFjX@K-tFwAAAAY","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header" id="main">Main module</h2>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<div class="hlist plainlinks api-main-links">
+<ul><li> <a href="http://www.mediawiki.org/wiki/API:Main_page" class="extiw" title="mw:API:Main page">Documentation</a></li>
+<li> <a href="http://www.mediawiki.org/wiki/API:FAQ" class="extiw" title="mw:API:FAQ">FAQ</a></li>
+<li> <a rel="nofollow" class="external text" href="https://lists.wikimedia.org/mailman/listinfo/mediawiki-api">Mailing list</a></li>
+<li> <a rel="nofollow" class="external text" href="https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce">API Announcements</a></li>
+<li> <a rel="nofollow" class="external text" href="https://phabricator.wikimedia.org/maniphest/query/GebfyV4uCaLd/#R">Bugs &amp; requests</a></li></ul></div>
+<p><strong>Status:</strong> All features shown on this page should be working, but the API is still in active development, and may change at any time. Subscribe to <a rel="nofollow" class="external text" href="https://lists.wikimedia.org/pipermail/mediawiki-api-announce/">the mediawiki-api-announce mailing list</a> for notice of updates.
+</p><p><strong>Erroneous requests:</strong> When erroneous requests are sent to the API, an HTTP header will be sent with the key "MediaWiki-API-Error" and then both the value of the header and the error code sent back will be set to the same value. For more information see <a href="http://www.mediawiki.org/wiki/API:Errors_and_warnings" class="extiw" title="mw:API:Errors and warnings">API: Errors and warnings</a>.
+</p><p><strong>Testing:</strong> For ease of testing API requests, see <a href="./Special:ApiSandbox.html" title="Special:ApiSandbox">Special:ApiSandbox</a>.
+</p>
+
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>action</dt><dd class="description"><p>Which action to perform.
+</p></dd><dd class="info">One of the following values: <a href="./Special:ApiHelp/ask.html">ask</a>, <a href="./Special:ApiHelp/askargs.html">askargs</a>, <a href="./Special:ApiHelp/block.html">block</a>, <a href="./Special:ApiHelp/browsebysubject.html">browsebysubject</a>, <a href="./Special:ApiHelp/changeauthenticationdata.html">changeauthenticationdata</a>, <a href="./Special:ApiHelp/checktoken.html">checktoken</a>, <a href="./Special:ApiHelp/clearhasmsg.html">clearhasmsg</a>, <a href="./Special:ApiHelp/clientlogin.html">clientlogin</a>, <a href="./Special:ApiHelp/compare.html">compare</a>, <a href="./Special:ApiHelp/createaccount.html">createaccount</a>, <a href="./Special:ApiHelp/delete.html">delete</a>, <a href="./Special:ApiHelp/edit.html">edit</a>, <a href="./Special:ApiHelp/emailuser.html">emailuser</a>, <a href="./Special:ApiHelp/expandtemplates.html">expandtemplates</a>, <a href="./Special:ApiHelp/ext.srf.slideshow.show.html">ext.srf.slideshow.show</a>, <a href="./Special:ApiHelp/feedcontributions.html">feedcontributions</a>, <a href="./Special:ApiHelp/feedrecentchanges.html">feedrecentchanges</a>, <a href="./Special:ApiHelp/feedwatchlist.html">feedwatchlist</a>, <a href="./Special:ApiHelp/filerevert.html">filerevert</a>, <a href="./Special:ApiHelp/help.html">help</a>, <a href="./Special:ApiHelp/imagerotate.html">imagerotate</a>, <a href="./Special:ApiHelp/import.html">import</a>, <a href="./Special:ApiHelp/linkaccount.html">linkaccount</a>, <a href="./Special:ApiHelp/login.html">login</a>, <a href="./Special:ApiHelp/logout.html">logout</a>, <a href="./Special:ApiHelp/managetags.html">managetags</a>, <a href="./Special:ApiHelp/mergehistory.html">mergehistory</a>, <a href="./Special:ApiHelp/move.html">move</a>, <a href="./Special:ApiHelp/opensearch.html">opensearch</a>, <a href="./Special:ApiHelp/options.html">options</a>, <a href="./Special:ApiHelp/paraminfo.html">paraminfo</a>, <a href="./Special:ApiHelp/parse.html">parse</a>, <a href="./Special:ApiHelp/patrol.html">patrol</a>, <a href="./Special:ApiHelp/protect.html">protect</a>, <a href="./Special:ApiHelp/purge.html">purge</a>, <a href="./Special:ApiHelp/query.html">query</a>, <a href="./Special:ApiHelp/removeauthenticationdata.html">removeauthenticationdata</a>, <a href="./Special:ApiHelp/resetpassword.html">resetpassword</a>, <a href="./Special:ApiHelp/revisiondelete.html">revisiondelete</a>, <a href="./Special:ApiHelp/rollback.html">rollback</a>, <a href="./Special:ApiHelp/rsd.html">rsd</a>, <a href="./Special:ApiHelp/setnotificationtimestamp.html">setnotificationtimestamp</a>, <a href="./Special:ApiHelp/smwinfo.html">smwinfo</a>, <a href="./Special:ApiHelp/stashedit.html">stashedit</a>, <a href="./Special:ApiHelp/tag.html">tag</a>, <a href="./Special:ApiHelp/tokens.html">tokens</a>, <a href="./Special:ApiHelp/unblock.html">unblock</a>, <a href="./Special:ApiHelp/undelete.html">undelete</a>, <a href="./Special:ApiHelp/unlinkaccount.html">unlinkaccount</a>, <a href="./Special:ApiHelp/upload.html">upload</a>, <a href="./Special:ApiHelp/userrights.html">userrights</a>, <a href="./Special:ApiHelp/watch.html">watch</a></dd><dd class="info">Default: help</dd><dt>format</dt><dd class="description"><p>The format of the output.
+</p></dd><dd class="info">One of the following values: <a href="./Special:ApiHelp/json.html">json</a>, <a href="./Special:ApiHelp/jsonfm.html">jsonfm</a>, <a href="./Special:ApiHelp/none.html">none</a>, <a href="./Special:ApiHelp/php.html">php</a>, <a href="./Special:ApiHelp/phpfm.html">phpfm</a>, <a href="./Special:ApiHelp/rawfm.html">rawfm</a>, <a href="./Special:ApiHelp/xml.html">xml</a>, <a href="./Special:ApiHelp/xmlfm.html">xmlfm</a></dd><dd class="info">Default: jsonfm</dd><dt>maxlag</dt><dd class="description"><p>Maximum lag can be used when MediaWiki is installed on a database replicated cluster. To save actions causing any more site replication lag, this parameter can make the client wait until the replication lag is less than the specified value. In case of excessive lag, error code <samp>maxlag</samp> is returned with a message like <samp>Waiting for $host: $lag seconds lagged</samp>.<br>See <a href="http://www.mediawiki.org/wiki/Manual:Maxlag_parameter" class="extiw" title="mw:Manual:Maxlag parameter">Manual: Maxlag parameter</a> for more information.
+</p></dd><dd class="info">Type: integer</dd><dt>smaxage</dt><dd class="description"><p>Set the <code>s-maxage</code> HTTP cache control header to this many seconds. Errors are never cached.
+</p></dd><dd class="info">Type: integer</dd><dd class="info">Default: 0</dd><dt>maxage</dt><dd class="description"><p>Set the <code>max-age</code> HTTP cache control header to this many seconds. Errors are never cached.
+</p></dd><dd class="info">Type: integer</dd><dd class="info">Default: 0</dd><dt>assert</dt><dd class="description"><p>Verify the user is logged in if set to <kbd>user</kbd>, or has the bot user right if <kbd>bot</kbd>.
+</p></dd><dd class="info">One of the following values: user, bot</dd><dt>requestid</dt><dd class="description"><p>Any value given here will be included in the response. May be used to distinguish requests.
+</p></dd><dt>servedby</dt><dd class="description"><p>Include the hostname that served the request in the results.
+</p></dd><dd class="info">Type: boolean (<a href="api.php%3Faction=help.html#main.2Fdatatypes">details</a>)</dd><dt>curtimestamp</dt><dd class="description"><p>Include the current timestamp in the result.
+</p></dd><dd class="info">Type: boolean (<a href="api.php%3Faction=help.html#main.2Fdatatypes">details</a>)</dd><dt>origin</dt><dd class="description"><p>When accessing the API using a cross-domain AJAX request (CORS), set this to the originating domain. This must be included in any pre-flight request, and therefore must be part of the request URI (not the POST body). This must match one of the origins in the <code>Origin</code> header exactly, so it has to be set to something like <kbd><a rel="nofollow" class="external free" href="https://en.wikipedia.org">https://en.wikipedia.org</a></kbd> or <kbd><a rel="nofollow" class="external free" href="https://meta.wikimedia.org">https://meta.wikimedia.org</a></kbd>. If this parameter does not match the <code>Origin</code> header, a 403 response will be returned. If this parameter matches the <code>Origin</code> header and the origin is whitelisted, an <code>Access-Control-Allow-Origin</code> header will be set.
+</p></dd><dt>uselang</dt><dd class="description"><p>Language to use for message translations. <kbd><a href="api.php%3Faction=help&amp;modules=query+siteinfo.html">action=query&amp;meta=siteinfo</a></kbd> with <kbd>siprop=languages</kbd> returns a list of language codes, or specify <kbd>user</kbd> to use the current user's language preference, or specify <kbd>content</kbd> to use this wiki's content language.
+</p></dd><dd class="info">Default: user</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Help for the main module.</dt><dd><a href="api.php%3Faction=help.html">api.php?action=help</a> <a href="./Special:ApiSandbox.html#action=help"><small>[open in sandbox]</small></a></dd><dt>All help in one page.</dt><dd><a href="api.php%3Faction=help&amp;recursivesubmodules=1.html">api.php?action=help&amp;recursivesubmodules=1</a> <a href="./Special:ApiSandbox.html#action=help&amp;recursivesubmodules=1"><small>[open in sandbox]</small></a></dd></dl></div>
+<div class="apihelp-block apihelp-permissions"><div class="apihelp-block-head">Permissions:</div><dl><dt>writeapi</dt><dd>Use of the write API</dd><dd>Granted to: all, user, bot</dd><dt>apihighlimits</dt><dd>Use higher limits in API queries (slow queries: 500; fast queries: 5000). The limits for slow queries also apply to multivalue parameters.</dd><dd>Granted to: bot, sysop</dd></dl></div>
+
+<h3 id="main/datatypes" class="apihelp-header"><span id="main.2Fdatatypes"></span>Data types</h3><p>Some parameter types in API requests need further explanation:
+</p>
+<dl><dt>boolean</dt>
+<dd>Boolean parameters work like HTML checkboxes: if the parameter is specified, regardless of value, it is considered true. For a false value, omit the parameter entirely.</dd>
+<dt>timestamp</dt>
+<dd>Timestamps may be specified in several formats. ISO 8601 date and time is recommended. All times are in UTC, any included timezone is ignored.
+<ul><li> ISO 8601 date and time, <kbd><var>2001</var>-<var>01</var>-<var>15</var>T<var>14</var>:<var>56</var>:<var>00</var>Z</kbd> (punctuation and <kbd>Z</kbd> are optional)</li>
+<li> ISO 8601 date and time with (ignored) fractional seconds, <kbd><var>2001</var>-<var>01</var>-<var>15</var>T<var>14</var>:<var>56</var>:<var>00</var>.<var>00001</var>Z</kbd> (dashes, colons, and <kbd>Z</kbd> are optional)</li>
+<li> MediaWiki format, <kbd><var>2001</var><var>01</var><var>15</var><var>14</var><var>56</var><var>00</var></kbd></li>
+<li> Generic numeric format, <kbd><var>2001</var>-<var>01</var>-<var>15</var> <var>14</var>:<var>56</var>:<var>00</var></kbd> (optional timezone of <kbd>GMT</kbd>, <kbd>+<var>##</var></kbd>, or <kbd>-<var>##</var></kbd> is ignored)</li>
+<li> EXIF format, <kbd><var>2001</var>:<var>01</var>:<var>15</var> <var>14</var>:<var>56</var>:<var>00</var></kbd></li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc2822">RFC 2822</a> format (timezone may be omitted), <kbd><var>Mon</var>, <var>15</var> <var>Jan</var> <var>2001</var> <var>14</var>:<var>56</var>:<var>00</var></kbd></li>
+<li> <a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc850">RFC 850</a> format (timezone may be omitted), <kbd><var>Monday</var>, <var>15</var>-<var>Jan</var>-<var>2001</var> <var>14</var>:<var>56</var>:<var>00</var></kbd></li>
+<li> C ctime format, <kbd><var>Mon</var> <var>Jan</var> <var>15</var> <var>14</var>:<var>56</var>:<var>00</var> <var>2001</var></kbd></li>
+<li> Seconds since 1970-01-01T00:00:00Z as a 1 to 13 digit integer (excluding <kbd>0</kbd>)</li>
+<li> The string <kbd>now</kbd></li></ul></dd></dl><h3 id="main/credits" class="apihelp-header"><span id="main.2Fcredits"></span>Credits</h3><p>API developers:
+</p>
+<ul><li> Yuri Astrakhan (creator, lead developer Sep 2006–Sep 2007)</li>
+<li> Roan Kattouw (lead developer Sep 2007–2009)</li>
+<li> Victor Vasiliev</li>
+<li> Bryan Tong Minh</li>
+<li> Sam Reed</li>
+<li> Brad Jorsch (lead developer 2013–present)</li></ul><p>Please send your comments, suggestions and questions to mediawiki-api@lists.wikimedia.org
+or file a bug report at <a rel="nofollow" class="external free" href="https://phabricator.wikimedia.org/">https://phabricator.wikimedia.org/</a>.
+</p></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":471});});</script>		</body></html>

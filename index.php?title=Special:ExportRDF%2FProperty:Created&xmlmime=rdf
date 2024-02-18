@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Property%3ACreated">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T02:45:59+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated">
+		<rdfs:label>Created</rdfs:label>
+		<swivt:page rdf:resource="Property:Created"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Created"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T22:52:04Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456338.4528241</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T22:52:04Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456338.4528241</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Created</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_dat"/>
+	</owl:DatatypeProperty>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Dark_Mir">
+		<rdfs:label>Dark Mir</rdfs:label>
+		<swivt:page rdf:resource="Dark_Mir"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Dark_Mir"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark Mir</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Ammx">
+		<rdfs:label>Ammx</rdfs:label>
+		<swivt:page rdf:resource="Ammx"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Ammx"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammx</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/TV-2DB-2DGone">
+		<rdfs:label>TV-B-Gone</rdfs:label>
+		<swivt:page rdf:resource="TV-B-Gone"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/TV-B-Gone"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TV-B-Gone</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Secure_BSD">
+		<rdfs:label>Secure BSD</rdfs:label>
+		<swivt:page rdf:resource="Secure_BSD"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Secure_BSD"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secure BSD</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/HBot">
+		<rdfs:label>HBot</rdfs:label>
+		<swivt:page rdf:resource="HBot"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/HBot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://wiki.base48.cz/Special:URIResolver/Property-3ACreated"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AHas_improper_value_for">
+		<rdfs:label>Has improper value for</rdfs:label>
+		<swivt:page rdf:resource="Property:Has_improper_value_for"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Property:Has_improper_value_for"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has improper value for</swivt:wikiPageSortKey>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>View source for RepRap - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"RepRap","wgTitle":"RepRap","wgCurRevisionId":3942,"wgRevisionId":0,"wgArticleId":141,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"RepRap","wgRelevantArticleId":141,"wgRequestId":"YsI0n6D8hpq3OcymCVPotQAAAAM","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared|mediawiki.sectionAnchor|mediawiki.skinning.interface|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="RepRap" href="./index.php%3Ftitle=Special:ExportRDF%252FRepRap&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-RepRap rootpage-RepRap skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">View source for RepRap</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="RepRap.html" title="RepRap">RepRap</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php%3Ftitle=RepRap&amp;action=edit.html#mw-head">navigation</a>, 					<a href="index.php%3Ftitle=RepRap&amp;action=edit.html#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reasons:
+</p>
+<ul class="permissions-errors">
+<li>The action you have requested is limited to users in the group: <a href="index.php?title=Base48:Users&amp;action=edit&amp;redlink=1" class="new" title="Base48:Users (page does not exist)">Users</a>.</li>
+<li>You must confirm your email address before editing pages.
+Please set and validate your email address through your <a href="./Special:Preferences.html" title="Special:Preferences">user preferences</a>.</li>
+</ul>
+<hr />
+<p>You can view and copy the source of this page.
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">{{Project
+ |name=Base48 RepRap
+ |wikiPageName=RepRap
+ |image=Base48_RepRap_Logo.png
+ |founder=hyna
+ |coops=cubz#rmarko#anoq
+ |hwlic=[http://reprap.org/wiki/RepRapGPLLicence RepRapGPLLicence]
+ |status=active
+ |tags=hw
+ |shortdesc=Our RepRap :-)
+ |created=2011-11-1
+}}
+
+= Changelog =
+
+Current status: '''Broken'''
+* 2017-06-22
+** Machine works except for Z axis motors, needs wiring fix and resoldering
+* 2013-02-23
+** Extruder cleaned.
+** Added load to heatbed supply's 5V branch
+** Enabled PREVENT_DANGEROUS_EXTRUDE with minimal temp. set to 220°.
+** Seems like there's a firmware bug causing temperature to drop too much if 'Other layers temperature' is different than 'First layer temperature' in slicer.
+* 2013-02-14
+** Hot-end died, waiting for new to be made.
+* 2012-10-26
+** the z-lift setting causes major problems,
+*** slow motion,
+*** it was scratching into glass after it printed first layer
+** bed calibration done again
+** hobbed bolt cleaned (extrusion problems experienced)
+* 2012-10-23 
+** Replaced both Z-couplings with [http://www.thingiverse.com/thing:19858 printed ones]
+** heatbed transistor bypassed (FIXME)
+* 2012-10-18 
+** Blue PSU refuses to work, there is 20-30 ohms resistance on the bed supply terminals (MOSFET broken?)
+** No visible short circuits observed under the bed.
+** Second PSU used for motors and Sanguinololu. (5V branch load needed)
+** After some tampering with bed and software the blue works.
+** The bed heats up now independently on software, does not reach the full temp. needed for ideal printing.
+** The bed might need a slight calibration after our attempts to investigate the short circuit in heating.
+* 2012-10-16 X-axis Pololu trimmer adjusted to lower the current (X stepper was overheating and skipping steps on fast moves)
+* 2012-10-16 Blue PSU works again. 5V branch load put back. Voltage during full load is ~11.9V
+* 2012-10-15 Binder clips in place 
+
+= Todo =
+* Calibrate bed precisely and and fix screws with loctite or paint.
+* Use more 12V branches for bed heating, isolate the wires better.
+* Buy new MOSFET for bed switching.
+* Find some 5V load for the second PSU (There is a 12V soldering iron for this purpose nearby for now)
+* Buy 22.5x22.5 ~6mm glass, replace the current one (cost is roughly 40Kc)
+* Print and replace current extruder with Airtripper's Bowden extruder
+
+
+= Financing =
+
+
+
+== Contributions ==
+{| class="wikitable sortable" style="width: 100%"
+ !colspan="2"| Financials
+ |-
+ !Who
+ !How much
+ |-
+ |Anoq (Radek)
+ | align="right" |2040.00 Kč
+ |-
+ |Anoq (Radek)
+ | align="right" |346.52 Kč
+ |-
+ |Hyna
+ | align="right" |470.00 Kč
+ |-
+ |Sorki
+ | align="right" |525.00 Kč
+ |-
+ |Skim
+ | align="right" |500.00 Kč
+ |-
+ |Hexo
+ | align="right" |1337.00 Kč
+ |-
+ |Alexej
+ | align="right" |300.00 Kč
+ |-
+ |Merlyn
+ | align="right" |500.00 Kč
+ |-
+ |Nixie
+ | align="right" |555.00 Kč
+ |-
+ |Cubz
+ | align="right" |300.00 Kč
+ |-
+ |martian742	 
+ | align="right" |1000.00 Kč
+ |-
+ |Merlynuv tata
+ | align="right" |3000.00 Kč
+ |-
+|}
+
+
+
+== Materials ==
+
+{| class="wikitable sortable" style="width: 100%"
+ !colspan="2"| Materials
+ |-
+ !Who
+ !What
+ |-
+ |martian742	 
+ |AT? zdroje
+ |-
+ |Hyna	 
+ |3ks ložisek 608
+ |-
+ |cubz	 
+ |3ks ložisek 608
+ |-
+ |martian742	 
+ |šmirgl 1500
+ |-
+|}
+
+
+
+== Prices ==
+=== Porizovaci cena Prusa Mendel ===
+
+Porizovaci cenou se mysli nejen cena polozek, ale i naklady s dopravou, uskladnenim a uvedenim do provozu. Vychazi se ze stranek projektu a ceskych zverejnenych staveb stroje:
+
+* http://reprap.org/wiki/Prusa_Mendel
+* http://jakub.serych.cz/reprap-potrebny-material
+* http://www.stehlik.net/lukas/index.php/reprap-domaci-3d-tiskarna
+* http://forums.reprap.org/read.php?221,69892,69892
+Prvni odhad porizovaci ceny: '''12100 Kc'''. Ukazuje se, ze tento odhad je nadsazeny. Funguje mozna, kdyz se o stavbu pokousi lide bez vyrobnich zdroju a schopnosti. Nam se ukazalo, ze mnoho dilu udelame (nebo zkompletujeme) vlastni praci a z materialu, co mame doma. 6.1.2012 jsme proto upresnili porizovaci cenu (bez tiskoveho materialu): '''8068.52 Kc''' 29.1.2012 s nejvetsi pravdepodobnosti je konecna cena 9973Kč, ktera obsahuje i 2.2kg ABS plastu (1299Kč) Takze ciste funkcni RepRap nas stal zatim 8647Kč.
+28.7.2012 se cena navysila o novy procesor, SMD trimr (394Kc) a hlinikovou desku na heatbed (300Kc). Doufam ze uz finalni cena je 9341Kc (10640Kc i s plastem).
+
+
+V tuto chvíli máme ještě vybráno 160Kč (ma je Hyna) - použijeme to casem na nejakej zlepsovak. A mame navic jeden procesor ATMega644p, kterej jsme nakonec vubec nepouzili.
+
+==== Mechanicke dily ====
+
+Kde je v tabulce napsáno dodáno - u toho platí že je uvedena skutečná pořizovací cena. U zbytku je cena odhadnutá.
+{| class="wikitable sortable" style="width: 100%"
+ |-
+ ! Polozka 
+ ! zdroje 
+ ! cena 
+ |-
+ | Tistene dily (potrebuje 12ks LM8UU lozisek) 
+ | [http://www.emakershop.com/browse/listing?os&amp;l=180&amp;n=3 EmakerShop]
+ | 2016 Kč
+ |-
+ | Davkovac plastu (extruder)
+ | [[ http://www. | link]]
+ | */ 
+ |-
+ | Hot end
+ | [http://reprap.org/wiki/ZemcikO_hot_end ZemcikO]
+ |
+ |-
+ | Šroubky, matičky (vitaminy)+ pozinkované závitové tyče
+ | Ferona+vlastní zásoba
+ | 275 Kč
+ |-
+ | Vodící tyče **nerezové**
+ | Ferona
+ | 195 Kč
+ |-
+ | Motory 5x krokove
+ | [http://www.microcon.cz microcon.cz]
+ | 2040 Kč
+ |-
+ | Loziska 608 6ks
+ | [http://www. link]
+ | 0 Kč
+ |-
+ | Loziska LM8UU 12ks
+ | [http://www. -]
+ | 608 Kč
+ |-
+ | Ozubený řemen 5*T5 delka 1955 na obě osy + pošta/2
+ | [http://www.tyma.cz/eshop/produkty/05t05-1955-73116/ tyma.cz]
+ | 395 Kč 
+ |-
+ | Kapton páska
+ |
+ | 520 Kč
+ |-
+ | ABS plast 2.2kg 
+ |
+ |1299 Kč
+ |-
+ | Loziska
+ |
+ | 90 Kč
+ |-
+ | Závitová tyč M8
+ |
+ | 20 Kč
+ |-
+ |}
+*/ cena extruderu je zahrnuta v dilech, ze kterych se sklada (motory, tistene dily, vitaminy)
+
+==== Elektronicke dily ====
+{| class="wikitable sortable" style="width: 100%"
+ |-
+ ! Polozka 
+ ! zdroje 
+ ! cena 
+ |-
+ | 4ks Stepstick PCB
+ | [http://www.ebay.co.uk/itm/220902501826?ssPageName=STRK: eBay]
+ | 158.16 Kč
+ |-
+ | 4x Stepstick soucastky
+ | [http://cz.farnell.com Farnell]
+ | 624 Kč
+ |-
+ | Sanguinololu - PCB
+ | [http://www.ebay.co.uk/itm/120821698123?ssPageName=STRK: eBay]
+ | 188.36 Kč
+ |-
+ | Sanguinololu soucastky
+ | [http://www.farnell.com Farnell+GME]
+ | 480+140 Kč
+ |-
+ | Tepelna podlozka (hlinik + vlna +odpory)
+ | [http://hydraraptor.blogspot.com/2010/01/hot-bed.html link]
+ | 300+34+329 Kč
+ |-
+ | Snimace dorazu (mikrospinace)
+ | [http:// farnell]
+ | 58Kč
+ |-
+ | Termistory*
+ | [http:// farnell]
+ | 393 Kč
+ |-
+ | Odpory na Hot end
+ | [http:// farnell]
+ | 33 Kč
+ |-
+|}
+
+ * Termistorů máme několik navíc. Pokud bude mít někdo zájem, tak jsou k dispozici u Hynka.
+
++147+34 Pošta (fedex,farnell) za některé součástky. Pokud by se to někomu zdálo netransparentní, účty k nahlédnutí u Hynka.
+
+= Hot end =
+Pokus o stavbu ZemcikO hot end v 2.4:
+[http://reprap.org/wiki/ZemcikO_hot_end]
+
+[[File:Zemciko2.4.png|350px]]
+
+Informace o termistorech [[http://reprap.org/wiki/Thermistor|RepRap Wiki - Termistor]]
+
+Topné těleso je použito z verze 2.3, protože ve verzi 2.4 je to už unreal na výrobu.
+
+== Postup + časová náročnost: ==
+
+Díly 3, 6 a 9 jsem jako soustružník amatér dělal cca 6 hodin (3 sady). S tím, že jsem na soustruhu ještě nikdy nevrtal díry a musel jsem přijít na to, jak se to dělá. A aby to nebylo málo, povolil jsem špatnej šroub a rozhodila se mě osa X. Takže to je čas aji se seřízením.
+Pro někoho, kdo na soustruhu umí to je práce na hodinku max.
+
+U dílů 1 a 7 jsem strávil v dílně cca 5 hodin. Při vrtání děr do měděných víček jsem pěkně vynervil. Kdo vrtal nějakou větší díru do plechu, určitě se mu stalo, že místo kruhového otvoru vznikl trojúhelník :) Je to nejspíš špatným upnutím a malou tuhostí stojanu vrtačky. Nakonec jsem to vyřešil zase na soustruhu. 
+Topné těleso šlo poměrně hladce, akorát to trvalo strašně dlouho. Největší pakárna bylo nařezání a zabroušení přesných rozměrů z pásoviny. Při vrtání děr a řezání závitů je potřeba mazat olejem, protože kdo maže, ten jede :)
+
+Postup výroby trysky (díl č. 2) -  Je potřeba vytočit prvně vnější tvar kde nejširší strana trysky je upnutá směrem k hlavě soustruhu (viz obrázek). Dál jsem nařezal závit M8. A to ze strachu, že bych mohl konec trysky utrhnout, kdybych ho dělal až na konec s vyvrtanýma dírama. Přece jen je tam stěna o šířce 1.5mm.
+Protože očko nedokáže vyřezat závit až do konce, musí se konec závitu osoustružit. Jinak by nešlo našroubovat topné těleso. Ve výkresu sice není udán žádný rozměr, ale podle strojních tabulek pro závit M8 je nejmenší rozměr závitu o průěru 6.3mm. Tak jsem to taky udělal a funguje to :)
+&lt;gallery widths=200>
+File:Progress.jpg
+File:Tryska.jpg
+File:Tryska.png
+File:Final.jpg
+&lt;/gallery>
+
+Před odpíchnutím trysky od tyče je ještě potřeba navrtat 0.5mm díru (č.1  červeně na výkresu). Pak už se tryska může odpíchnout a udělat zbytek děr. 3.5mm díra normálně vrtákem a na 8mm je potřeba mít čelní frézku.
+
+= Electronics: Sanguinololu + ATMega644 =
+
+Final solution for Sanguinololu + ATMega644 + Marlin firmware.
+
+Download Arduino 023:
+http://arduino.cc/en/Main/Software
+extract arduino.
+
+Download bootloader Sanguino-0023r4.zip:
+https://code.google.com/p/sanguino/downloads/list
+
+extract Sanguino-0023r4.zip to arduino-0023/hardware. (final path will be arduino-0023/hardware/Sanguino)
+
+open folder /arduino-0023/hardware/Sanguino/bootloaders/atmega644p and modify Makefile as follows
+&lt;syntaxhighlight lang="make">
+PROGRAM    = ATmegaBOOT_644
+
+# enter the target CPU frequency
+AVR_FREQ   = 16000000L
+
+MCU_TARGET = atmega644
+LDSECTION  = --section-start=.text=0x0E000
+&lt;/syntaxhighlight>
+Important thing which is not mentioned in README.txt: LDSECTION For ATMega644 must be set to 0x0E000. 
+
+Make the bootloader or download precompiled hex: [[Media:ATmegaBOOT_644.hex.zip]]
+&lt;syntaxhighlight lang="c">
+hyna@hyna-desktop:/arduino-0023/hardware/Sanguino/bootloaders/atmega644p$ make clean
+rm -rf *.o *.elf *.lst *.map *.sym *.lss *.eep *.srec *.bin *.hex
+hyna@hyna-desktop:/arduino-0023/hardware/Sanguino/bootloaders/atmega644p$ make
+avr-gcc -g -Wall -Os -mmcu=atmega644 -DF_CPU=16000000L  '-DMAX_TIME_COUNT=8000000L>>1' -DADABOOT -Wl,--section-start=.text=0xE000 \
+ -c -g -Os -Wall -mmcu=atmega644 ATmegaBOOT.c -o ATmegaBOOT_644.o
+avr-gcc -g -Wall -Os -mmcu=atmega644 -DF_CPU=16000000L  '-DMAX_TIME_COUNT=8000000L>>1' -DADABOOT -Wl,--section-start=.text=0xE000 \ 
+ -o ATmegaBOOT_644.elf ATmegaBOOT_644.o 
+avr-objcopy -j .text -j .data -O ihex ATmegaBOOT_644.elf ATmegaBOOT_644.hex
+&lt;/syntaxhighlight>
+
+Connect your favorite AVR programmer (in my case BusPirate) and execute these commands:
+&lt;syntaxhighlight lang="bash">
+avrdude -p atmega644 -c buspirate -P /dev/ttyUSB0 -U lock:w:0x3F:m
+avrdude -p atmega644 -c buspirate -P /dev/ttyUSB0 -U lfuse:w:0xD6:m -U hfuse:w:0xD8:m -U efuse:w:0xFF:m
+avrdude -p atmega644 -c buspirate -P /dev/ttyUSB0 -U flash:w:/arduino-0023/hardware/Sanguino/bootloaders/atmega644p/ATmegaBOOT_644.hex:i
+avrdude -p atmega644 -c buspirate -P /dev/ttyUSB0 -U lock:w:0x0F:m
+&lt;/syntaxhighlight>
+
+Disconnect AVR programmer and connect Sanguinololu to USB port. If everything goes well, now you should be able to upload firmware via USB. Don't forgot to press a reset button on Sanguinololu board, since without arduino IDE autoreset doesn't work.
+
+Baudrate 38400 and -c arduino!
+&lt;syntaxhighlight lang="c">
+avrdude -patmega644 -c arduino -P /dev/ttyUSB0 -v -b 38400 -U flash:w:/home/hyna/programs/Marlin/applet/Marlin.hex:i
+&lt;/syntaxhighlight>
+
+Without pressing reset button in proper moment it gives you
+
+&lt;syntaxhighlight lang="c">
+avrdude: stk500_recv(): programmer is not responding
+&lt;/syntaxhighlight>
+
+instead of
+&lt;syntaxhighlight lang="c">
+avrdude: AVR device initialized and ready to accept instructions
+Reading | ################################################## | 100% 0.00s
+avrdude: Device signature = 0x1e9609
+
+....
+&lt;/syntaxhighlight>
+
+Now you are done, Enjoy!
+
+= Common printing errors =
+
+This part is about state of calibration as on 6th of September 2012. We achieved good quality of print on models that have straight walls and no holes. Problems are with edges and round shapes.
+
+===== Lifting edges of the first layer =====
+
+&lt;gallery widths=200>
+File:RRLiftedEdges.JPG
+&lt;/gallery>
+
+Original model:
+
+Description of the error: the edges of the printed model are visibly lifted.
+
+Possible causes: speed too high, not enough adhesion due to extruder being too high
+
+Possible fixes: proper calibration. 3mm brim looks good
+
+===== Flaws on the round shapes =====
+
+&lt;gallery widths=200>
+File:RRFlavsInRoundShapes.JPG
+&lt;/gallery>
+
+Original model:
+
+Description of the error: there are jumps in the walls of round objects
+
+Possible causes: oozing nozzle
+
+Possible fixes: http://reprap.org/wiki/Calibration#Oozebane
+
+===== Irregularities on prints with sharp edges and holes in them =====
+
+&lt;gallery widths=200>
+File:RRMessedEdges.JPG
+&lt;/gallery>
+
+Original model:
+
+Description of the error: the edges are messed, so are the holes. The print starts to broaden
+
+Possible causes:
+
+Possible fixes:
+
+===== Skipped threads, vacant places on the print =====
+
+
+
+Original model:
+
+Description of the error: there are holes on the print, skipped parts
+
+Possible causes: dirty hobbed bolt, oil leaked from bearings 
+
+&lt;gallery widths=200>
+File:dirtyHobbedBolt.jpg
+&lt;/gallery>
+
+Possible fixes: cleaning after every X prints, dual hobbed bolt extruder mod, knurled threaded bolt
+
+= Pictures =
+&lt;gallery widths=200>
+File:Base48_raprep.JPG
+File:RepRap in Progress.JPG
+File:RepRap Status 2012-03-17 1.JPG
+File:RepRap Status 2012-03-17 2.JPG
+File:RepRap Status 2012-03-17 3.JPG
+File:RepRap 2012-03-22.JPG
+File:RepRap 2012-03-22 2.JPG
+File:RepRap 2012-03-22 3.JPG
+File:RepRap 2012-07-18.jpg
+File:RepRap 2012-07-18-1.jpg
+File:RepRap 2012-07-18-2.jpg
+File:RepRap 2012-07-18-3.jpg
+File:RepRap 2012-07-18-4.jpg
+&lt;/gallery>
+
+= Videos =
+{{#ev:youtube|UXchbgpeS0Y}}
+== Time-lapse ==
+{{#ev:youtube|ePL28V0zJcM}}
+{{#ev:youtube|7agKJRtWGKw}}
+{{#ev:youtube|-xQ4nlNkCAk}}
+</textarea><div class="templatesUsed"><div class="mw-templatesUsedExplanation"><p>Templates used on this page:
+</p></div><ul>
+<li><a href="./Template:Project.html" title="Template:Project">Template:Project</a> (<a href="./index.php%3Ftitle=Template:Project&amp;action=edit.html" title="Template:Project">view source</a>) </li><li><a href="Template:ProjectCategoryTags" title="Template:ProjectCategoryTags">Template:ProjectCategoryTags</a> (<a href="index.php?title=Template:ProjectCategoryTags&amp;action=edit" title="Template:ProjectCategoryTags">view source</a>) </li><li><a href="Template:ProjectInfoBoxItem" title="Template:ProjectInfoBoxItem">Template:ProjectInfoBoxItem</a> (<a href="index.php?title=Template:ProjectInfoBoxItem&amp;action=edit" title="Template:ProjectInfoBoxItem">view source</a>) </li><li><a href="Template:ProjectInfoBoxItemDivider" title="Template:ProjectInfoBoxItemDivider">Template:ProjectInfoBoxItemDivider</a> (<a href="index.php?title=Template:ProjectInfoBoxItemDivider&amp;action=edit" title="Template:ProjectInfoBoxItemDivider">view source</a>) </li><li><a href="Template:Time" title="Template:Time">Template:Time</a> (<a href="index.php?title=Template:Time&amp;action=edit" title="Template:Time">view source</a>) </li></ul></div><p id="mw-returnto">Return to <a href="RepRap.html" title="RepRap">RepRap</a>.</p>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="RepRap.html">RepRap</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="index.php?title=Special:CreateAccount&amp;returnto=RepRap&amp;returntoquery=action%3Dedit" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="index.php?title=Special:UserLogin&amp;returnto=RepRap&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="RepRap.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="index.php?title=Talk:RepRap&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="index.php%3Ftitle=RepRap&amp;action=edit.html#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view"><span><a href="RepRap.html" >Read</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php%3Ftitle=RepRap&amp;action=edit.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php%3Ftitle=RepRap&amp;action=history.html"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php%3Ftitle=RepRap&amp;action=edit.html#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search base48 [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-Navigation' aria-labelledby='p-Navigation-label'>
+			<h3 id='p-Navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="index.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-portal"><a href="./Base48:Community_portal.html" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents"><a href="./Base48:Current_events.html" title="Find background information on current events">Current events</a></li><li id="n-recentchanges"><a href="./Special:RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="./Special:Random.html" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Organization' aria-labelledby='p-Organization-label'>
+			<h3 id='p-Organization-label'>Organization</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Join-us"><a href="Join_us.html">Join us</a></li><li id="n-Space"><a href="Space.html">Space</a></li><li id="n-About"><a href="About.html">About</a></li><li id="n-Meetings"><a href="Meetings.html">Meetings</a></li><li id="n-Equipment"><a href="Equipment.html">Equipment</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/RepRap.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special:RecentChangesLinked/RepRap" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="index.php%3Ftitle=RepRap&amp;action=info.html" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="Base48:Privacy_policy" title="Base48:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="./Base48:About.html" title="Base48:About">About base48</a></li>
+											<li id="footer-places-disclaimer"><a href="Base48:General_disclaimer" title="Base48:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="http://creativecommons.org/licenses/by-sa/3.0/"><img src="resources/assets/licenses/cc-by-sa.png" alt="Creative Commons Attribution Share Alike" width="88" height="31"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="resources/assets/poweredby_mediawiki_132x47.png 1.5x, resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="extensions/SemanticMediaWiki/res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":375});});</script>
+	</body>
+</html>

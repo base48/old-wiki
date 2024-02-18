@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJZ6MZoJhUUJMBTDSYfJgAAAAU","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+search">list=search (sr)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>search</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-flag-generator">This module can be used as a generator.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Perform a full text search.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Search">https://www.mediawiki.org/wiki/API:Search</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>srsearch</dt><dd class="description"><p>Search for page titles or content matching this value. You can use the search string to invoke special search features, depending on what the wiki's search backend implements.
+</p></dd><dd class="info">This parameter is required.</dd><dt>srnamespace</dt><dd class="description"><p>Search only within these namespaces.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 102, 103, 104, 105, 108, 109</dd><dd class="info">Default: 0</dd><dt>srwhat</dt><dd class="description"><p>Which type of search to perform.
+</p></dd><dd class="info">One of the following values: title, text, nearmatch</dd><dt>srinfo</dt><dd class="description"><p>Which metadata to return.
+</p></dd><dd class="info">Values (separate with <kbd>|</kbd>): totalhits, suggestion, rewrittenquery</dd><dd class="info">Default: totalhits|suggestion|rewrittenquery</dd><dt>srprop</dt><dd class="description"><p>Which properties to return:
+</p><dl><dt>size</dt>
+<dd>Adds the size of the page in bytes.</dd>
+<dt>wordcount</dt>
+<dd>Adds the word count of the page.</dd>
+<dt>timestamp</dt>
+<dd>Adds the timestamp of when the page was last edited.</dd>
+<dt>snippet</dt>
+<dd>Adds a parsed snippet of the page.</dd>
+<dt>titlesnippet</dt>
+<dd>Adds a parsed snippet of the page title.</dd>
+<dt>redirecttitle</dt>
+<dd>Adds the title of the matching redirect.</dd>
+<dt>redirectsnippet</dt>
+<dd>Adds a parsed snippet of the redirect title.</dd>
+<dt>sectiontitle</dt>
+<dd>Adds the title of the matching section.</dd>
+<dt>sectionsnippet</dt>
+<dd>Adds a parsed snippet of the matching section title.</dd>
+<dt>isfilematch</dt>
+<dd>Adds a boolean indicating if the search matched file content.</dd>
+<dt>categorysnippet</dt>
+<dd>Adds a parsed snippet of the matching category.</dd>
+<dt>score</dt>
+<dd><span class="apihelp-deprecated">Deprecated and ignored.</span></dd>
+<dt>hasrelated</dt>
+<dd><span class="apihelp-deprecated">Deprecated and ignored.</span></dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): size, wordcount, timestamp, snippet, titlesnippet, redirecttitle, redirectsnippet, sectiontitle, sectionsnippet, isfilematch, categorysnippet, score, hasrelated</dd><dd class="info">Default: size|wordcount|timestamp|snippet</dd><dt>sroffset</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd><dd class="info">Type: integer</dd><dd class="info">Default: 0</dd><dt>srlimit</dt><dd class="description"><p>How many total pages to return.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 10</dd><dt>srinterwiki</dt><dd class="description"><p>Include interwiki results in the search, if available.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>srenablerewrites</dt><dd class="description"><p>Enable internal query rewriting. Some search backends can rewrite the query into one its thinks gives better results, such as correcting spelling errors.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Search for <kbd>meaning</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;list=search&amp;srsearch=meaning.html">api.php?action=query&amp;list=search&amp;srsearch=meaning</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=search&amp;srsearch=meaning"><small>[open in sandbox]</small></a></dd><dt>Search texts for <kbd>meaning</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;list=search&amp;srwhat=text&amp;srsearch=meaning.html">api.php?action=query&amp;list=search&amp;srwhat=text&amp;srsearch=meaning</a> <a href="./Special:ApiSandbox.html#action=query&amp;list=search&amp;srwhat=text&amp;srsearch=meaning"><small>[open in sandbox]</small></a></dd><dt>Get page info about the pages returned for a search for <kbd>meaning</kbd>.</dt><dd><a href="api.php%3Faction=query&amp;generator=search&amp;gsrsearch=meaning&amp;prop=info.html">api.php?action=query&amp;generator=search&amp;gsrsearch=meaning&amp;prop=info</a> <a href="./Special:ApiSandbox.html#action=query&amp;generator=search&amp;gsrsearch=meaning&amp;prop=info"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":513});});</script>		</body></html>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3ANews">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T02:41:14+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3ANews">
+		<rdfs:label>News</rdfs:label>
+		<swivt:page rdf:resource="Category:News"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:News"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-15T22:05:59Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456308.4208218</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-15T22:05:59Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456308.4208218</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_MB_Testing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News MB Testing</rdfs:label>
+		<swivt:page rdf:resource="News_MB_Testing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_MB_Testing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News MB Testing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2015-2D01-2D28_not_dead">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2015-01-28 not dead</rdfs:label>
+		<swivt:page rdf:resource="News_2015-01-28_not_dead"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2015-01-28_not_dead"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2015-01-28 not dead</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_SMW">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News SMW</rdfs:label>
+		<swivt:page rdf:resource="News_SMW"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_SMW"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News SMW</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Stop_ACTA">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Stop ACTA</rdfs:label>
+		<swivt:page rdf:resource="News_Stop_ACTA"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Stop_ACTA"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Stop ACTA</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2013-2D04-2D11">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2013-04-11</rdfs:label>
+		<swivt:page rdf:resource="News_2013-04-11"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2013-04-11"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2013-04-11</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Summer_2012">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Summer 2012</rdfs:label>
+		<swivt:page rdf:resource="News_Summer_2012"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Summer_2012"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Summer 2012</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2013-2D07-2D03_Club-2Dmate">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2013-07-03 Club-mate</rdfs:label>
+		<swivt:page rdf:resource="News_2013-07-03_Club-mate"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2013-07-03_Club-mate"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2013-07-03 Club-mate</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Unixtime">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Unixtime</rdfs:label>
+		<swivt:page rdf:resource="News_Unixtime"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Unixtime"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Unixtime</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_StripeCTF">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News StripeCTF</rdfs:label>
+		<swivt:page rdf:resource="News_StripeCTF"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_StripeCTF"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News StripeCTF</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2016-2D02-2D25">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2016-02-25</rdfs:label>
+		<swivt:page rdf:resource="News_2016-02-25"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2016-02-25"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2016-02-25</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_MW_Update">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News MW Update</rdfs:label>
+		<swivt:page rdf:resource="News_MW_Update"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_MW_Update"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News MW Update</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Launchpads">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Launchpads</rdfs:label>
+		<swivt:page rdf:resource="News_Launchpads"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Launchpads"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Launchpads</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_PCBMilling">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News PCBMilling</rdfs:label>
+		<swivt:page rdf:resource="News_PCBMilling"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_PCBMilling"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News PCBMilling</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_MB_Testing">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News MB Testing</rdfs:label>
+		<swivt:page rdf:resource="News_MB_Testing"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_MB_Testing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News MB Testing</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2015-2D01-2D28_not_dead">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2015-01-28 not dead</rdfs:label>
+		<swivt:page rdf:resource="News_2015-01-28_not_dead"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2015-01-28_not_dead"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2015-01-28 not dead</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_SMW">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News SMW</rdfs:label>
+		<swivt:page rdf:resource="News_SMW"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_SMW"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News SMW</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Stop_ACTA">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Stop ACTA</rdfs:label>
+		<swivt:page rdf:resource="News_Stop_ACTA"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Stop_ACTA"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Stop ACTA</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2013-2D04-2D11">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2013-04-11</rdfs:label>
+		<swivt:page rdf:resource="News_2013-04-11"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2013-04-11"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2013-04-11</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Summer_2012">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Summer 2012</rdfs:label>
+		<swivt:page rdf:resource="News_Summer_2012"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Summer_2012"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Summer 2012</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2013-2D07-2D03_Club-2Dmate">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2013-07-03 Club-mate</rdfs:label>
+		<swivt:page rdf:resource="News_2013-07-03_Club-mate"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2013-07-03_Club-mate"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2013-07-03 Club-mate</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Unixtime">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Unixtime</rdfs:label>
+		<swivt:page rdf:resource="News_Unixtime"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Unixtime"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Unixtime</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_StripeCTF">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News StripeCTF</rdfs:label>
+		<swivt:page rdf:resource="News_StripeCTF"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_StripeCTF"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News StripeCTF</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_2016-2D02-2D25">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News 2016-02-25</rdfs:label>
+		<swivt:page rdf:resource="News_2016-02-25"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_2016-02-25"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News 2016-02-25</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_MW_Update">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News MW Update</rdfs:label>
+		<swivt:page rdf:resource="News_MW_Update"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_MW_Update"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News MW Update</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_Launchpads">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News Launchpads</rdfs:label>
+		<swivt:page rdf:resource="News_Launchpads"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_Launchpads"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News Launchpads</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/News_PCBMilling">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3ANews"/>
+		<rdfs:label>News PCBMilling</rdfs:label>
+		<swivt:page rdf:resource="News_PCBMilling"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/News_PCBMilling"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">News PCBMilling</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

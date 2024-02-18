@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://wiki.base48.cz/Special:URIResolver/'>
+	<!ENTITY category 'http://wiki.base48.cz/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://wiki.base48.cz/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl ''>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="Special:ExportRDF/Category%3AMeeting">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-04T01:38:23+00:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<owl:Class rdf:about="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting">
+		<rdfs:label>Meeting</rdfs:label>
+		<swivt:page rdf:resource="Category:Meeting"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Category:Meeting"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</swivt:wikiNamespace>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-14T12:42:02Z</property:Creation_date-23aux>
+		<property:Creation_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456641.0291898</property:Creation_date-23aux>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-14T12:42:02Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456641.0291898</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting</swivt:wikiPageSortKey>
+	</owl:Class>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D04-2D09">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-04-09</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-04-09"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-04-09"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-04-09</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Meeting_Minutes_-2D_2012-2D06-2D03">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>Meeting Minutes - 2012-06-03</rdfs:label>
+		<swivt:page rdf:resource="Meeting_Minutes_-_2012-06-03"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Meeting_Minutes_-_2012-06-03"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting Minutes - 2012-06-03</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2018-2D04-2D05">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2018-04-05</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2018-04-05"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2018-04-05"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2018-04-05</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Meeting_Minutes_-2D_2012-2D07-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>Meeting Minutes - 2012-07-12</rdfs:label>
+		<swivt:page rdf:resource="Meeting_Minutes_-_2012-07-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Meeting_Minutes_-_2012-07-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting Minutes - 2012-07-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D02-2D26_19-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-02-26 19:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-02-26_19:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-02-26_19:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-02-26 19:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2015-2D10-2D15_20-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2015-10-15 20:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2015-10-15_20:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2015-10-15_20:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2015-10-15 20:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D12-2D10_20-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-12-10 20:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-12-10_20:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-12-10_20:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-12-10 20:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2016-2D10-2D19">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2016-10-19</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2016-10-19"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2016-10-19"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2016-10-19</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D05-2D14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-05-14</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-05-14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-05-14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-05-14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D01-2D16">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2017-01-16</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-01-16"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-01-16"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-01-16</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D11-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-11-12</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-11-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-11-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-11-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D08-2D06_20.00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-08-06 20.00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-08-06_20.00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-08-06_20.00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-08-06 20.00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D11-2D28">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2017-11-28</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-11-28"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-11-28"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-11-28</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D04-2D09">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-04-09</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-04-09"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-04-09"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-04-09</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Meeting_Minutes_-2D_2012-2D06-2D03">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>Meeting Minutes - 2012-06-03</rdfs:label>
+		<swivt:page rdf:resource="Meeting_Minutes_-_2012-06-03"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Meeting_Minutes_-_2012-06-03"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting Minutes - 2012-06-03</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2018-2D04-2D05">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2018-04-05</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2018-04-05"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2018-04-05"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2018-04-05</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/Meeting_Minutes_-2D_2012-2D07-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>Meeting Minutes - 2012-07-12</rdfs:label>
+		<swivt:page rdf:resource="Meeting_Minutes_-_2012-07-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/Meeting_Minutes_-_2012-07-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting Minutes - 2012-07-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D02-2D26_19-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-02-26 19:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-02-26_19:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-02-26_19:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-02-26 19:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2015-2D10-2D15_20-3A00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2015-10-15 20:00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2015-10-15_20:00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2015-10-15_20:00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2015-10-15 20:00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D12-2D10_20-3A30">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-12-10 20:30</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-12-10_20:30"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-12-10_20:30"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-12-10 20:30</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2016-2D10-2D19">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2016-10-19</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2016-10-19"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2016-10-19"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2016-10-19</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D05-2D14">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-05-14</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-05-14"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-05-14"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-05-14</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D01-2D16">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2017-01-16</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-01-16"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-01-16"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-01-16</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_assembly_2019-2D11-2D12">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General assembly 2019-11-12</rdfs:label>
+		<swivt:page rdf:resource="General_assembly_2019-11-12"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_assembly_2019-11-12"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General assembly 2019-11-12</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2013-2D08-2D06_20.00">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2013-08-06 20.00</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2013-08-06_20.00"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2013-08-06_20.00"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2013-08-06 20.00</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://wiki.base48.cz/Special:URIResolver/General_Meeting_2017-2D11-2D28">
+		<rdf:type rdf:resource="http://wiki.base48.cz/Special:URIResolver/Category-3AMeeting"/>
+		<rdfs:label>General Meeting 2017-11-28</rdfs:label>
+		<swivt:page rdf:resource="General_Meeting_2017-11-28"/>
+		<rdfs:isDefinedBy rdf:resource="Special:ExportRDF/General_Meeting_2017-11-28"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Meeting 2017-11-28</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3ACreation_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://wiki.base48.cz/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<!-- Created by Semantic MediaWiki, https://semantic-mediawiki.org/ -->
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API help - base48</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"Special:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:ApiHelp","wgRelevantArticleId":0,"wgRequestId":"YsJZw1zz7qJ@2AnBl@tp-AAAAAw","wgIsProbablyEditable":false});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","ext.smw.style"]);});</script>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=ext.smw.style|ext.smw.tooltip.styles&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=mediawiki.apihelp,hlist,sectionAnchor|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput.css"/>
+<link rel="stylesheet" href="extensions/Base48/common.css"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="load.php%3Fdebug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=apioutput.css"/>
+<script async="" src="load.php%3Fdebug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=apioutput"></script>
+<meta name="generator" content="MediaWiki 1.27.1"/>
+<link rel="shortcut icon" href="skins/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="base48 (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api.php%3Faction=rsd"/>
+<link rel="copyright" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Copyright"/>
+<link rel="alternate" type="application/atom+xml" title="base48 Atom feed" href="./index.php%3Ftitle=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-ApiHelp page-Special_ApiHelp rootpage-Special_ApiHelp skin-apioutput action-view">
+
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API help</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><p>This is an auto-generated MediaWiki API documentation page.
+</p><p>Documentation and examples: <a class="external free" href="https://www.mediawiki.org/wiki/API">https://www.mediawiki.org/wiki/API</a>
+</p><h2 class="apihelp-header apihelp-module-name" dir="ltr" lang="en" id="query+imageinfo">prop=imageinfo (ii)</h2><div class="apihelp-linktrail">(<a href="./Special:ApiHelp/main.html" class="apihelp-linktrail">main</a> | <a href="./Special:ApiHelp/query.html" class="apihelp-linktrail">query</a> | <b>imageinfo</b>)</div>
+<div class="apihelp-block apihelp-flags"><ul><li><span class="apihelp-flag-readrights">This module requires read rights.</span></li><li><span class="apihelp-source">Source: MediaWiki</span></li><li><span class="apihelp-license">License: <a href="Special:Version/License/MediaWiki" title="Special:Version/License/MediaWiki">GPL-2.0+</a></span></li></ul></div>
+<p>Returns file information and upload history.
+</p>
+<div class="apihelp-block apihelp-help-urls"><ul><li><a href="https://www.mediawiki.org/wiki/API:Imageinfo">https://www.mediawiki.org/wiki/API:Imageinfo</a></li></ul></div>
+<div class="apihelp-block apihelp-parameters"><div class="apihelp-block-head">Parameters:</div><dl><dt>iiprop</dt><dd class="description"><p>Which file information to get:
+</p><dl><dt>timestamp</dt>
+<dd>Adds timestamp for the uploaded version.</dd>
+<dt>user</dt>
+<dd>Adds the user who uploaded each file version.</dd>
+<dt>userid</dt>
+<dd>Add the ID of the user that uploaded each file version.</dd>
+<dt>comment</dt>
+<dd>Comment on the version.</dd>
+<dt>parsedcomment</dt>
+<dd>Parse the comment on the version.</dd>
+<dt>canonicaltitle</dt>
+<dd>Adds the canonical title of the file.</dd>
+<dt>url</dt>
+<dd>Gives URL to the file and the description page.</dd>
+<dt>size</dt>
+<dd>Adds the size of the file in bytes and the height, width and page count (if applicable).</dd>
+<dt>dimensions</dt>
+<dd>Alias for size.</dd>
+<dt>sha1</dt>
+<dd>Adds SHA-1 hash for the file.</dd>
+<dt>mime</dt>
+<dd>Adds MIME type of the file.</dd>
+<dt>thumbmime</dt>
+<dd>Adds MIME type of the image thumbnail (requires url and param iiurlwidth).</dd>
+<dt>mediatype</dt>
+<dd>Adds the media type of the file.</dd>
+<dt>metadata</dt>
+<dd>Lists Exif metadata for the version of the file.</dd>
+<dt>commonmetadata</dt>
+<dd>Lists file format generic metadata for the version of the file.</dd>
+<dt>extmetadata</dt>
+<dd>Lists formatted metadata combined from multiple sources. Results are HTML formatted.</dd>
+<dt>archivename</dt>
+<dd>Adds the filename of the archive version for non-latest versions.</dd>
+<dt>bitdepth</dt>
+<dd>Adds the bit depth of the version.</dd>
+<dt>uploadwarning</dt>
+<dd>Used by the Special:Upload page to get information about an existing file. Not intended for use outside MediaWiki core.</dd></dl></dd><dd class="info">Values (separate with <kbd>|</kbd>): timestamp, user, userid, comment, parsedcomment, canonicaltitle, url, size, dimensions, sha1, mime, thumbmime, mediatype, metadata, commonmetadata, extmetadata, archivename, bitdepth, uploadwarning</dd><dd class="info">Default: timestamp|user</dd><dt>iilimit</dt><dd class="description"><p>How many file revisions to return per file.
+</p></dd><dd class="info">No more than 500 (5,000 for bots) allowed.</dd><dd class="info">Type: integer or <kbd>max</kbd></dd><dd class="info">Default: 1</dd><dt>iistart</dt><dd class="description"><p>Timestamp to start listing from.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>iiend</dt><dd class="description"><p>Timestamp to stop listing at.
+</p></dd><dd class="info">Type: timestamp (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">allowed formats</a>)</dd><dt>iiurlwidth</dt><dd class="description"><p>If iiprop=url is set, a URL to an image scaled to this width will be returned.
+For performance reasons if this option is used, no more than 50 scaled images will be returned.
+</p></dd><dd class="info">Type: integer</dd><dd class="info">Default: -1</dd><dt>iiurlheight</dt><dd class="description"><p>Similar to iiurlwidth.
+</p></dd><dd class="info">Type: integer</dd><dd class="info">Default: -1</dd><dt>iimetadataversion</dt><dd class="description"><p>Version of metadata to use. If <kbd>latest</kbd> is specified, use latest version. Defaults to <kbd>1</kbd> for backwards compatibility.
+</p></dd><dd class="info">Default: 1</dd><dt>iiextmetadatalanguage</dt><dd class="description"><p>What language to fetch extmetadata in. This affects both which translation to fetch, if multiple are available, as well as how things like numbers and various values are formatted.
+</p></dd><dd class="info">Default: en</dd><dt>iiextmetadatamultilang</dt><dd class="description"><p>If translations for extmetadata property are available, fetch all of them.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd><dt>iiextmetadatafilter</dt><dd class="description"><p>If specified and non-empty, only these keys will be returned for iiprop=extmetadata.
+</p></dd><dd class="info">Separate values with <kbd>|</kbd>. Maximum number of values is 50 (500 for bots).</dd><dt>iiurlparam</dt><dd class="description"><p>A handler specific parameter string. For example, PDFs might use <kbd>page15-100px</kbd>. <var>iiurlwidth</var> must be used and be consistent with <var>iiurlparam</var>.
+</p></dd><dd class="info">Default: <span class="apihelp-empty">(empty)</span></dd><dt>iicontinue</dt><dd class="description"><p>When more results are available, use this to continue.
+</p></dd><dt>iilocalonly</dt><dd class="description"><p>Look only for files in the local repository.
+</p></dd><dd class="info">Type: boolean (<a href="./Special:ApiHelp/main.html#main.2Fdatatypes">details</a>)</dd></dl></div>
+<div class="apihelp-block apihelp-examples"><div class="apihelp-block-head">Examples:</div><dl><dt>Fetch information about the current version of <a href="index.php?title=File:Albert_Einstein_Head.jpg&amp;action=edit&amp;redlink=1" class="new" title="File:Albert Einstein Head.jpg (page does not exist)">File:Albert Einstein Head.jpg</a>.</dt><dd><a href="./api.php%3Faction=query&amp;titles=File:Albert&#32;Einstein&#32;Head.jpg&amp;prop=imageinfo.html">api.php?action=query&amp;titles=File:Albert%20Einstein%20Head.jpg&amp;prop=imageinfo</a> <a href="./Special:ApiSandbox.html#action=query&amp;titles=File:Albert%20Einstein%20Head.jpg&amp;prop=imageinfo"><small>[open in sandbox]</small></a></dd><dt>Fetch information about versions of <a href="index.php?title=File:Test.jpg&amp;action=edit&amp;redlink=1" class="new" title="File:Test.jpg (page does not exist)">File:Test.jpg</a> from 2008 and later.</dt><dd><a href="./api.php%3Faction=query&amp;titles=File:Test.jpg&amp;prop=imageinfo&amp;iilimit=50&amp;iiend=2007-12-31T23:59:59Z&amp;iiprop=timestamp|user|url.html">api.php?action=query&amp;titles=File:Test.jpg&amp;prop=imageinfo&amp;iilimit=50&amp;iiend=2007-12-31T23:59:59Z&amp;iiprop=timestamp|user|url</a> <a href="./Special:ApiSandbox.html#action=query&amp;titles=File:Test.jpg&amp;prop=imageinfo&amp;iilimit=50&amp;iiend=2007-12-31T23:59:59Z&amp;iiprop=timestamp%7Cuser%7Curl"><small>[open in sandbox]</small></a></dd></dl></div></div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="./Special:ApiHelp.html">Special:ApiHelp</a>"</div>
+			</div>
+		</div>
+
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script src="extensions/Base48/common.js%3F303"></script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":599});});</script>		</body></html>
